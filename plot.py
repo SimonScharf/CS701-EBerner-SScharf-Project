@@ -21,24 +21,31 @@ for line in fileinput.input(files ='tcpCleanedData.txt'):
                 firstTimeValue = currTime 
                 x.append(currTime)
             else:
-                x.append(str(float(currTime) - float(firstTimeValue)))
-            y.append(fields[1])
+                x.append((float(currTime) - float(firstTimeValue)))
+            y.append(float(fields[3]))
 
 print("this is x array and y array:")
 print(x)
 print(y)
-lines = []
-for i in range(len(x)):
-    pair=[(x[i],0), (x[i], y[i])]
-    lines.append(pair)
 
-linecoll = matcoll.LineCollection(lines)
-fig, ax = plt.subplots()
-ax.add_collection(linecoll)
 
-plt.scatter(x,y)
+#lines = []
+#for i in range(len(x)):
+#    pair=[(x[i],0), (x[i], y[i])]
+#    lines.append(pair)
 
-plt.xticks(x)
-plt.ylim(0,30)
+#linecoll = matcoll.LineCollection(lines)
+#fig, ax = plt.subplots()
+#ax.add_collection(linecoll)
+
+plt.scatter(x,y,marker=".",s=10.0) 
+
+
+plt.axvline(x=0, c="red", label="x=0")
+plt.axhline(y=0, c="yellow", label="y=0")
+
+
+#plt.xticks(x)
+#plt.ylim(0,30)
 
 plt.show()
