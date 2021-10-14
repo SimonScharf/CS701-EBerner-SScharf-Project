@@ -1,10 +1,32 @@
 import matplotlib.pyplot as plt
 import numpy as np
 from matplotlib import collections as matcoll
+import fileinput 
 
-x = [1.189,2,3,4,5,6,7,8,16,10,11,12]
-y = [-15,14,15,18,21,25,27,26,24,20,18,16]
+x = []
+y = []
+firstTimeValue = 0
 
+for line in fileinput.input(files ='tcpCleanedData.txt'):
+        #fields represents each component of the cleaned data, where the first
+        #value is the time, the second is the packet size, and the third is
+        #the direction of the packet (incoming or outgoing)
+        fields = line.split()
+        print("This is fields: ", end = "") 
+        print(fields)
+        if len(fields) > 1 and fields[0] != 'we':
+            currTime = fields[0].split(":")[2]
+            print(currTime)
+            if firstTimeValue == 0:
+                firstTimeValue = currTime 
+                x.append(currTime)
+            else:
+                x.append(str(float(currTime) - float(firstTimeValue)))
+            y.append(fields[1])
+
+print("this is x array and y array:")
+print(x)
+print(y)
 lines = []
 for i in range(len(x)):
     pair=[(x[i],0), (x[i], y[i])]
