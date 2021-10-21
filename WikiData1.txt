@@ -1,0 +1,106 @@
+18:42:08.659602 IP middlinux.53065 > hera-lan2.middlebury.edu.domain: 30595+ A? www.wikipedia.org. (35)
+18:42:08.659633 IP middlinux.53065 > hera-lan2.middlebury.edu.domain: 9086+ AAAA? www.wikipedia.org. (35)
+18:42:08.663990 IP hera-lan2.middlebury.edu.domain > middlinux.53065: 30595 2/0/0 CNAME dyna.wikimedia.org., A 208.80.154.224 (80)
+18:42:08.664183 IP hera-lan2.middlebury.edu.domain > middlinux.53065: 9086 2/0/0 CNAME dyna.wikimedia.org., AAAA 2620:0:861:ed1a::1 (92)
+18:42:08.666183 IP middlinux.52404 > text-lb.eqiad.wikimedia.org.https: Flags [S], seq 936380087, win 64240, options [mss 1460,sackOK,TS val 4140358723 ecr 0,nop,wscale 6], length 0
+18:42:08.726875 IP text-lb.eqiad.wikimedia.org.https > middlinux.52404: Flags [S.], seq 1216001, ack 936380088, win 65535, options [mss 1460], length 0
+18:42:08.726924 IP middlinux.52404 > text-lb.eqiad.wikimedia.org.https: Flags [.], ack 1, win 64240, length 0
+18:42:08.747459 IP middlinux.52404 > text-lb.eqiad.wikimedia.org.https: Flags [P.], seq 1:518, ack 1, win 64240, length 517
+18:42:08.747833 IP text-lb.eqiad.wikimedia.org.https > middlinux.52404: Flags [.], ack 518, win 65535, length 0
+18:42:08.810606 IP text-lb.eqiad.wikimedia.org.https > middlinux.52404: Flags [P.], seq 1:1375, ack 518, win 65535, length 1374
+18:42:08.810625 IP middlinux.52404 > text-lb.eqiad.wikimedia.org.https: Flags [.], ack 1375, win 63204, length 0
+18:42:08.810759 IP middlinux.51749 > hera-lan2.middlebury.edu.domain: 8091+ PTR? 2.253.233.140.in-addr.arpa. (44)
+18:42:08.813300 IP text-lb.eqiad.wikimedia.org.https > middlinux.52404: Flags [P.], seq 1375:4885, ack 518, win 65535, length 3510
+18:42:08.813369 IP middlinux.52404 > text-lb.eqiad.wikimedia.org.https: Flags [.], ack 4885, win 61320, length 0
+18:42:08.814827 IP hera-lan2.middlebury.edu.domain > middlinux.51749: 8091* 1/0/0 PTR hera-lan2.middlebury.edu. (82)
+18:42:08.816728 IP middlinux.jvl-mactalk > hera-lan2.middlebury.edu.domain: 51103+ PTR? 224.154.80.208.in-addr.arpa. (45)
+18:42:08.817266 IP middlinux.52404 > text-lb.eqiad.wikimedia.org.https: Flags [P.], seq 518:598, ack 4885, win 62780, length 80
+18:42:08.817432 IP text-lb.eqiad.wikimedia.org.https > middlinux.52404: Flags [.], ack 598, win 65535, length 0
+18:42:08.817528 IP middlinux.52404 > text-lb.eqiad.wikimedia.org.https: Flags [P.], seq 598:644, ack 4885, win 62780, length 46
+18:42:08.817559 IP middlinux.52404 > text-lb.eqiad.wikimedia.org.https: Flags [P.], seq 644:693, ack 4885, win 62780, length 49
+18:42:08.817700 IP text-lb.eqiad.wikimedia.org.https > middlinux.52404: Flags [.], ack 644, win 65535, length 0
+18:42:08.817701 IP text-lb.eqiad.wikimedia.org.https > middlinux.52404: Flags [.], ack 693, win 65535, length 0
+18:42:08.817721 IP middlinux.52404 > text-lb.eqiad.wikimedia.org.https: Flags [P.], seq 693:792, ack 4885, win 62780, length 99
+18:42:08.817953 IP text-lb.eqiad.wikimedia.org.https > middlinux.52404: Flags [.], ack 792, win 65535, length 0
+18:42:08.880114 IP text-lb.eqiad.wikimedia.org.https > middlinux.52404: Flags [P.], seq 4885:5188, ack 792, win 65535, length 303
+18:42:08.880117 IP text-lb.eqiad.wikimedia.org.https > middlinux.52404: Flags [P.], seq 5188:5231, ack 792, win 65535, length 43
+18:42:08.880143 IP middlinux.52404 > text-lb.eqiad.wikimedia.org.https: Flags [.], ack 5188, win 62780, length 0
+18:42:08.880245 IP middlinux.52404 > text-lb.eqiad.wikimedia.org.https: Flags [.], ack 5231, win 62780, length 0
+18:42:08.880724 IP middlinux.52404 > text-lb.eqiad.wikimedia.org.https: Flags [P.], seq 792:823, ack 5231, win 62780, length 31
+18:42:08.881133 IP text-lb.eqiad.wikimedia.org.https > middlinux.52404: Flags [.], ack 823, win 65535, length 0
+18:42:08.882715 IP text-lb.eqiad.wikimedia.org.https > middlinux.52404: Flags [.], seq 5231:13991, ack 823, win 65535, length 8760
+18:42:08.882734 IP middlinux.52404 > text-lb.eqiad.wikimedia.org.https: Flags [.], ack 13991, win 58400, length 0
+18:42:08.883085 IP text-lb.eqiad.wikimedia.org.https > middlinux.52404: Flags [P.], seq 13991:16254, ack 823, win 65535, length 2263
+18:42:08.883096 IP middlinux.52404 > text-lb.eqiad.wikimedia.org.https: Flags [.], ack 16254, win 62780, length 0
+18:42:08.885703 IP text-lb.eqiad.wikimedia.org.https > middlinux.52404: Flags [P.], seq 16254:17628, ack 823, win 65535, length 1374
+18:42:08.885727 IP middlinux.52404 > text-lb.eqiad.wikimedia.org.https: Flags [.], ack 17628, win 62780, length 0
+18:42:08.887511 IP text-lb.eqiad.wikimedia.org.https > middlinux.52404: Flags [P.], seq 17628:19002, ack 823, win 65535, length 1374
+18:42:08.887531 IP middlinux.52404 > text-lb.eqiad.wikimedia.org.https: Flags [.], ack 19002, win 62780, length 0
+18:42:08.888299 IP hera-lan2.middlebury.edu.domain > middlinux.jvl-mactalk: 51103 1/0/0 PTR text-lb.eqiad.wikimedia.org. (86)
+18:42:08.892285 IP text-lb.eqiad.wikimedia.org.https > middlinux.52404: Flags [P.], seq 19002:20376, ack 823, win 65535, length 1374
+18:42:08.892305 IP middlinux.52404 > text-lb.eqiad.wikimedia.org.https: Flags [.], ack 20376, win 62780, length 0
+18:42:08.942557 IP text-lb.eqiad.wikimedia.org.https > middlinux.52404: Flags [P.], seq 20376:21750, ack 823, win 65535, length 1374
+18:42:08.942577 IP middlinux.52404 > text-lb.eqiad.wikimedia.org.https: Flags [.], ack 21750, win 62780, length 0
+18:42:08.944967 IP text-lb.eqiad.wikimedia.org.https > middlinux.52404: Flags [P.], seq 21750:24498, ack 823, win 65535, length 2748
+18:42:08.944987 IP middlinux.52404 > text-lb.eqiad.wikimedia.org.https: Flags [.], ack 24498, win 62780, length 0
+18:42:08.946033 IP text-lb.eqiad.wikimedia.org.https > middlinux.52404: Flags [P.], seq 24498:29994, ack 823, win 65535, length 5496
+18:42:08.946035 IP text-lb.eqiad.wikimedia.org.https > middlinux.52404: Flags [P.], seq 29994:31368, ack 823, win 65535, length 1374
+18:42:08.946144 IP middlinux.52404 > text-lb.eqiad.wikimedia.org.https: Flags [.], ack 31368, win 62780, length 0
+18:42:08.955070 IP text-lb.eqiad.wikimedia.org.https > middlinux.52404: Flags [P.], seq 31368:36864, ack 823, win 65535, length 5496
+18:42:08.955172 IP middlinux.52404 > text-lb.eqiad.wikimedia.org.https: Flags [.], ack 36864, win 62780, length 0
+18:42:08.956878 IP text-lb.eqiad.wikimedia.org.https > middlinux.52404: Flags [P.], seq 36864:42360, ack 823, win 65535, length 5496
+18:42:08.956978 IP middlinux.52404 > text-lb.eqiad.wikimedia.org.https: Flags [.], ack 42360, win 61320, length 0
+18:42:08.960615 IP text-lb.eqiad.wikimedia.org.https > middlinux.52404: Flags [P.], seq 42360:45108, ack 823, win 65535, length 2748
+18:42:08.960639 IP middlinux.52404 > text-lb.eqiad.wikimedia.org.https: Flags [.], ack 45108, win 62780, length 0
+18:42:08.960859 IP text-lb.eqiad.wikimedia.org.https > middlinux.52404: Flags [P.], seq 45108:46482, ack 823, win 65535, length 1374
+18:42:08.960902 IP middlinux.52404 > text-lb.eqiad.wikimedia.org.https: Flags [.], ack 46482, win 62780, length 0
+18:42:08.962075 IP text-lb.eqiad.wikimedia.org.https > middlinux.52404: Flags [P.], seq 46482:47856, ack 823, win 65535, length 1374
+18:42:08.962277 IP text-lb.eqiad.wikimedia.org.https > middlinux.52404: Flags [P.], seq 47856:49230, ack 823, win 65535, length 1374
+18:42:08.962293 IP middlinux.52404 > text-lb.eqiad.wikimedia.org.https: Flags [.], ack 49230, win 62780, length 0
+18:42:08.964382 IP text-lb.eqiad.wikimedia.org.https > middlinux.52404: Flags [P.], seq 49230:50604, ack 823, win 65535, length 1374
+18:42:08.967852 IP text-lb.eqiad.wikimedia.org.https > middlinux.52404: Flags [P.], seq 50604:51978, ack 823, win 65535, length 1374
+18:42:08.967924 IP middlinux.52404 > text-lb.eqiad.wikimedia.org.https: Flags [.], ack 51978, win 62780, length 0
+18:42:08.968207 IP text-lb.eqiad.wikimedia.org.https > middlinux.52404: Flags [P.], seq 51978:53352, ack 823, win 65535, length 1374
+18:42:08.970237 IP text-lb.eqiad.wikimedia.org.https > middlinux.52404: Flags [P.], seq 53352:54726, ack 823, win 65535, length 1374
+18:42:08.970240 IP text-lb.eqiad.wikimedia.org.https > middlinux.52404: Flags [P.], seq 54726:56100, ack 823, win 65535, length 1374
+18:42:08.970267 IP middlinux.52404 > text-lb.eqiad.wikimedia.org.https: Flags [.], ack 54726, win 62780, length 0
+18:42:08.975330 IP text-lb.eqiad.wikimedia.org.https > middlinux.52404: Flags [P.], seq 56100:57474, ack 823, win 65535, length 1374
+18:42:08.975354 IP middlinux.52404 > text-lb.eqiad.wikimedia.org.https: Flags [.], ack 57474, win 62780, length 0
+18:42:08.984346 IP text-lb.eqiad.wikimedia.org.https > middlinux.52404: Flags [P.], seq 57474:58848, ack 823, win 65535, length 1374
+18:42:09.003494 IP text-lb.eqiad.wikimedia.org.https > middlinux.52404: Flags [P.], seq 58848:60222, ack 823, win 65535, length 1374
+18:42:09.003517 IP middlinux.52404 > text-lb.eqiad.wikimedia.org.https: Flags [.], ack 60222, win 62780, length 0
+18:42:09.007845 IP text-lb.eqiad.wikimedia.org.https > middlinux.52404: Flags [P.], seq 60222:61596, ack 823, win 65535, length 1374
+18:42:09.009120 IP text-lb.eqiad.wikimedia.org.https > middlinux.52404: Flags [P.], seq 61596:64344, ack 823, win 65535, length 2748
+18:42:09.009142 IP middlinux.52404 > text-lb.eqiad.wikimedia.org.https: Flags [.], ack 64344, win 62780, length 0
+18:42:09.009744 IP text-lb.eqiad.wikimedia.org.https > middlinux.52404: Flags [P.], seq 64344:67092, ack 823, win 65535, length 2748
+18:42:09.009760 IP middlinux.52404 > text-lb.eqiad.wikimedia.org.https: Flags [.], ack 67092, win 62780, length 0
+18:42:09.011424 IP text-lb.eqiad.wikimedia.org.https > middlinux.52404: Flags [P.], seq 67092:69840, ack 823, win 65535, length 2748
+18:42:09.011444 IP middlinux.52404 > text-lb.eqiad.wikimedia.org.https: Flags [.], ack 69840, win 65535, length 0
+18:42:09.014520 IP text-lb.eqiad.wikimedia.org.https > middlinux.52404: Flags [P.], seq 69840:71214, ack 823, win 65535, length 1374
+18:42:09.014524 IP text-lb.eqiad.wikimedia.org.https > middlinux.52404: Flags [P.], seq 71214:72588, ack 823, win 65535, length 1374
+18:42:09.014688 IP middlinux.52404 > text-lb.eqiad.wikimedia.org.https: Flags [.], ack 71214, win 65535, length 0
+18:42:09.014736 IP middlinux.52404 > text-lb.eqiad.wikimedia.org.https: Flags [.], ack 72588, win 65535, length 0
+18:42:09.017898 IP text-lb.eqiad.wikimedia.org.https > middlinux.52404: Flags [P.], seq 72588:73962, ack 823, win 65535, length 1374
+18:42:09.017901 IP text-lb.eqiad.wikimedia.org.https > middlinux.52404: Flags [P.], seq 73962:75336, ack 823, win 65535, length 1374
+18:42:09.017927 IP middlinux.52404 > text-lb.eqiad.wikimedia.org.https: Flags [.], ack 73962, win 65535, length 0
+18:42:09.017970 IP middlinux.52404 > text-lb.eqiad.wikimedia.org.https: Flags [.], ack 75336, win 65535, length 0
+18:42:09.020987 IP text-lb.eqiad.wikimedia.org.https > middlinux.52404: Flags [P.], seq 75336:79458, ack 823, win 65535, length 4122
+18:42:09.020990 IP text-lb.eqiad.wikimedia.org.https > middlinux.52404: Flags [P.], seq 79458:80832, ack 823, win 65535, length 1374
+18:42:09.021017 IP middlinux.52404 > text-lb.eqiad.wikimedia.org.https: Flags [.], ack 79458, win 65535, length 0
+18:42:09.021063 IP middlinux.52404 > text-lb.eqiad.wikimedia.org.https: Flags [.], ack 80832, win 65535, length 0
+18:42:09.023470 IP text-lb.eqiad.wikimedia.org.https > middlinux.52404: Flags [P.], seq 80832:82206, ack 823, win 65535, length 1374
+18:42:09.023496 IP middlinux.52404 > text-lb.eqiad.wikimedia.org.https: Flags [.], ack 82206, win 65535, length 0
+18:42:09.023972 IP text-lb.eqiad.wikimedia.org.https > middlinux.52404: Flags [P.], seq 82206:83580, ack 823, win 65535, length 1374
+18:42:09.023986 IP middlinux.52404 > text-lb.eqiad.wikimedia.org.https: Flags [.], ack 83580, win 65535, length 0
+18:42:09.025988 IP text-lb.eqiad.wikimedia.org.https > middlinux.52404: Flags [P.], seq 83580:84034, ack 823, win 65535, length 454
+18:42:09.026013 IP middlinux.52404 > text-lb.eqiad.wikimedia.org.https: Flags [.], ack 84034, win 65535, length 0
+18:42:09.029055 IP middlinux.52404 > text-lb.eqiad.wikimedia.org.https: Flags [P.], seq 823:847, ack 84034, win 65535, length 24
+18:42:09.029422 IP text-lb.eqiad.wikimedia.org.https > middlinux.52404: Flags [.], ack 847, win 65535, length 0
+18:42:09.029947 IP middlinux.52404 > text-lb.eqiad.wikimedia.org.https: Flags [F.], seq 847, ack 84034, win 65535, length 0
+18:42:09.030140 IP text-lb.eqiad.wikimedia.org.https > middlinux.52404: Flags [.], ack 848, win 65535, length 0
+18:42:09.091405 IP text-lb.eqiad.wikimedia.org.https > middlinux.52404: Flags [P.], seq 84034:84058, ack 848, win 65535, length 24
+18:42:09.091408 IP text-lb.eqiad.wikimedia.org.https > middlinux.52404: Flags [F.], seq 84058, ack 848, win 65535, length 0
+18:42:09.091431 IP middlinux.52404 > text-lb.eqiad.wikimedia.org.https: Flags [R], seq 936380935, win 0, length 0
+18:42:09.091475 IP middlinux.52404 > text-lb.eqiad.wikimedia.org.https: Flags [R], seq 936380935, win 0, length 0
+18:42:09.091664 IP text-lb.eqiad.wikimedia.org.https > middlinux.52404: Flags [R.], seq 4293751295, ack 848, win 0, length 0
+
