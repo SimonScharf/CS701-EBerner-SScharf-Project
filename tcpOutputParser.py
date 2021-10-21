@@ -1,5 +1,5 @@
 import fileinput 
-for line in fileinput.input(files ='tcpDumpData.txt'):
+for line in fileinput.input(files ='RedditData4.txt'):
     if "length" in line:
         
         #get direction, 1 is incoming, -1 is outgoing
