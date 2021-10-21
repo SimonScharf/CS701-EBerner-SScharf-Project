@@ -2,6 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from matplotlib import collections as matcoll
 import fileinput 
+import math
 
 x = []
 y = []
@@ -19,7 +20,9 @@ for line in fileinput.input(files ='tcpCleanedData.txt'):
                 x.append(0)
             else:
                 x.append(float(currTime) - float(firstTimeValue))
+            #take log of packet size	
             y.append(float(fields[3]))
+            #y.append(float(math.log(fields[3]), 10))
 
 print(x)
 print(y)
@@ -30,7 +33,7 @@ for i in range(len(x)):
     pair=[(x[i],0), (x[i], y[i])]
     lines.append(pair)
 
-linecoll = matcoll.LineCollection(lines)
+linecoll = matcoll.LineCollection(lines, linewidth=0.5)
 fig, ax = plt.subplots()
 ax.add_collection(linecoll)
 
@@ -42,6 +45,7 @@ ax.add_collection(linecoll)
 #plt.axhline(y=0, c="yellow", label="y=0")
 
 plt.scatter(x,y,10)
+plt.yscale("symlog")
 plt.title("Placeholder Title")
 plt.xlabel("Time")
 plt.ylabel("Packet Size")
