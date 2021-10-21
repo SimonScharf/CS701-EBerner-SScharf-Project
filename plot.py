@@ -9,8 +9,8 @@ firstTimeValue = 0
 
 for line in fileinput.input(files ='tcpCleanedData.txt'):
         #fields represents each component of the cleaned data, where the first
-        #value is the time, the second is the packet size, and the third is
-        #the direction of the packet (incoming or outgoing)
+        #value is the time, the second is the source ip, the third is the destination ip, and the fourth is the size of the
+	#packet
         fields = line.split()
         if len(fields) > 1 and fields[0] != 'we':
             currTime = fields[0].split(":")[2]
@@ -41,5 +41,8 @@ ax.add_collection(linecoll)
 #plt.axvline(x=0, c="red", label="x=0")
 #plt.axhline(y=0, c="yellow", label="y=0")
 
-plt.scatter(x,y)
+plt.scatter(x,y,10)
+plt.title("Placeholder Title")
+plt.xlabel("Time")
+plt.ylabel("Packet Size")
 plt.show()
