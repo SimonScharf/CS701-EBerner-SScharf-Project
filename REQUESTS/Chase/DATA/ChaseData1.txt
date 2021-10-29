@@ -1,0 +1,81 @@
+19:54:06.599580 IP middlinux.59355 > hera-lan2.domain: 5924+ A? www.chase.com. (31)
+19:54:06.599632 IP middlinux.59355 > hera-lan2.domain: 43554+ AAAA? www.chase.com. (31)
+19:54:06.622265 IP hera-lan2.domain > middlinux.59355: 43554 1/0/0 CNAME wwwbcchase.gslb.bankone.com. (69)
+19:54:06.622267 IP hera-lan2.domain > middlinux.59355: 5924 2/0/0 CNAME wwwbcchase.gslb.bankone.com., A 159.53.44.60 (85)
+19:54:06.622506 IP middlinux.52244 > 159.53.44.60.https: Flags [S], seq 1824899999, win 64240, options [mss 1460,sackOK,TS val 3514017998 ecr 0,nop,wscale 6], length 0
+19:54:06.640881 IP 159.53.44.60.https > middlinux.52244: Flags [S.], seq 20480001, ack 1824900000, win 65535, options [mss 1460], length 0
+19:54:06.640942 IP middlinux.52244 > 159.53.44.60.https: Flags [.], ack 1, win 64240, length 0
+19:54:06.652334 IP middlinux.52244 > 159.53.44.60.https: Flags [P.], seq 1:518, ack 1, win 64240, length 517
+19:54:06.652706 IP 159.53.44.60.https > middlinux.52244: Flags [.], ack 518, win 65535, length 0
+19:54:06.674862 IP 159.53.44.60.https > middlinux.52244: Flags [P.], seq 1:1375, ack 518, win 65535, length 1374
+19:54:06.674879 IP middlinux.52244 > 159.53.44.60.https: Flags [.], ack 1375, win 63204, length 0
+19:54:06.675877 IP 159.53.44.60.https > middlinux.52244: Flags [P.], seq 1375:2749, ack 518, win 65535, length 1374
+19:54:06.675892 IP middlinux.52244 > 159.53.44.60.https: Flags [.], ack 2749, win 63204, length 0
+19:54:06.694326 IP 159.53.44.60.https > middlinux.52244: Flags [P.], seq 2749:4717, ack 518, win 65535, length 1968
+19:54:06.694345 IP middlinux.52244 > 159.53.44.60.https: Flags [.], ack 4717, win 63204, length 0
+19:54:06.695558 IP middlinux.52244 > 159.53.44.60.https: Flags [P.], seq 518:644, ack 4717, win 63204, length 126
+19:54:06.695820 IP 159.53.44.60.https > middlinux.52244: Flags [.], ack 644, win 65535, length 0
+19:54:06.714418 IP 159.53.44.60.https > middlinux.52244: Flags [P.], seq 4717:4768, ack 644, win 65535, length 51
+19:54:06.714442 IP middlinux.52244 > 159.53.44.60.https: Flags [.], ack 4768, win 63204, length 0
+19:54:06.714882 IP middlinux.52244 > 159.53.44.60.https: Flags [P.], seq 644:750, ack 4768, win 63204, length 106
+19:54:06.715148 IP 159.53.44.60.https > middlinux.52244: Flags [.], ack 750, win 65535, length 0
+19:54:06.734082 IP 159.53.44.60.https > middlinux.52244: Flags [P.], seq 4768:8497, ack 750, win 65535, length 3729
+19:54:06.734085 IP 159.53.44.60.https > middlinux.52244: Flags [P.], seq 8497:9871, ack 750, win 65535, length 1374
+19:54:06.734121 IP middlinux.52244 > 159.53.44.60.https: Flags [.], ack 8497, win 61320, length 0
+19:54:06.734150 IP middlinux.52244 > 159.53.44.60.https: Flags [.], ack 9871, win 61320, length 0
+19:54:06.734776 IP 159.53.44.60.https > middlinux.52244: Flags [P.], seq 9871:12283, ack 750, win 65535, length 2412
+19:54:06.734787 IP middlinux.52244 > 159.53.44.60.https: Flags [.], ack 12283, win 58908, length 0
+19:54:06.756418 IP 159.53.44.60.https > middlinux.52244: Flags [.], seq 12283:25423, ack 750, win 65535, length 13140
+19:54:06.756484 IP middlinux.52244 > 159.53.44.60.https: Flags [.], ack 25423, win 55480, length 0
+19:54:06.756799 IP 159.53.44.60.https > middlinux.52244: Flags [P.], seq 25423:25915, ack 750, win 65535, length 492
+19:54:06.756810 IP middlinux.52244 > 159.53.44.60.https: Flags [.], ack 25915, win 55480, length 0
+19:54:06.774293 IP 159.53.44.60.https > middlinux.52244: Flags [P.], seq 25915:32785, ack 750, win 65535, length 6870
+19:54:06.774296 IP 159.53.44.60.https > middlinux.52244: Flags [P.], seq 32785:36907, ack 750, win 65535, length 4122
+19:54:06.774320 IP middlinux.52244 > 159.53.44.60.https: Flags [.], ack 32785, win 59860, length 0
+19:54:06.774360 IP middlinux.52244 > 159.53.44.60.https: Flags [.], ack 36907, win 56940, length 0
+19:54:06.774387 IP 159.53.44.60.https > middlinux.52244: Flags [P.], seq 36907:39655, ack 750, win 65535, length 2748
+19:54:06.774388 IP 159.53.44.60.https > middlinux.52244: Flags [P.], seq 39655:41336, ack 750, win 65535, length 1681
+19:54:06.774392 IP middlinux.52244 > 159.53.44.60.https: Flags [.], ack 39655, win 55480, length 0
+19:54:06.774402 IP middlinux.52244 > 159.53.44.60.https: Flags [.], ack 41336, win 53799, length 0
+19:54:06.774687 IP 159.53.44.60.https > middlinux.52244: Flags [P.], seq 41336:42710, ack 750, win 65535, length 1374
+19:54:06.774698 IP middlinux.52244 > 159.53.44.60.https: Flags [.], ack 42710, win 52560, length 0
+19:54:06.775956 IP 159.53.44.60.https > middlinux.52244: Flags [P.], seq 42710:42784, ack 750, win 65535, length 74
+19:54:06.776020 IP middlinux.52244 > 159.53.44.60.https: Flags [.], ack 42784, win 62780, length 0
+19:54:06.778674 IP middlinux.37363 > hera-lan2.domain: 62388+ PTR? 2.253.233.140.in-addr.arpa. (44)
+19:54:06.783544 IP hera-lan2.domain > middlinux.37363: 62388* 1/0/0 PTR hera-lan2.middlebury.edu. (82)
+19:54:06.784175 IP middlinux.36008 > hera-lan2.domain: 60436+ PTR? 60.44.53.159.in-addr.arpa. (43)
+19:54:06.791151 IP 159.53.44.60.https > middlinux.52244: Flags [P.], seq 42784:49654, ack 750, win 65535, length 6870
+19:54:06.791154 IP 159.53.44.60.https > middlinux.52244: Flags [P.], seq 49654:51028, ack 750, win 65535, length 1374
+19:54:06.791257 IP middlinux.52244 > 159.53.44.60.https: Flags [.], ack 51028, win 58400, length 0
+19:54:06.792119 IP 159.53.44.60.https > middlinux.52244: Flags [P.], seq 51028:56997, ack 750, win 65535, length 5969
+19:54:06.792124 IP 159.53.44.60.https > middlinux.52244: Flags [P.], seq 56997:59745, ack 750, win 65535, length 2748
+19:54:06.792142 IP middlinux.52244 > 159.53.44.60.https: Flags [.], ack 56997, win 59860, length 0
+19:54:06.792471 IP 159.53.44.60.https > middlinux.52244: Flags [P.], seq 59745:61119, ack 750, win 65535, length 1374
+19:54:06.792473 IP 159.53.44.60.https > middlinux.52244: Flags [P.], seq 61119:64313, ack 750, win 65535, length 3194
+19:54:06.792552 IP middlinux.52244 > 159.53.44.60.https: Flags [.], ack 64313, win 58400, length 0
+19:54:06.792679 IP 159.53.44.60.https > middlinux.52244: Flags [P.], seq 64313:65687, ack 750, win 65535, length 1374
+19:54:06.792729 IP middlinux.52244 > 159.53.44.60.https: Flags [.], ack 65687, win 62780, length 0
+19:54:06.794207 IP 159.53.44.60.https > middlinux.52244: Flags [P.], seq 65687:65835, ack 750, win 65535, length 148
+19:54:06.794226 IP middlinux.52244 > 159.53.44.60.https: Flags [.], ack 65835, win 65535, length 0
+19:54:06.807736 IP 159.53.44.60.https > middlinux.52244: Flags [P.], seq 65835:74079, ack 750, win 65535, length 8244
+19:54:06.807740 IP 159.53.44.60.https > middlinux.52244: Flags [P.], seq 74079:75453, ack 750, win 65535, length 1374
+19:54:06.807770 IP middlinux.52244 > 159.53.44.60.https: Flags [.], ack 74079, win 65535, length 0
+19:54:06.807821 IP middlinux.52244 > 159.53.44.60.https: Flags [.], ack 75453, win 65535, length 0
+19:54:06.808726 IP 159.53.44.60.https > middlinux.52244: Flags [P.], seq 75453:75971, ack 750, win 65535, length 518
+19:54:06.808748 IP middlinux.52244 > 159.53.44.60.https: Flags [.], ack 75971, win 65535, length 0
+19:54:06.809678 IP 159.53.44.60.https > middlinux.52244: Flags [P.], seq 75971:80093, ack 750, win 65535, length 4122
+19:54:06.809705 IP middlinux.52244 > 159.53.44.60.https: Flags [.], ack 80093, win 65535, length 0
+19:54:06.810787 IP 159.53.44.60.https > middlinux.52244: Flags [P.], seq 80093:85589, ack 750, win 65535, length 5496
+19:54:06.810789 IP 159.53.44.60.https > middlinux.52244: Flags [P.], seq 85589:86963, ack 750, win 65535, length 1374
+19:54:06.810790 IP 159.53.44.60.https > middlinux.52244: Flags [P.], seq 86963:87210, ack 750, win 65535, length 247
+19:54:06.810811 IP middlinux.52244 > 159.53.44.60.https: Flags [.], ack 85589, win 65535, length 0
+19:54:06.810835 IP middlinux.52244 > 159.53.44.60.https: Flags [.], ack 86963, win 65535, length 0
+19:54:06.810844 IP middlinux.52244 > 159.53.44.60.https: Flags [.], ack 87210, win 65535, length 0
+19:54:06.812999 IP middlinux.52244 > 159.53.44.60.https: Flags [P.], seq 750:781, ack 87210, win 65535, length 31
+19:54:06.813189 IP 159.53.44.60.https > middlinux.52244: Flags [.], ack 781, win 65535, length 0
+19:54:06.813776 IP middlinux.52244 > 159.53.44.60.https: Flags [F.], seq 781, ack 87210, win 65535, length 0
+19:54:06.814020 IP 159.53.44.60.https > middlinux.52244: Flags [.], ack 782, win 65535, length 0
+19:54:06.830800 IP 159.53.44.60.https > middlinux.52244: Flags [F.], seq 87210, ack 782, win 65535, length 0
+19:54:06.830830 IP middlinux.52244 > 159.53.44.60.https: Flags [.], ack 87211, win 48344, length 0
+19:54:06.834515 IP hera-lan2.domain > middlinux.36008: 60436 NXDomain 0/1/0 (120)
+

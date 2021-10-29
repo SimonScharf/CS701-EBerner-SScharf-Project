@@ -8,7 +8,7 @@ x = []
 y = []
 firstTimeValue = 0
 
-for line in fileinput.input(files ='RedditCleanedData4.txt'):
+for line in fileinput.input(files ='AmazonCleanedData4.txt'):
         #fields represents each component of the cleaned data, where the first
         #value is the time, the second is the source ip, the third is the destination ip, and the fourth is the size of the
 	#packet
@@ -46,8 +46,8 @@ ax.add_collection(linecoll)
 
 plt.scatter(x,y,5)
 plt.yscale("symlog")
-plt.title("Reddit 4")
+plt.title("Amazon4")
 plt.xlabel("Time")
 plt.ylabel("Packet Size (log)")
-plt.savefig("Reddit4.png")
+plt.savefig("Amazon4.png")
 plt.show()
