@@ -1,0 +1,496 @@
+19:48:36.788794 IP middlinux.56737 > hera-lan2.domain: 35910+ A? www.youtube.com. (33)
+19:48:36.788825 IP middlinux.56737 > hera-lan2.domain: 44101+ AAAA? www.youtube.com. (33)
+19:48:36.794916 IP hera-lan2.domain > middlinux.56737: 35910 17/0/0 CNAME youtube-ui.l.google.com., A 142.250.176.206, A 172.217.165.142, A 142.251.40.238, A 142.250.65.174, A 142.250.65.206, A 142.250.65.238, A 142.250.81.238, A 142.251.32.110, A 142.251.35.174, A 142.251.40.206, A 142.250.64.110, A 142.250.72.110, A 142.250.80.14, A 142.250.80.46, A 142.250.80.78, A 142.250.80.110 (323)
+19:48:36.794918 IP hera-lan2.domain > middlinux.56737: 44101 5/0/0 CNAME youtube-ui.l.google.com., AAAA 2607:f8b0:4006:817::200e, AAAA 2607:f8b0:4006:80e::200e, AAAA 2607:f8b0:4006:80f::200e, AAAA 2607:f8b0:4006:816::200e (179)
+19:48:36.796770 IP middlinux.47912 > lga34s37-in-f14.https: Flags [S], seq 851673427, win 64240, options [mss 1460,sackOK,TS val 3301970251 ecr 0,nop,wscale 6], length 0
+19:48:36.811211 IP lga34s37-in-f14.https > middlinux.47912: Flags [S.], seq 1216001, ack 851673428, win 65535, options [mss 1460], length 0
+19:48:36.811247 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 1, win 64240, length 0
+19:48:36.839390 IP middlinux.47912 > lga34s37-in-f14.https: Flags [P.], seq 1:518, ack 1, win 64240, length 517
+19:48:36.839626 IP lga34s37-in-f14.https > middlinux.47912: Flags [.], ack 518, win 65535, length 0
+19:48:36.861159 IP lga34s37-in-f14.https > middlinux.47912: Flags [.], seq 1:2921, ack 518, win 65535, length 2920
+19:48:36.861178 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 2921, win 62780, length 0
+19:48:36.861420 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 2921:5497, ack 518, win 65535, length 2576
+19:48:36.861434 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 5497, win 61320, length 0
+19:48:36.862084 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 5497:6671, ack 518, win 65535, length 1174
+19:48:36.862105 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 6671, win 60146, length 0
+19:48:36.867097 IP middlinux.47912 > lga34s37-in-f14.https: Flags [P.], seq 518:598, ack 6671, win 62780, length 80
+19:48:36.867397 IP lga34s37-in-f14.https > middlinux.47912: Flags [.], ack 598, win 65535, length 0
+19:48:36.867608 IP middlinux.47912 > lga34s37-in-f14.https: Flags [P.], seq 598:644, ack 6671, win 62780, length 46
+19:48:36.867770 IP middlinux.47912 > lga34s37-in-f14.https: Flags [P.], seq 644:693, ack 6671, win 62780, length 49
+19:48:36.868030 IP lga34s37-in-f14.https > middlinux.47912: Flags [.], ack 644, win 65535, length 0
+19:48:36.868031 IP lga34s37-in-f14.https > middlinux.47912: Flags [.], ack 693, win 65535, length 0
+19:48:36.868273 IP middlinux.47912 > lga34s37-in-f14.https: Flags [P.], seq 693:728, ack 6671, win 62780, length 35
+19:48:36.868456 IP lga34s37-in-f14.https > middlinux.47912: Flags [.], ack 728, win 65535, length 0
+19:48:36.868500 IP middlinux.47912 > lga34s37-in-f14.https: Flags [P.], seq 728:791, ack 6671, win 62780, length 63
+19:48:36.868734 IP lga34s37-in-f14.https > middlinux.47912: Flags [.], ack 791, win 65535, length 0
+19:48:36.880427 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 6671:7344, ack 791, win 65535, length 673
+19:48:36.880447 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 7344, win 62780, length 0
+19:48:36.880829 IP middlinux.47912 > lga34s37-in-f14.https: Flags [P.], seq 791:822, ack 7344, win 62780, length 31
+19:48:36.881008 IP lga34s37-in-f14.https > middlinux.47912: Flags [.], ack 822, win 65535, length 0
+19:48:36.934270 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 7344:12598, ack 822, win 65535, length 5254
+19:48:36.934277 IP lga34s37-in-f14.https > middlinux.47912: Flags [.], seq 12598:15518, ack 822, win 65535, length 2920
+19:48:36.934316 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 12598, win 61320, length 0
+19:48:36.934424 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 15518, win 58400, length 0
+19:48:36.934586 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 15518:16720, ack 822, win 65535, length 1202
+19:48:36.934588 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 16720:17295, ack 822, win 65535, length 575
+19:48:36.934662 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 16720, win 58400, length 0
+19:48:36.934773 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 17295, win 57825, length 0
+19:48:36.937229 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 17295:20043, ack 822, win 65535, length 2748
+19:48:36.937280 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 20043, win 62780, length 0
+19:48:36.938320 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 20043:25539, ack 822, win 65535, length 5496
+19:48:36.938400 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 25539, win 61320, length 0
+19:48:36.938650 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 25539:26913, ack 822, win 65535, length 1374
+19:48:36.938715 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 26913, win 62780, length 0
+19:48:36.939204 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 26913:28287, ack 822, win 65535, length 1374
+19:48:36.940699 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 28287:29661, ack 822, win 65535, length 1374
+19:48:36.940850 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 29661, win 62780, length 0
+19:48:36.945358 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 29661:33783, ack 822, win 65535, length 4122
+19:48:36.945466 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 33783, win 61320, length 0
+19:48:36.946361 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 33783:36531, ack 822, win 65535, length 2748
+19:48:36.946379 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 36531, win 62780, length 0
+19:48:36.947765 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 36531:39279, ack 822, win 65535, length 2748
+19:48:36.947787 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 39279, win 62780, length 0
+19:48:36.948773 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 39279:44775, ack 822, win 65535, length 5496
+19:48:36.948822 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 44775, win 61320, length 0
+19:48:36.950277 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 44775:48897, ack 822, win 65535, length 4122
+19:48:36.950333 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 48897, win 61320, length 0
+19:48:36.951312 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 48897:53019, ack 822, win 65535, length 4122
+19:48:36.951327 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 53019, win 61320, length 0
+19:48:36.952411 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 53019:55767, ack 822, win 65535, length 2748
+19:48:36.952425 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 55767, win 62780, length 0
+19:48:36.953978 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 55767:59889, ack 822, win 65535, length 4122
+19:48:36.953980 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 59889:62637, ack 822, win 65535, length 2748
+19:48:36.954049 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 62637, win 59860, length 0
+19:48:36.954937 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 62637:64011, ack 822, win 65535, length 1374
+19:48:36.955017 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 64011, win 62780, length 0
+19:48:36.956125 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 64011:68133, ack 822, win 65535, length 4122
+19:48:36.956127 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 68133:69507, ack 822, win 65535, length 1374
+19:48:36.956201 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 69507, win 62780, length 0
+19:48:36.957381 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 69507:72255, ack 822, win 65535, length 2748
+19:48:36.957485 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 72255, win 65535, length 0
+19:48:36.958481 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 72255:76377, ack 822, win 65535, length 4122
+19:48:36.958496 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 76377, win 65535, length 0
+19:48:36.959610 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 76377:80499, ack 822, win 65535, length 4122
+19:48:36.959613 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 80499:83247, ack 822, win 65535, length 2748
+19:48:36.959635 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 80499, win 65535, length 0
+19:48:36.959791 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 83247, win 65535, length 0
+19:48:36.959947 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 83247:85995, ack 822, win 65535, length 2748
+19:48:36.959956 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 85995, win 65535, length 0
+19:48:36.960750 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 85995:88743, ack 822, win 65535, length 2748
+19:48:36.960766 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 88743, win 65535, length 0
+19:48:36.961889 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 88743:92865, ack 822, win 65535, length 4122
+19:48:36.961909 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 92865, win 65535, length 0
+19:48:36.962226 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 92865:95613, ack 822, win 65535, length 2748
+19:48:36.962241 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 95613, win 65535, length 0
+19:48:36.962390 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 95613:96987, ack 822, win 65535, length 1374
+19:48:36.962429 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 96987, win 65535, length 0
+19:48:36.963499 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 96987:101109, ack 822, win 65535, length 4122
+19:48:36.963511 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 101109, win 65535, length 0
+19:48:36.964761 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 101109:105231, ack 822, win 65535, length 4122
+19:48:36.964763 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 105231:107979, ack 822, win 65535, length 2748
+19:48:36.964764 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 107979:109353, ack 822, win 65535, length 1374
+19:48:36.964764 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 109353:112101, ack 822, win 65535, length 2748
+19:48:36.964783 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 105231, win 65535, length 0
+19:48:36.964811 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 107979, win 65535, length 0
+19:48:36.964825 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 109353, win 65535, length 0
+19:48:36.964836 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 112101, win 65535, length 0
+19:48:36.965660 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 112101:116223, ack 822, win 65535, length 4122
+19:48:36.965674 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 116223, win 65535, length 0
+19:48:36.965891 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 116223:118971, ack 822, win 65535, length 2748
+19:48:36.965900 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 118971, win 65535, length 0
+19:48:36.966708 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 118971:123093, ack 822, win 65535, length 4122
+19:48:36.966723 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 123093, win 65535, length 0
+19:48:36.968259 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 123093:127215, ack 822, win 65535, length 4122
+19:48:36.968280 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 127215, win 65535, length 0
+19:48:36.968548 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 127215:131337, ack 822, win 65535, length 4122
+19:48:36.968563 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 131337, win 65535, length 0
+19:48:36.968702 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 131337:134085, ack 822, win 65535, length 2748
+19:48:36.968717 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 134085, win 65535, length 0
+19:48:36.969522 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 134085:138207, ack 822, win 65535, length 4122
+19:48:36.969540 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 138207, win 65535, length 0
+19:48:36.969651 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 138207:142329, ack 822, win 65535, length 4122
+19:48:36.969657 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 142329, win 65535, length 0
+19:48:36.969919 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 142329:145077, ack 822, win 65535, length 2748
+19:48:36.969933 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 145077, win 65535, length 0
+19:48:36.971627 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 145077:150573, ack 822, win 65535, length 5496
+19:48:36.971706 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 150573, win 65535, length 0
+19:48:36.974473 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 150573:154695, ack 822, win 65535, length 4122
+19:48:36.974475 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 154695:158817, ack 822, win 65535, length 4122
+19:48:36.974476 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 158817:162939, ack 822, win 65535, length 4122
+19:48:36.974496 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 154695, win 65535, length 0
+19:48:36.974530 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 158817, win 65535, length 0
+19:48:36.974538 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 162939, win 65535, length 0
+19:48:36.974562 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 162939:165687, ack 822, win 65535, length 2748
+19:48:36.974563 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 165687:168435, ack 822, win 65535, length 2748
+19:48:36.974564 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 168435:169809, ack 822, win 65535, length 1374
+19:48:36.974565 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 169809:171183, ack 822, win 65535, length 1374
+19:48:36.974566 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 171183:173931, ack 822, win 65535, length 2748
+19:48:36.974571 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 165687, win 65535, length 0
+19:48:36.974579 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 168435, win 65535, length 0
+19:48:36.974585 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 169809, win 65535, length 0
+19:48:36.974591 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 171183, win 65535, length 0
+19:48:36.974596 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 173931, win 65535, length 0
+19:48:36.974607 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 173931:175305, ack 822, win 65535, length 1374
+19:48:36.974611 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 175305, win 65535, length 0
+19:48:36.976042 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 175305:179427, ack 822, win 65535, length 4122
+19:48:36.976046 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 179427:180801, ack 822, win 65535, length 1374
+19:48:36.976073 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 179427, win 65535, length 0
+19:48:36.976152 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 180801, win 65535, length 0
+19:48:36.976481 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 180801:182175, ack 822, win 65535, length 1374
+19:48:36.976485 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 182175:186297, ack 822, win 65535, length 4122
+19:48:36.976486 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 186297:189045, ack 822, win 65535, length 2748
+19:48:36.976557 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 182175, win 65535, length 0
+19:48:36.976664 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 186297, win 65535, length 0
+19:48:36.976733 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 189045, win 65535, length 0
+19:48:36.976898 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 189045:192583, ack 822, win 65535, length 3538
+19:48:36.976904 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 192583, win 65535, length 0
+19:48:37.109116 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 192583:192776, ack 822, win 65535, length 193
+19:48:37.109150 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 192776, win 65535, length 0
+19:48:37.129237 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 192776:195524, ack 822, win 65535, length 2748
+19:48:37.129260 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 195524, win 65535, length 0
+19:48:37.130459 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 195524:199646, ack 822, win 65535, length 4122
+19:48:37.130463 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 199646:203768, ack 822, win 65535, length 4122
+19:48:37.130974 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 199646, win 65535, length 0
+19:48:37.131013 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 203768, win 65535, length 0
+19:48:37.131336 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 203768:207890, ack 822, win 65535, length 4122
+19:48:37.131338 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 207890:209264, ack 822, win 65535, length 1374
+19:48:37.131338 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 209264:210638, ack 822, win 65535, length 1374
+19:48:37.131339 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 210638:213386, ack 822, win 65535, length 2748
+19:48:37.131340 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 213386:214760, ack 822, win 65535, length 1374
+19:48:37.131405 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 207890, win 65535, length 0
+19:48:37.131433 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 209264, win 65535, length 0
+19:48:37.131485 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 210638, win 65535, length 0
+19:48:37.131504 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 213386, win 65535, length 0
+19:48:37.131519 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 214760, win 65535, length 0
+19:48:37.131536 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 214760:216134, ack 822, win 65535, length 1374
+19:48:37.131537 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 216134:218882, ack 822, win 65535, length 2748
+19:48:37.131538 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 218882:220256, ack 822, win 65535, length 1374
+19:48:37.131544 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 216134, win 65535, length 0
+19:48:37.131554 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 218882, win 65535, length 0
+19:48:37.131561 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 220256, win 65535, length 0
+19:48:37.132658 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 220256:223004, ack 822, win 65535, length 2748
+19:48:37.132661 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 223004:225752, ack 822, win 65535, length 2748
+19:48:37.132684 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 223004, win 65535, length 0
+19:48:37.132772 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 225752, win 65535, length 0
+19:48:37.133275 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 225752:228500, ack 822, win 65535, length 2748
+19:48:37.133278 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 228500:231248, ack 822, win 65535, length 2748
+19:48:37.133279 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 231248:233996, ack 822, win 65535, length 2748
+19:48:37.133463 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 233996:235730, ack 822, win 65535, length 1734
+19:48:37.133498 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 235730:237104, ack 822, win 65535, length 1374
+19:48:37.133499 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 237104:238478, ack 822, win 65535, length 1374
+19:48:37.133756 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 238478:241226, ack 822, win 65535, length 2748
+19:48:37.133758 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 241226:242600, ack 822, win 65535, length 1374
+19:48:37.134216 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 242600:245348, ack 822, win 65535, length 2748
+19:48:37.135073 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 245348:248096, ack 822, win 65535, length 2748
+19:48:37.135075 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 248096:250844, ack 822, win 65535, length 2748
+19:48:37.135076 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 250844:253592, ack 822, win 65535, length 2748
+19:48:37.135145 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 248096, win 65535, length 0
+19:48:37.135163 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 253592, win 65535, length 0
+19:48:37.135277 IP lga34s37-in-f14.https > middlinux.47912: Flags [.], seq 253592:255052, ack 822, win 65535, length 1460
+19:48:37.135284 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 255052, win 65535, length 0
+19:48:37.135363 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 255052:256340, ack 822, win 65535, length 1288
+19:48:37.135368 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 256340, win 65535, length 0
+19:48:37.135504 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 256340:257714, ack 822, win 65535, length 1374
+19:48:37.135563 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 257714, win 65535, length 0
+19:48:37.135880 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 257714:260462, ack 822, win 65535, length 2748
+19:48:37.135882 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 260462:261836, ack 822, win 65535, length 1374
+19:48:37.135900 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 260462, win 65535, length 0
+19:48:37.135999 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 261836, win 65535, length 0
+19:48:37.138750 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 261836:264584, ack 822, win 65535, length 2748
+19:48:37.138752 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 264584:267332, ack 822, win 65535, length 2748
+19:48:37.138753 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 267332:271454, ack 822, win 65535, length 4122
+19:48:37.138753 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 271454:274202, ack 822, win 65535, length 2748
+19:48:37.138779 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 264584, win 65535, length 0
+19:48:37.138806 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 267332, win 65535, length 0
+19:48:37.138815 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 271454, win 65535, length 0
+19:48:37.138820 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 274202, win 65535, length 0
+19:48:37.138843 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 274202:276950, ack 822, win 65535, length 2748
+19:48:37.138844 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 276950:279698, ack 822, win 65535, length 2748
+19:48:37.138845 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 279698:283820, ack 822, win 65535, length 4122
+19:48:37.138846 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 283820:285194, ack 822, win 65535, length 1374
+19:48:37.138944 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 276950, win 65535, length 0
+19:48:37.138973 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 279698, win 65535, length 0
+19:48:37.138986 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 283820, win 65535, length 0
+19:48:37.138998 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 285194, win 65535, length 0
+19:48:37.139025 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 285194:286568, ack 822, win 65535, length 1374
+19:48:37.139026 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 286568:287942, ack 822, win 65535, length 1374
+19:48:37.139027 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 287942:290690, ack 822, win 65535, length 2748
+19:48:37.139028 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 290690:292064, ack 822, win 65535, length 1374
+19:48:37.139029 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 292064:293438, ack 822, win 65535, length 1374
+19:48:37.139038 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 286568, win 65535, length 0
+19:48:37.139059 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 287942, win 65535, length 0
+19:48:37.139080 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 290690, win 65535, length 0
+19:48:37.139085 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 292064, win 65535, length 0
+19:48:37.139090 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 293438, win 65535, length 0
+19:48:37.139651 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 293438:296186, ack 822, win 65535, length 2748
+19:48:37.139653 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 296186:298934, ack 822, win 65535, length 2748
+19:48:37.139654 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 298934:300308, ack 822, win 65535, length 1374
+19:48:37.139674 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 296186, win 65535, length 0
+19:48:37.139695 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 298934, win 65535, length 0
+19:48:37.139707 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 300308, win 65535, length 0
+19:48:37.139817 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 300308:301682, ack 822, win 65535, length 1374
+19:48:37.139818 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 301682:303056, ack 822, win 65535, length 1374
+19:48:37.139824 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 301682, win 65535, length 0
+19:48:37.139853 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 303056, win 65535, length 0
+19:48:37.140072 IP lga34s37-in-f14.https > middlinux.47912: Flags [.], seq 303056:304516, ack 822, win 65535, length 1460
+19:48:37.140081 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 304516, win 65535, length 0
+19:48:37.141851 IP middlinux.45217 > hera-lan2.domain: 11481+ PTR? 2.253.233.140.in-addr.arpa. (44)
+19:48:37.141994 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 304516:305804, ack 822, win 65535, length 1288
+19:48:37.141995 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 305804:308552, ack 822, win 65535, length 2748
+19:48:37.141996 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 308552:311300, ack 822, win 65535, length 2748
+19:48:37.141996 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 311300:314048, ack 822, win 65535, length 2748
+19:48:37.141997 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 314048:315422, ack 822, win 65535, length 1374
+19:48:37.142011 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 305804, win 65535, length 0
+19:48:37.142031 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 308552, win 65535, length 0
+19:48:37.142044 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 311300, win 65535, length 0
+19:48:37.142053 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 314048, win 65535, length 0
+19:48:37.142063 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 315422, win 65535, length 0
+19:48:37.142088 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 315422:316796, ack 822, win 65535, length 1374
+19:48:37.142089 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 316796:318170, ack 822, win 65535, length 1374
+19:48:37.142089 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 318170:319544, ack 822, win 65535, length 1374
+19:48:37.142093 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 316796, win 65535, length 0
+19:48:37.142155 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 318170, win 65535, length 0
+19:48:37.142170 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 319544, win 65535, length 0
+19:48:37.144579 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 319544:325040, ack 822, win 65535, length 5496
+19:48:37.144583 IP lga34s37-in-f14.https > middlinux.47912: Flags [.], seq 325040:329420, ack 822, win 65535, length 4380
+19:48:37.144607 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 325040, win 65535, length 0
+19:48:37.144717 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 329420, win 65535, length 0
+19:48:37.145669 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 329420:330536, ack 822, win 65535, length 1116
+19:48:37.145681 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 330536:333284, ack 822, win 65535, length 2748
+19:48:37.145682 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 333284:334658, ack 822, win 65535, length 1374
+19:48:37.145682 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 334658:337406, ack 822, win 65535, length 2748
+19:48:37.145683 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 337406:338780, ack 822, win 65535, length 1374
+19:48:37.145684 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 338780:340154, ack 822, win 65535, length 1374
+19:48:37.145700 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 330536, win 65535, length 0
+19:48:37.145728 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 333284, win 65535, length 0
+19:48:37.145742 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 334658, win 65535, length 0
+19:48:37.145754 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 337406, win 65535, length 0
+19:48:37.145764 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 338780, win 65535, length 0
+19:48:37.145775 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 340154, win 65535, length 0
+19:48:37.145800 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 340154:342902, ack 822, win 65535, length 2748
+19:48:37.145802 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 342902:345650, ack 822, win 65535, length 2748
+19:48:37.145807 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 342902, win 65535, length 0
+19:48:37.145821 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 345650, win 65535, length 0
+19:48:37.146068 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 345650:349772, ack 822, win 65535, length 4122
+19:48:37.146077 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 349772, win 65535, length 0
+19:48:37.146490 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 349772:352520, ack 822, win 65535, length 2748
+19:48:37.146507 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 352520, win 65535, length 0
+19:48:37.147218 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 352520:355268, ack 822, win 65535, length 2748
+19:48:37.147220 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 355268:358016, ack 822, win 65535, length 2748
+19:48:37.147237 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 355268, win 65535, length 0
+19:48:37.147254 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 358016, win 65535, length 0
+19:48:37.147435 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 358016:360764, ack 822, win 65535, length 2748
+19:48:37.147442 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 360764, win 65535, length 0
+19:48:37.148488 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 360764:363512, ack 822, win 65535, length 2748
+19:48:37.148490 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 363512:366260, ack 822, win 65535, length 2748
+19:48:37.148490 IP lga34s37-in-f14.https > middlinux.47912: Flags [.], seq 366260:367720, ack 822, win 65535, length 1460
+19:48:37.148506 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 363512, win 65535, length 0
+19:48:37.148532 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 366260, win 65535, length 0
+19:48:37.148545 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 367720, win 65535, length 0
+19:48:37.148844 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 367720:369008, ack 822, win 65535, length 1288
+19:48:37.148856 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 369008, win 65535, length 0
+19:48:37.148971 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 369008:373130, ack 822, win 65535, length 4122
+19:48:37.149050 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 373130, win 65535, length 0
+19:48:37.149376 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 373130:375878, ack 822, win 65535, length 2748
+19:48:37.149378 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 375878:378626, ack 822, win 65535, length 2748
+19:48:37.149420 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 375878, win 65535, length 0
+19:48:37.149471 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 378626, win 65535, length 0
+19:48:37.149717 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 378626:380000, ack 822, win 65535, length 1374
+19:48:37.149719 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 380000:382748, ack 822, win 65535, length 2748
+19:48:37.149720 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 382748:384122, ack 822, win 65535, length 1374
+19:48:37.149793 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 380000, win 65535, length 0
+19:48:37.149822 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 382748, win 65535, length 0
+19:48:37.149844 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 384122, win 65535, length 0
+19:48:37.149959 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 384122:385496, ack 822, win 65535, length 1374
+19:48:37.149966 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 385496, win 65535, length 0
+19:48:37.150094 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 385496:388244, ack 822, win 65535, length 2748
+19:48:37.150100 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 388244, win 65535, length 0
+19:48:37.150305 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 388244:389618, ack 822, win 65535, length 1374
+19:48:37.150314 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 389618, win 65535, length 0
+19:48:37.150672 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 389618:392366, ack 822, win 65535, length 2748
+19:48:37.150674 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 392366:393740, ack 822, win 65535, length 1374
+19:48:37.150674 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 393740:395114, ack 822, win 65535, length 1374
+19:48:37.150687 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 392366, win 65535, length 0
+19:48:37.150704 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 393740, win 65535, length 0
+19:48:37.150719 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 395114, win 65535, length 0
+19:48:37.150804 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 395114:397862, ack 822, win 65535, length 2748
+19:48:37.150817 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 397862, win 65535, length 0
+19:48:37.151713 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 397862:401984, ack 822, win 65535, length 4122
+19:48:37.151732 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 401984, win 65535, length 0
+19:48:37.152034 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 401984:404732, ack 822, win 65535, length 2748
+19:48:37.152042 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 404732, win 65535, length 0
+19:48:37.152199 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 404732:407480, ack 822, win 65535, length 2748
+19:48:37.152200 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 407480:408854, ack 822, win 65535, length 1374
+19:48:37.152212 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 407480, win 65535, length 0
+19:48:37.152228 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 408854, win 65535, length 0
+19:48:37.152429 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 408854:410228, ack 822, win 65535, length 1374
+19:48:37.152437 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 410228, win 65535, length 0
+19:48:37.152722 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 410228:414350, ack 822, win 65535, length 4122
+19:48:37.152732 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 414350, win 65535, length 0
+19:48:37.153125 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 414350:418472, ack 822, win 65535, length 4122
+19:48:37.153136 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 418472, win 65535, length 0
+19:48:37.153593 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 418472:422594, ack 822, win 65535, length 4122
+19:48:37.153595 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 422594:423968, ack 822, win 65535, length 1374
+19:48:37.153617 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 422594, win 65535, length 0
+19:48:37.153637 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 423968, win 65535, length 0
+19:48:37.153778 IP hera-lan2.domain > middlinux.45217: 11481* 1/0/0 PTR hera-lan2.middlebury.edu. (82)
+19:48:37.154265 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 423968:429464, ack 822, win 65535, length 5496
+19:48:37.154278 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 429464, win 65535, length 0
+19:48:37.154473 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 429464:430838, ack 822, win 65535, length 1374
+19:48:37.154477 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 430838:433586, ack 822, win 65535, length 2748
+19:48:37.154487 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 430838, win 65535, length 0
+19:48:37.154505 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 433586, win 65535, length 0
+19:48:37.154855 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 433586:434960, ack 822, win 65535, length 1374
+19:48:37.154856 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 434960:436334, ack 822, win 65535, length 1374
+19:48:37.154857 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 436334:439082, ack 822, win 65535, length 2748
+19:48:37.154869 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 434960, win 65535, length 0
+19:48:37.154885 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 436334, win 65535, length 0
+19:48:37.154897 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 439082, win 65535, length 0
+19:48:37.155520 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 439082:441830, ack 822, win 65535, length 2748
+19:48:37.155556 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 441830:444578, ack 822, win 65535, length 2748
+19:48:37.155557 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 444578:447326, ack 822, win 65535, length 2748
+19:48:37.155572 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 441830, win 65535, length 0
+19:48:37.155590 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 444578, win 65535, length 0
+19:48:37.155602 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 447326, win 65535, length 0
+19:48:37.155711 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 447326:448700, ack 822, win 65535, length 1374
+19:48:37.155739 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 448700, win 65535, length 0
+19:48:37.156193 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 448700:451448, ack 822, win 65535, length 2748
+19:48:37.156195 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 451448:454196, ack 822, win 65535, length 2748
+19:48:37.156207 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 451448, win 65535, length 0
+19:48:37.156382 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 454196, win 65535, length 0
+19:48:37.157038 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 454196:456944, ack 822, win 65535, length 2748
+19:48:37.157040 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 456944:458318, ack 822, win 65535, length 1374
+19:48:37.157040 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 458318:459692, ack 822, win 65535, length 1374
+19:48:37.157041 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 459692:461066, ack 822, win 65535, length 1374
+19:48:37.157056 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 456944, win 65535, length 0
+19:48:37.157073 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 458318, win 65535, length 0
+19:48:37.157086 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 459692, win 65535, length 0
+19:48:37.157095 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 461066, win 65535, length 0
+19:48:37.157532 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 461066:465188, ack 822, win 65535, length 4122
+19:48:37.157534 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 465188:466562, ack 822, win 65535, length 1374
+19:48:37.157559 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 465188, win 65535, length 0
+19:48:37.157648 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 466562, win 65535, length 0
+19:48:37.157936 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 466562:470684, ack 822, win 65535, length 4122
+19:48:37.157948 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 470684, win 65535, length 0
+19:48:37.158224 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 470684:474806, ack 822, win 65535, length 4122
+19:48:37.158235 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 474806, win 65535, length 0
+19:48:37.158796 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 474806:478928, ack 822, win 65535, length 4122
+19:48:37.158798 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 478928:481676, ack 822, win 65535, length 2748
+19:48:37.158816 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 478928, win 65535, length 0
+19:48:37.158844 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 481676, win 65535, length 0
+19:48:37.158958 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 481676:484424, ack 822, win 65535, length 2748
+19:48:37.158965 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 484424, win 65535, length 0
+19:48:37.159107 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 484424:485798, ack 822, win 65535, length 1374
+19:48:37.159116 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 485798, win 65535, length 0
+19:48:37.159312 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 485798:487172, ack 822, win 65535, length 1374
+19:48:37.159319 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 487172, win 65535, length 0
+19:48:37.159489 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 487172:489920, ack 822, win 65535, length 2748
+19:48:37.159490 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 489920:492668, ack 822, win 65535, length 2748
+19:48:37.159502 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 489920, win 65535, length 0
+19:48:37.159522 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 492668, win 65535, length 0
+19:48:37.159713 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 492668:494042, ack 822, win 65535, length 1374
+19:48:37.159724 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 494042, win 65535, length 0
+19:48:37.160306 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 494042:498164, ack 822, win 65535, length 4122
+19:48:37.160322 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 498164, win 65535, length 0
+19:48:37.160777 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 498164:499538, ack 822, win 65535, length 1374
+19:48:37.160779 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 499538:502286, ack 822, win 65535, length 2748
+19:48:37.160780 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 502286:503660, ack 822, win 65535, length 1374
+19:48:37.160797 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 499538, win 65535, length 0
+19:48:37.160861 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 502286, win 65535, length 0
+19:48:37.160959 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 503660, win 65535, length 0
+19:48:37.161229 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 503660:506408, ack 822, win 65535, length 2748
+19:48:37.161230 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 506408:507782, ack 822, win 65535, length 1374
+19:48:37.161231 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 507782:510530, ack 822, win 65535, length 2748
+19:48:37.161243 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 506408, win 65535, length 0
+19:48:37.161258 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 507782, win 65535, length 0
+19:48:37.161273 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 510530, win 65535, length 0
+19:48:37.161584 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 510530:516026, ack 822, win 65535, length 5496
+19:48:37.161593 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 516026, win 65535, length 0
+19:48:37.161794 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 516026:517400, ack 822, win 65535, length 1374
+19:48:37.161802 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 517400, win 65535, length 0
+19:48:37.161974 IP middlinux.36772 > hera-lan2.domain: 12825+ PTR? 206.176.250.142.in-addr.arpa. (46)
+19:48:37.162734 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 517400:522896, ack 822, win 65535, length 5496
+19:48:37.162789 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 522896, win 65535, length 0
+19:48:37.163108 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 522896:525644, ack 822, win 65535, length 2748
+19:48:37.163155 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 525644:527018, ack 822, win 65535, length 1374
+19:48:37.163159 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 527018:528392, ack 822, win 65535, length 1374
+19:48:37.163178 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 525644, win 65535, length 0
+19:48:37.163232 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 527018, win 65535, length 0
+19:48:37.163248 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 528392, win 65535, length 0
+19:48:37.163498 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 528392:529766, ack 822, win 65535, length 1374
+19:48:37.163500 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 529766:532514, ack 822, win 65535, length 2748
+19:48:37.163501 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 532514:533888, ack 822, win 65535, length 1374
+19:48:37.163520 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 529766, win 65535, length 0
+19:48:37.163537 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 532514, win 65535, length 0
+19:48:37.163549 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 533888, win 65535, length 0
+19:48:37.163917 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 533888:535262, ack 822, win 65535, length 1374
+19:48:37.163918 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 535262:538010, ack 822, win 65535, length 2748
+19:48:37.163919 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 538010:539384, ack 822, win 65535, length 1374
+19:48:37.163929 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 535262, win 65535, length 0
+19:48:37.163951 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 538010, win 65535, length 0
+19:48:37.163956 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 539384, win 65535, length 0
+19:48:37.164277 IP lga34s37-in-f14.https > middlinux.47912: Flags [.], seq 539384:542304, ack 822, win 65535, length 2920
+19:48:37.164292 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 542304, win 65535, length 0
+19:48:37.164847 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 542304:543506, ack 822, win 65535, length 1202
+19:48:37.164850 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 543506:547628, ack 822, win 65535, length 4122
+19:48:37.164862 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 543506, win 65535, length 0
+19:48:37.164882 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 547628, win 65535, length 0
+19:48:37.165112 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 547628:551750, ack 822, win 65535, length 4122
+19:48:37.165114 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 551750:553124, ack 822, win 65535, length 1374
+19:48:37.165136 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 551750, win 65535, length 0
+19:48:37.165185 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 553124, win 65535, length 0
+19:48:37.165472 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 553124:555872, ack 822, win 65535, length 2748
+19:48:37.165486 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 555872, win 65535, length 0
+19:48:37.165704 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 555872:558620, ack 822, win 65535, length 2748
+19:48:37.165706 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 558620:559994, ack 822, win 65535, length 1374
+19:48:37.165718 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 558620, win 65535, length 0
+19:48:37.165731 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 559994, win 65535, length 0
+19:48:37.166079 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 559994:564116, ack 822, win 65535, length 4122
+19:48:37.166089 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 564116, win 65535, length 0
+19:48:37.166352 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 564116:566864, ack 822, win 65535, length 2748
+19:48:37.166354 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 566864:568238, ack 822, win 65535, length 1374
+19:48:37.166370 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 566864, win 65535, length 0
+19:48:37.166829 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 568238:569612, ack 822, win 65535, length 1374
+19:48:37.167308 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 569612:573734, ack 822, win 65535, length 4122
+19:48:37.167396 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 573734, win 65535, length 0
+19:48:37.167846 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 573734:577856, ack 822, win 65535, length 4122
+19:48:37.167946 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 577856, win 65535, length 0
+19:48:37.168558 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 577856:587474, ack 822, win 65535, length 9618
+19:48:37.168561 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 587474:590222, ack 822, win 65535, length 2748
+19:48:37.168577 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 587474, win 65535, length 0
+19:48:37.168661 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 590222, win 65535, length 0
+19:48:37.168783 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 590222:592970, ack 822, win 65535, length 2748
+19:48:37.168886 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 592970:594344, ack 822, win 65535, length 1374
+19:48:37.168932 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 594344, win 65535, length 0
+19:48:37.169156 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 594344:595718, ack 822, win 65535, length 1374
+19:48:37.170037 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 595718:599840, ack 822, win 65535, length 4122
+19:48:37.170055 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 599840, win 65535, length 0
+19:48:37.170312 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 599840:602588, ack 822, win 65535, length 2748
+19:48:37.170313 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 602588:605336, ack 822, win 65535, length 2748
+19:48:37.170327 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 602588, win 65535, length 0
+19:48:37.170344 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 605336, win 65535, length 0
+19:48:37.171207 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 605336:608084, ack 822, win 65535, length 2748
+19:48:37.171210 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 608084:613580, ack 822, win 65535, length 5496
+19:48:37.171211 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 613580:616328, ack 822, win 65535, length 2748
+19:48:37.171224 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 608084, win 65535, length 0
+19:48:37.171247 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 613580, win 65535, length 0
+19:48:37.171462 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 616328:620450, ack 822, win 65535, length 4122
+19:48:37.171464 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 620450:621824, ack 822, win 65535, length 1374
+19:48:37.171726 IP hera-lan2.domain > middlinux.36772: 12825 1/0/0 PTR lga34s37-in-f14.1e100.net. (85)
+19:48:37.172202 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 621824:625946, ack 822, win 65535, length 4122
+19:48:37.172527 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 625946:630068, ack 822, win 65535, length 4122
+19:48:37.172803 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 630068:632816, ack 822, win 65535, length 2748
+19:48:37.172941 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 632816:635564, ack 822, win 65535, length 2748
+19:48:37.172942 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 635564:636938, ack 822, win 65535, length 1374
+19:48:37.173126 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 636938:638312, ack 822, win 65535, length 1374
+19:48:37.173266 IP lga34s37-in-f14.https > middlinux.47912: Flags [P.], seq 638312:640382, ack 822, win 65535, length 2070
+19:48:37.175477 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 640382, win 65535, length 0
+19:48:37.179946 IP middlinux.47912 > lga34s37-in-f14.https: Flags [P.], seq 822:861, ack 640382, win 65535, length 39
+19:48:37.180182 IP lga34s37-in-f14.https > middlinux.47912: Flags [.], ack 861, win 65535, length 0
+19:48:37.187849 IP middlinux.47912 > lga34s37-in-f14.https: Flags [P.], seq 861:885, ack 640382, win 65535, length 24
+19:48:37.188197 IP lga34s37-in-f14.https > middlinux.47912: Flags [.], ack 885, win 65535, length 0
+19:48:37.188941 IP middlinux.47912 > lga34s37-in-f14.https: Flags [F.], seq 885, ack 640382, win 65535, length 0
+19:48:37.189571 IP lga34s37-in-f14.https > middlinux.47912: Flags [.], ack 886, win 65535, length 0
+19:48:37.200381 IP lga34s37-in-f14.https > middlinux.47912: Flags [F.], seq 640382, ack 886, win 65535, length 0
+19:48:37.200401 IP middlinux.47912 > lga34s37-in-f14.https: Flags [.], ack 640383, win 13008, length 0
+
