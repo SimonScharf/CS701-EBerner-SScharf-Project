@@ -1,5 +1,8 @@
-#!/bin/sh
-curl https://www.amazon.com/ > /dev/null 
+#!/bin/bash
+read url
+
+curl $url > /dev/null 
+
 res=$?
 if test "$res" != "0"; then
    echo "the curl command failed with: $res";
