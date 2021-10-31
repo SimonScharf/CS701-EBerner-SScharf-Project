@@ -1,5 +1,5 @@
 #!/bin/sh
-curl https://www.reddit.com/ > /dev/null 
+curl https://www.amazon.com/ > /dev/null 
 res=$?
 if test "$res" != "0"; then
    echo "the curl command failed with: $res";

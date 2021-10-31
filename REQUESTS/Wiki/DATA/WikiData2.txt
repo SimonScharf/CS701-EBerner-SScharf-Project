@@ -1,0 +1,40 @@
+20:07:31.678733 IP middlinux.60493 > hera-lan2.domain: 53726+ A? www.wikipedia.com. (35)
+20:07:31.678771 IP middlinux.60493 > hera-lan2.domain: 9432+ AAAA? www.wikipedia.com. (35)
+20:07:31.683763 IP hera-lan2.domain > middlinux.60493: 53726 2/0/0 CNAME ncredir-lb.wikimedia.org., A 208.80.154.232 (89)
+20:07:31.685542 IP hera-lan2.domain > middlinux.60493: 9432 2/0/0 CNAME ncredir-lb.wikimedia.org., AAAA 2620:0:861:ed1a::9 (101)
+20:07:31.685955 IP middlinux.45206 > ncredir-lb.https: Flags [S], seq 910431344, win 64240, options [mss 1460,sackOK,TS val 683625997 ecr 0,nop,wscale 6], length 0
+20:07:31.749559 IP ncredir-lb.https > middlinux.45206: Flags [S.], seq 21312001, ack 910431345, win 65535, options [mss 1460], length 0
+20:07:31.749616 IP middlinux.45206 > ncredir-lb.https: Flags [.], ack 1, win 64240, length 0
+20:07:31.762315 IP middlinux.45206 > ncredir-lb.https: Flags [P.], seq 1:518, ack 1, win 64240, length 517
+20:07:31.762578 IP ncredir-lb.https > middlinux.45206: Flags [.], ack 518, win 65535, length 0
+20:07:31.828227 IP ncredir-lb.https > middlinux.45206: Flags [.], seq 1:2921, ack 518, win 65535, length 2920
+20:07:31.828246 IP middlinux.45206 > ncredir-lb.https: Flags [.], ack 2921, win 62780, length 0
+20:07:31.828514 IP ncredir-lb.https > middlinux.45206: Flags [P.], seq 2921:4661, ack 518, win 65535, length 1740
+20:07:31.828530 IP middlinux.45206 > ncredir-lb.https: Flags [.], ack 4661, win 61320, length 0
+20:07:31.832792 IP middlinux.45206 > ncredir-lb.https: Flags [P.], seq 518:598, ack 4661, win 62780, length 80
+20:07:31.833226 IP ncredir-lb.https > middlinux.45206: Flags [.], ack 598, win 65535, length 0
+20:07:31.833461 IP middlinux.45206 > ncredir-lb.https: Flags [P.], seq 598:644, ack 4661, win 62780, length 46
+20:07:31.833514 IP middlinux.45206 > ncredir-lb.https: Flags [P.], seq 644:693, ack 4661, win 62780, length 49
+20:07:31.833684 IP ncredir-lb.https > middlinux.45206: Flags [.], ack 644, win 65535, length 0
+20:07:31.833686 IP ncredir-lb.https > middlinux.45206: Flags [.], ack 693, win 65535, length 0
+20:07:31.833889 IP middlinux.45206 > ncredir-lb.https: Flags [P.], seq 693:728, ack 4661, win 62780, length 35
+20:07:31.834069 IP middlinux.45206 > ncredir-lb.https: Flags [P.], seq 728:792, ack 4661, win 62780, length 64
+20:07:31.834314 IP ncredir-lb.https > middlinux.45206: Flags [.], ack 728, win 65535, length 0
+20:07:31.834316 IP ncredir-lb.https > middlinux.45206: Flags [.], ack 792, win 65535, length 0
+20:07:31.893912 IP ncredir-lb.https > middlinux.45206: Flags [P.], seq 4661:5306, ack 792, win 65535, length 645
+20:07:31.893932 IP middlinux.45206 > ncredir-lb.https: Flags [.], ack 5306, win 62780, length 0
+20:07:31.894344 IP middlinux.45206 > ncredir-lb.https: Flags [P.], seq 792:823, ack 5306, win 62780, length 31
+20:07:31.894612 IP ncredir-lb.https > middlinux.45206: Flags [.], ack 823, win 65535, length 0
+20:07:31.894613 IP ncredir-lb.https > middlinux.45206: Flags [P.], seq 5306:5661, ack 823, win 65535, length 355
+20:07:31.894634 IP middlinux.45206 > ncredir-lb.https: Flags [.], ack 5661, win 62780, length 0
+20:07:31.896535 IP middlinux.45206 > ncredir-lb.https: Flags [P.], seq 823:847, ack 5661, win 62780, length 24
+20:07:31.896829 IP ncredir-lb.https > middlinux.45206: Flags [.], ack 847, win 65535, length 0
+20:07:31.897465 IP middlinux.45206 > ncredir-lb.https: Flags [F.], seq 847, ack 5661, win 62780, length 0
+20:07:31.897730 IP ncredir-lb.https > middlinux.45206: Flags [.], ack 848, win 65535, length 0
+20:07:31.957114 IP ncredir-lb.https > middlinux.45206: Flags [F.], seq 5661, ack 848, win 65535, length 0
+20:07:31.957137 IP middlinux.45206 > ncredir-lb.https: Flags [.], ack 5662, win 62780, length 0
+20:07:32.353222 IP middlinux.52013 > hera-lan2.domain: 18832+ PTR? 2.253.233.140.in-addr.arpa. (44)
+20:07:32.359157 IP hera-lan2.domain > middlinux.52013: 18832* 1/0/0 PTR hera-lan2.middlebury.edu. (82)
+20:07:32.359890 IP middlinux.48235 > hera-lan2.domain: 63256+ PTR? 232.154.80.208.in-addr.arpa. (45)
+20:07:32.363235 IP hera-lan2.domain > middlinux.48235: 63256 1/0/0 PTR ncredir-lb.eqiad.wikimedia.org. (89)
+

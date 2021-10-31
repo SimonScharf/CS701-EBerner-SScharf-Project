@@ -1,5 +1,5 @@
 import fileinput 
-for line in fileinput.input(files ='RedditData4.txt'):
+for line in fileinput.input(files ='AmazonData4.txt'):
     if "length" in line:
         
         #get direction, 1 is incoming, -1 is outgoing

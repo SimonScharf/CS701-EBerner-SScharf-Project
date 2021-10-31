@@ -1,0 +1,496 @@
+19:15:07.270448 IP middlinux.43701 > hera-lan2.domain: 52073+ A? www.espn.com. (30)
+19:15:07.270492 IP middlinux.43701 > hera-lan2.domain: 59478+ AAAA? www.espn.com. (30)
+19:15:07.276353 IP hera-lan2.domain > middlinux.43701: 59478 8/0/0 AAAA 2600:9000:2162:8000:e:fe33:5580:93a1, AAAA 2600:9000:2162:7600:e:fe33:5580:93a1, AAAA 2600:9000:2162:6200:e:fe33:5580:93a1, AAAA 2600:9000:2162:ce00:e:fe33:5580:93a1, AAAA 2600:9000:2162:c000:e:fe33:5580:93a1, AAAA 2600:9000:2162:3600:e:fe33:5580:93a1, AAAA 2600:9000:2162:da00:e:fe33:5580:93a1, AAAA 2600:9000:2162:6600:e:fe33:5580:93a1 (254)
+19:15:07.276355 IP hera-lan2.domain > middlinux.43701: 52073 4/0/0 A 99.84.114.51, A 99.84.114.96, A 99.84.114.124, A 99.84.114.102 (94)
+19:15:07.279279 IP middlinux.38960 > server-99-84-114-51.https: Flags [S], seq 869013209, win 64240, options [mss 1460,sackOK,TS val 626742522 ecr 0,nop,wscale 6], length 0
+19:15:07.292339 IP server-99-84-114-51.https > middlinux.38960: Flags [S.], seq 448001, ack 869013210, win 65535, options [mss 1460], length 0
+19:15:07.292385 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 1, win 64240, length 0
+19:15:07.301408 IP middlinux.38960 > server-99-84-114-51.https: Flags [P.], seq 1:518, ack 1, win 64240, length 517
+19:15:07.301744 IP server-99-84-114-51.https > middlinux.38960: Flags [.], ack 518, win 65535, length 0
+19:15:07.317039 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 1:2749, ack 518, win 65535, length 2748
+19:15:07.317161 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 2749, win 62780, length 0
+19:15:07.317836 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 2749:4123, ack 518, win 65535, length 1374
+19:15:07.317856 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 4123, win 61406, length 0
+19:15:07.318939 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 4123:5497, ack 518, win 65535, length 1374
+19:15:07.318955 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 5497, win 63204, length 0
+19:15:07.320010 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 5497:5824, ack 518, win 65535, length 327
+19:15:07.320026 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 5824, win 63204, length 0
+19:15:07.320506 IP middlinux.38960 > server-99-84-114-51.https: Flags [P.], seq 518:582, ack 5824, win 63204, length 64
+19:15:07.320761 IP server-99-84-114-51.https > middlinux.38960: Flags [.], ack 582, win 65535, length 0
+19:15:07.320960 IP middlinux.38960 > server-99-84-114-51.https: Flags [P.], seq 582:628, ack 5824, win 63204, length 46
+19:15:07.320998 IP middlinux.38960 > server-99-84-114-51.https: Flags [P.], seq 628:677, ack 5824, win 63204, length 49
+19:15:07.321152 IP middlinux.38960 > server-99-84-114-51.https: Flags [P.], seq 677:712, ack 5824, win 63204, length 35
+19:15:07.321271 IP server-99-84-114-51.https > middlinux.38960: Flags [.], ack 628, win 65535, length 0
+19:15:07.321273 IP server-99-84-114-51.https > middlinux.38960: Flags [.], ack 677, win 65535, length 0
+19:15:07.321381 IP server-99-84-114-51.https > middlinux.38960: Flags [.], ack 712, win 65535, length 0
+19:15:07.321420 IP middlinux.38960 > server-99-84-114-51.https: Flags [P.], seq 712:772, ack 5824, win 63204, length 60
+19:15:07.321798 IP server-99-84-114-51.https > middlinux.38960: Flags [.], ack 772, win 65535, length 0
+19:15:07.334119 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 5824:5895, ack 772, win 65535, length 71
+19:15:07.334175 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 5895, win 63204, length 0
+19:15:07.334372 IP middlinux.38960 > server-99-84-114-51.https: Flags [P.], seq 772:803, ack 5895, win 63204, length 31
+19:15:07.334602 IP server-99-84-114-51.https > middlinux.38960: Flags [.], ack 803, win 65535, length 0
+19:15:07.415968 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 5895:15160, ack 803, win 65535, length 9265
+19:15:07.416180 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 15160, win 58400, length 0
+19:15:07.416384 IP server-99-84-114-51.https > middlinux.38960: Flags [.], seq 15160:16620, ack 803, win 65535, length 1460
+19:15:07.416401 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 16620, win 56940, length 0
+19:15:07.417462 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 16620:26090, ack 803, win 65535, length 9470
+19:15:07.417464 IP server-99-84-114-51.https > middlinux.38960: Flags [.], seq 26090:29010, ack 803, win 65535, length 2920
+19:15:07.417485 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 26090, win 58400, length 0
+19:15:07.417514 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 29010, win 55480, length 0
+19:15:07.417664 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 29010:37082, ack 803, win 65535, length 8072
+19:15:07.417674 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 37082, win 49640, length 0
+19:15:07.420099 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 37082:48074, ack 803, win 65535, length 10992
+19:15:07.420119 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 48074, win 56940, length 0
+19:15:07.430833 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 48074:57692, ack 803, win 65535, length 9618
+19:15:07.430836 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 57692:60440, ack 803, win 65535, length 2748
+19:15:07.430863 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 57692, win 58400, length 0
+19:15:07.431151 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 60440, win 62780, length 0
+19:15:07.431781 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 60440:61814, ack 803, win 65535, length 1374
+19:15:07.431782 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 61814:63188, ack 803, win 65535, length 1374
+19:15:07.431805 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 63188, win 62780, length 0
+19:15:07.433148 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 63188:70058, ack 803, win 65535, length 6870
+19:15:07.433152 IP server-99-84-114-51.https > middlinux.38960: Flags [.], seq 70058:72978, ack 803, win 65535, length 2920
+19:15:07.433326 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 72978:74180, ack 803, win 65535, length 1202
+19:15:07.433328 IP server-99-84-114-51.https > middlinux.38960: Flags [.], seq 74180:75640, ack 803, win 65535, length 1460
+19:15:07.433402 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 75640, win 62780, length 0
+19:15:07.433633 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 75640:76928, ack 803, win 65535, length 1288
+19:15:07.433640 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 76928, win 65535, length 0
+19:15:07.435371 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 76928:86546, ack 803, win 65535, length 9618
+19:15:07.435374 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 86546:89294, ack 803, win 65535, length 2748
+19:15:07.435396 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 86546, win 65535, length 0
+19:15:07.435434 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 89294, win 65535, length 0
+19:15:07.435508 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 89294:93416, ack 803, win 65535, length 4122
+19:15:07.435509 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 93416:96164, ack 803, win 65535, length 2748
+19:15:07.435514 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 93416, win 65535, length 0
+19:15:07.435526 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 96164, win 65535, length 0
+19:15:07.435620 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 96164:97538, ack 803, win 65535, length 1374
+19:15:07.435625 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 97538, win 65535, length 0
+19:15:07.436754 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 97538:107156, ack 803, win 65535, length 9618
+19:15:07.436756 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 107156:108530, ack 803, win 65535, length 1374
+19:15:07.436774 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 107156, win 65535, length 0
+19:15:07.436815 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 108530, win 65535, length 0
+19:15:07.437870 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 108530:115400, ack 803, win 65535, length 6870
+19:15:07.437888 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 115400, win 65535, length 0
+19:15:07.438455 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 115400:118148, ack 803, win 65535, length 2748
+19:15:07.438469 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 118148, win 65535, length 0
+19:15:07.439894 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 118148:119522, ack 803, win 65535, length 1374
+19:15:07.439914 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 119522, win 65535, length 0
+19:15:07.443588 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 119522:129140, ack 803, win 65535, length 9618
+19:15:07.443592 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 129140:131888, ack 803, win 65535, length 2748
+19:15:07.443621 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 129140, win 65535, length 0
+19:15:07.443671 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 131888, win 65535, length 0
+19:15:07.444608 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 131888:138758, ack 803, win 65535, length 6870
+19:15:07.444622 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 138758, win 65535, length 0
+19:15:07.445491 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 138758:144254, ack 803, win 65535, length 5496
+19:15:07.445509 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 144254, win 65535, length 0
+19:15:07.445799 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 144254:145628, ack 803, win 65535, length 1374
+19:15:07.445813 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 145628, win 65535, length 0
+19:15:07.446626 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 145628:153872, ack 803, win 65535, length 8244
+19:15:07.446643 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 153872, win 65535, length 0
+19:15:07.447850 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 153872:159368, ack 803, win 65535, length 5496
+19:15:07.447871 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 159368, win 65535, length 0
+19:15:07.449013 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 159368:166238, ack 803, win 65535, length 6870
+19:15:07.449016 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 166238:168986, ack 803, win 65535, length 2748
+19:15:07.449017 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 168986:170360, ack 803, win 65535, length 1374
+19:15:07.449039 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 166238, win 65535, length 0
+19:15:07.449154 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 168986, win 65535, length 0
+19:15:07.449257 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 170360, win 65535, length 0
+19:15:07.449292 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 170360:173108, ack 803, win 65535, length 2748
+19:15:07.449298 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 173108, win 65535, length 0
+19:15:07.450216 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 173108:179978, ack 803, win 65535, length 6870
+19:15:07.450230 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 179978, win 65535, length 0
+19:15:07.451124 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 179978:186848, ack 803, win 65535, length 6870
+19:15:07.451126 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 186848:188222, ack 803, win 65535, length 1374
+19:15:07.451147 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 186848, win 65535, length 0
+19:15:07.451174 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 188222, win 65535, length 0
+19:15:07.452231 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 188222:196466, ack 803, win 65535, length 8244
+19:15:07.452233 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 196466:200588, ack 803, win 65535, length 4122
+19:15:07.452251 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 196466, win 65535, length 0
+19:15:07.452281 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 200588, win 65535, length 0
+19:15:07.453629 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 200588:208832, ack 803, win 65535, length 8244
+19:15:07.453646 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 208832, win 65535, length 0
+19:15:07.454521 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 208832:215702, ack 803, win 65535, length 6870
+19:15:07.454523 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 215702:217076, ack 803, win 65535, length 1374
+19:15:07.454537 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 215702, win 65535, length 0
+19:15:07.454576 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 217076, win 65535, length 0
+19:15:07.456014 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 217076:228068, ack 803, win 65535, length 10992
+19:15:07.456037 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 228068, win 65535, length 0
+19:15:07.456094 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 228068:229442, ack 803, win 65535, length 1374
+19:15:07.456096 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 229442:230816, ack 803, win 65535, length 1374
+19:15:07.456108 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 229442, win 65535, length 0
+19:15:07.456126 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 230816, win 65535, length 0
+19:15:07.457188 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 230816:240434, ack 803, win 65535, length 9618
+19:15:07.457208 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 240434, win 65535, length 0
+19:15:07.458236 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 240434:248678, ack 803, win 65535, length 8244
+19:15:07.458305 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 248678, win 65535, length 0
+19:15:07.459446 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 248678:254174, ack 803, win 65535, length 5496
+19:15:07.459476 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 254174, win 65535, length 0
+19:15:07.460148 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 254174:261044, ack 803, win 65535, length 6870
+19:15:07.460152 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 261044:273410, ack 803, win 65535, length 12366
+19:15:07.460176 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 261044, win 65535, length 0
+19:15:07.460272 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 273410, win 65535, length 0
+19:15:07.460382 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 273410:276158, ack 803, win 65535, length 2748
+19:15:07.460384 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 276158:277532, ack 803, win 65535, length 1374
+19:15:07.460385 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 277532:280280, ack 803, win 65535, length 2748
+19:15:07.460385 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 280280:283028, ack 803, win 65535, length 2748
+19:15:07.460400 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 276158, win 65535, length 0
+19:15:07.460422 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 277532, win 65535, length 0
+19:15:07.460435 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 280280, win 65535, length 0
+19:15:07.460447 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 283028, win 65535, length 0
+19:15:07.460625 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 283028:284402, ack 803, win 65535, length 1374
+19:15:07.460645 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 284402, win 65535, length 0
+19:15:07.462521 IP middlinux.46373 > hera-lan2.domain: 15167+ PTR? 2.253.233.140.in-addr.arpa. (44)
+19:15:07.462655 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 284402:291272, ack 803, win 65535, length 6870
+19:15:07.462656 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 291272:294020, ack 803, win 65535, length 2748
+19:15:07.462657 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 294020:295394, ack 803, win 65535, length 1374
+19:15:07.462674 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 291272, win 65535, length 0
+19:15:07.462691 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 294020, win 65535, length 0
+19:15:07.462697 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 295394, win 65535, length 0
+19:15:07.462716 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 295394:298142, ack 803, win 65535, length 2748
+19:15:07.462717 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 298142:300890, ack 803, win 65535, length 2748
+19:15:07.462721 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 298142, win 65535, length 0
+19:15:07.462728 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 300890, win 65535, length 0
+19:15:07.463730 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 300890:309134, ack 803, win 65535, length 8244
+19:15:07.463732 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 309134:311882, ack 803, win 65535, length 2748
+19:15:07.463804 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 309134, win 65535, length 0
+19:15:07.463838 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 311882, win 65535, length 0
+19:15:07.463932 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 311882:314630, ack 803, win 65535, length 2748
+19:15:07.463945 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 314630, win 65535, length 0
+19:15:07.464654 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 314630:320126, ack 803, win 65535, length 5496
+19:15:07.464655 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 320126:322874, ack 803, win 65535, length 2748
+19:15:07.464656 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 322874:325622, ack 803, win 65535, length 2748
+19:15:07.464668 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 320126, win 65535, length 0
+19:15:07.464783 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 322874, win 65535, length 0
+19:15:07.464808 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 325622, win 65535, length 0
+19:15:07.464876 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 325622:329744, ack 803, win 65535, length 4122
+19:15:07.464877 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 329744:331118, ack 803, win 65535, length 1374
+19:15:07.464878 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 331118:332492, ack 803, win 65535, length 1374
+19:15:07.464886 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 329744, win 65535, length 0
+19:15:07.464901 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 331118, win 65535, length 0
+19:15:07.464988 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 332492, win 65535, length 0
+19:15:07.465103 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 332492:336614, ack 803, win 65535, length 4122
+19:15:07.465108 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 336614, win 65535, length 0
+19:15:07.468227 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 336614:346232, ack 803, win 65535, length 9618
+19:15:07.468229 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 346232:348980, ack 803, win 65535, length 2748
+19:15:07.468251 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 346232, win 65535, length 0
+19:15:07.468288 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 348980, win 65535, length 0
+19:15:07.468322 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 348980:351728, ack 803, win 65535, length 2748
+19:15:07.468323 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 351728:353102, ack 803, win 65535, length 1374
+19:15:07.468324 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 353102:355850, ack 803, win 65535, length 2748
+19:15:07.468324 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 355850:357224, ack 803, win 65535, length 1374
+19:15:07.468325 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 357224:359972, ack 803, win 65535, length 2748
+19:15:07.468330 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 351728, win 65535, length 0
+19:15:07.468340 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 353102, win 65535, length 0
+19:15:07.468347 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 355850, win 65535, length 0
+19:15:07.468355 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 357224, win 65535, length 0
+19:15:07.469231 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 359972, win 65535, length 0
+19:15:07.470040 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 359972:362720, ack 803, win 65535, length 2748
+19:15:07.470042 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 362720:365468, ack 803, win 65535, length 2748
+19:15:07.470043 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 365468:368216, ack 803, win 65535, length 2748
+19:15:07.470043 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 368216:370964, ack 803, win 65535, length 2748
+19:15:07.470057 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 362720, win 65535, length 0
+19:15:07.470764 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 365468, win 65535, length 0
+19:15:07.471946 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 368216, win 65535, length 0
+19:15:07.472500 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 370964, win 65535, length 0
+19:15:07.472966 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 370964:373712, ack 803, win 65535, length 2748
+19:15:07.472968 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 373712:376460, ack 803, win 65535, length 2748
+19:15:07.472969 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 376460:379208, ack 803, win 65535, length 2748
+19:15:07.472970 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 379208:384704, ack 803, win 65535, length 5496
+19:15:07.472982 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 373712, win 65535, length 0
+19:15:07.473001 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 376460, win 65535, length 0
+19:15:07.473051 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 379208, win 65535, length 0
+19:15:07.473063 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 384704, win 65535, length 0
+19:15:07.473081 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 384704:387452, ack 803, win 65535, length 2748
+19:15:07.473082 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 387452:390200, ack 803, win 65535, length 2748
+19:15:07.473083 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 390200:397070, ack 803, win 65535, length 6870
+19:15:07.473089 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 387452, win 65535, length 0
+19:15:07.473100 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 390200, win 65535, length 0
+19:15:07.473214 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 397070:420428, ack 803, win 65535, length 23358
+19:15:07.473386 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 420428:434168, ack 803, win 65535, length 13740
+19:15:07.473395 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 397070, win 65535, length 0
+19:15:07.473408 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 420428, win 65535, length 0
+19:15:07.473409 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 434168, win 65535, length 0
+19:15:07.473547 IP server-99-84-114-51.https > middlinux.38960: Flags [.], seq 434168:435628, ack 803, win 65535, length 1460
+19:15:07.473557 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 435628, win 65535, length 0
+19:15:07.473720 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 435628:439664, ack 803, win 65535, length 4036
+19:15:07.473721 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 439664:443786, ack 803, win 65535, length 4122
+19:15:07.473736 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 439664, win 65535, length 0
+19:15:07.473754 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 443786, win 65535, length 0
+19:15:07.474582 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 443786:445160, ack 803, win 65535, length 1374
+19:15:07.474585 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 445160:447908, ack 803, win 65535, length 2748
+19:15:07.474586 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 447908:450656, ack 803, win 65535, length 2748
+19:15:07.474587 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 450656:453404, ack 803, win 65535, length 2748
+19:15:07.474588 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 453404:457526, ack 803, win 65535, length 4122
+19:15:07.474603 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 445160, win 65535, length 0
+19:15:07.474649 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 447908, win 65535, length 0
+19:15:07.474660 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 450656, win 65535, length 0
+19:15:07.474667 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 453404, win 65535, length 0
+19:15:07.474678 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 457526, win 65535, length 0
+19:15:07.474702 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 457526:458900, ack 803, win 65535, length 1374
+19:15:07.474704 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 458900:460274, ack 803, win 65535, length 1374
+19:15:07.474709 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 458900, win 65535, length 0
+19:15:07.474720 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 460274, win 65535, length 0
+19:15:07.475705 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 460274:467144, ack 803, win 65535, length 6870
+19:15:07.475738 IP hera-lan2.domain > middlinux.46373: 15167* 1/0/0 PTR hera-lan2.middlebury.edu. (82)
+19:15:07.475740 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 467144:471266, ack 803, win 65535, length 4122
+19:15:07.475760 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 467144, win 65535, length 0
+19:15:07.476100 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 471266, win 65535, length 0
+19:15:07.476187 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 471266:474014, ack 803, win 65535, length 2748
+19:15:07.476189 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 474014:478136, ack 803, win 65535, length 4122
+19:15:07.476190 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 478136:480884, ack 803, win 65535, length 2748
+19:15:07.476238 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 480884:482258, ack 803, win 65535, length 1374
+19:15:07.476265 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 474014, win 65535, length 0
+19:15:07.476407 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 478136, win 65535, length 0
+19:15:07.476475 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 480884, win 65535, length 0
+19:15:07.476494 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 482258, win 65535, length 0
+19:15:07.476598 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 482258:486380, ack 803, win 65535, length 4122
+19:15:07.476600 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 486380:490502, ack 803, win 65535, length 4122
+19:15:07.476690 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 486380, win 65535, length 0
+19:15:07.476712 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 490502, win 65535, length 0
+19:15:07.477291 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 490502:493250, ack 803, win 65535, length 2748
+19:15:07.477292 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 493250:495998, ack 803, win 65535, length 2748
+19:15:07.477305 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 493250, win 65535, length 0
+19:15:07.477384 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 495998, win 65535, length 0
+19:15:07.478729 IP middlinux.49371 > hera-lan2.domain: 45512+ PTR? 51.114.84.99.in-addr.arpa. (43)
+19:15:07.479309 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 495998:502868, ack 803, win 65535, length 6870
+19:15:07.479311 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 502868:506990, ack 803, win 65535, length 4122
+19:15:07.479329 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 502868, win 65535, length 0
+19:15:07.479376 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 506990, win 65535, length 0
+19:15:07.479397 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 506990:512486, ack 803, win 65535, length 5496
+19:15:07.479398 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 512486:513860, ack 803, win 65535, length 1374
+19:15:07.479399 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 513860:516608, ack 803, win 65535, length 2748
+19:15:07.479400 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 516608:519356, ack 803, win 65535, length 2748
+19:15:07.479405 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 512486, win 65535, length 0
+19:15:07.479417 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 513860, win 65535, length 0
+19:15:07.479426 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 516608, win 65535, length 0
+19:15:07.479438 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 519356, win 65535, length 0
+19:15:07.479451 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 519356:522104, ack 803, win 65535, length 2748
+19:15:07.479452 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 522104:524852, ack 803, win 65535, length 2748
+19:15:07.479453 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 524852:530348, ack 803, win 65535, length 5496
+19:15:07.479513 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 522104, win 65535, length 0
+19:15:07.479573 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 524852, win 65535, length 0
+19:15:07.479585 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 530348, win 65535, length 0
+19:15:07.479600 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 530348:531722, ack 803, win 65535, length 1374
+19:15:07.479604 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 531722, win 65535, length 0
+19:15:07.480361 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 531722:539966, ack 803, win 65535, length 8244
+19:15:07.480376 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 539966, win 65535, length 0
+19:15:07.480642 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 539966:542714, ack 803, win 65535, length 2748
+19:15:07.480757 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 542714, win 65535, length 0
+19:15:07.481463 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 542714:545462, ack 803, win 65535, length 2748
+19:15:07.481465 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 545462:548210, ack 803, win 65535, length 2748
+19:15:07.481467 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 548210:555080, ack 803, win 65535, length 6870
+19:15:07.481486 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 545462, win 65535, length 0
+19:15:07.481603 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 548210, win 65535, length 0
+19:15:07.481622 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 555080, win 65535, length 0
+19:15:07.481656 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 555080:557828, ack 803, win 65535, length 2748
+19:15:07.481657 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 557828:560576, ack 803, win 65535, length 2748
+19:15:07.481660 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 560576:566072, ack 803, win 65535, length 5496
+19:15:07.481669 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 557828, win 65535, length 0
+19:15:07.481681 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 560576, win 65535, length 0
+19:15:07.481692 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 566072, win 65535, length 0
+19:15:07.481709 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 566072:567446, ack 803, win 65535, length 1374
+19:15:07.481714 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 567446, win 65535, length 0
+19:15:07.482909 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 567446:574316, ack 803, win 65535, length 6870
+19:15:07.482911 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 574316:577064, ack 803, win 65535, length 2748
+19:15:07.482912 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 577064:579812, ack 803, win 65535, length 2748
+19:15:07.482930 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 574316, win 65535, length 0
+19:15:07.483327 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 577064, win 65535, length 0
+19:15:07.483597 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 579812, win 65535, length 0
+19:15:07.483629 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 579812:583934, ack 803, win 65535, length 4122
+19:15:07.483630 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 583934:586682, ack 803, win 65535, length 2748
+19:15:07.483631 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 586682:588056, ack 803, win 65535, length 1374
+19:15:07.483631 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 588056:590804, ack 803, win 65535, length 2748
+19:15:07.483641 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 583934, win 65535, length 0
+19:15:07.483655 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 586682, win 65535, length 0
+19:15:07.483665 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 588056, win 65535, length 0
+19:15:07.483676 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 590804, win 65535, length 0
+19:15:07.483731 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 590804:593552, ack 803, win 65535, length 2748
+19:15:07.483732 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 593552:596300, ack 803, win 65535, length 2748
+19:15:07.483737 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 593552, win 65535, length 0
+19:15:07.483751 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 596300, win 65535, length 0
+19:15:07.484311 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 596300:599048, ack 803, win 65535, length 2748
+19:15:07.484313 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 599048:601796, ack 803, win 65535, length 2748
+19:15:07.484313 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 601796:603170, ack 803, win 65535, length 1374
+19:15:07.484327 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 599048, win 65535, length 0
+19:15:07.484351 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 601796, win 65535, length 0
+19:15:07.484365 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 603170, win 65535, length 0
+19:15:07.485087 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 603170:607292, ack 803, win 65535, length 4122
+19:15:07.485088 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 607292:610040, ack 803, win 65535, length 2748
+19:15:07.485089 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 610040:611414, ack 803, win 65535, length 1374
+19:15:07.485089 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 611414:614162, ack 803, win 65535, length 2748
+19:15:07.485103 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 607292, win 65535, length 0
+19:15:07.485282 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 610040, win 65535, length 0
+19:15:07.485303 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 611414, win 65535, length 0
+19:15:07.485368 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 614162, win 65535, length 0
+19:15:07.485403 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 614162:618284, ack 803, win 65535, length 4122
+19:15:07.485409 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 618284, win 65535, length 0
+19:15:07.485570 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 618284:619658, ack 803, win 65535, length 1374
+19:15:07.485576 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 619658, win 65535, length 0
+19:15:07.486580 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 619658:626528, ack 803, win 65535, length 6870
+19:15:07.486633 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 626528, win 65535, length 0
+19:15:07.486966 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 626528:630650, ack 803, win 65535, length 4122
+19:15:07.486968 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 630650:634772, ack 803, win 65535, length 4122
+19:15:07.486968 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 634772:636146, ack 803, win 65535, length 1374
+19:15:07.486969 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 636146:638894, ack 803, win 65535, length 2748
+19:15:07.486983 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 630650, win 65535, length 0
+19:15:07.487038 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 634772, win 65535, length 0
+19:15:07.487055 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 636146, win 65535, length 0
+19:15:07.487067 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 638894, win 65535, length 0
+19:15:07.487208 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 638894:641642, ack 803, win 65535, length 2748
+19:15:07.487215 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 641642, win 65535, length 0
+19:15:07.487975 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 641642:644390, ack 803, win 65535, length 2748
+19:15:07.487978 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 644390:648512, ack 803, win 65535, length 4122
+19:15:07.487978 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 648512:649886, ack 803, win 65535, length 1374
+19:15:07.487979 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 649886:654008, ack 803, win 65535, length 4122
+19:15:07.487994 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 644390, win 65535, length 0
+19:15:07.488029 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 648512, win 65535, length 0
+19:15:07.488036 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 649886, win 65535, length 0
+19:15:07.488041 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 654008, win 65535, length 0
+19:15:07.488055 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 654008:655382, ack 803, win 65535, length 1374
+19:15:07.488057 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 655382, win 65535, length 0
+19:15:07.488753 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 655382:660878, ack 803, win 65535, length 5496
+19:15:07.488754 IP hera-lan2.domain > middlinux.49371: 45512 1/0/0 PTR server-99-84-114-51.ewr52.r.cloudfront.net. (99)
+19:15:07.488766 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 660878, win 65535, length 0
+19:15:07.491280 IP server-99-84-114-51.https > middlinux.38960: Flags [.], seq 660878:692998, ack 803, win 65535, length 32120
+19:15:07.491301 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 692998, win 65535, length 0
+19:15:07.491402 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 692998:697976, ack 803, win 65535, length 4978
+19:15:07.491409 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 697976, win 65535, length 0
+19:15:07.491623 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 697976:707594, ack 803, win 65535, length 9618
+19:15:07.491625 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 707594:710342, ack 803, win 65535, length 2748
+19:15:07.491644 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 707594, win 65535, length 0
+19:15:07.491748 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 710342, win 65535, length 0
+19:15:07.491772 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 710342:713090, ack 803, win 65535, length 2748
+19:15:07.491780 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 713090, win 65535, length 0
+19:15:07.492102 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 713090:715838, ack 803, win 65535, length 2748
+19:15:07.492104 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 715838:719960, ack 803, win 65535, length 4122
+19:15:07.492122 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 715838, win 65535, length 0
+19:15:07.492144 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 719960, win 65535, length 0
+19:15:07.492388 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 719960:721334, ack 803, win 65535, length 1374
+19:15:07.492389 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 721334:722708, ack 803, win 65535, length 1374
+19:15:07.492400 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 721334, win 65535, length 0
+19:15:07.492415 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 722708, win 65535, length 0
+19:15:07.492677 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 722708:726830, ack 803, win 65535, length 4122
+19:15:07.492689 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 726830, win 65535, length 0
+19:15:07.494621 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 726830:732326, ack 803, win 65535, length 5496
+19:15:07.494623 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 732326:735074, ack 803, win 65535, length 2748
+19:15:07.494624 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 735074:739196, ack 803, win 65535, length 4122
+19:15:07.494648 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 732326, win 65535, length 0
+19:15:07.494826 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 735074, win 65535, length 0
+19:15:07.494849 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 739196, win 65535, length 0
+19:15:07.494887 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 739196:740570, ack 803, win 65535, length 1374
+19:15:07.494889 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 740570:744692, ack 803, win 65535, length 4122
+19:15:07.494890 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 744692:747440, ack 803, win 65535, length 2748
+19:15:07.494891 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 747440:748814, ack 803, win 65535, length 1374
+19:15:07.494901 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 740570, win 65535, length 0
+19:15:07.494913 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 744692, win 65535, length 0
+19:15:07.494981 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 747440, win 65535, length 0
+19:15:07.494997 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 748814, win 65535, length 0
+19:15:07.495258 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 748814:751562, ack 803, win 65535, length 2748
+19:15:07.495259 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 751562:754310, ack 803, win 65535, length 2748
+19:15:07.495260 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 754310:755684, ack 803, win 65535, length 1374
+19:15:07.495270 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 751562, win 65535, length 0
+19:15:07.495284 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 754310, win 65535, length 0
+19:15:07.495296 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 755684, win 65535, length 0
+19:15:07.495431 IP server-99-84-114-51.https > middlinux.38960: Flags [.], seq 755684:758604, ack 803, win 65535, length 2920
+19:15:07.495440 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 758604, win 65535, length 0
+19:15:07.495605 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 758604:759806, ack 803, win 65535, length 1202
+19:15:07.495606 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 759806:761180, ack 803, win 65535, length 1374
+19:15:07.495617 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 759806, win 65535, length 0
+19:15:07.495631 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 761180, win 65535, length 0
+19:15:07.495708 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 761180:762554, ack 803, win 65535, length 1374
+19:15:07.495713 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 762554, win 65535, length 0
+19:15:07.496636 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 762554:768050, ack 803, win 65535, length 5496
+19:15:07.496639 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 768050:772172, ack 803, win 65535, length 4122
+19:15:07.496774 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 768050, win 65535, length 0
+19:15:07.496859 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 772172, win 65535, length 0
+19:15:07.497006 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 772172:776294, ack 803, win 65535, length 4122
+19:15:07.497007 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 776294:779042, ack 803, win 65535, length 2748
+19:15:07.497018 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 776294, win 65535, length 0
+19:15:07.497036 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 779042, win 65535, length 0
+19:15:07.497193 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 779042:781790, ack 803, win 65535, length 2748
+19:15:07.497195 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 781790:783164, ack 803, win 65535, length 1374
+19:15:07.497206 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 781790, win 65535, length 0
+19:15:07.497270 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 783164, win 65535, length 0
+19:15:07.499440 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 783164:787286, ack 803, win 65535, length 4122
+19:15:07.499443 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 787286:790034, ack 803, win 65535, length 2748
+19:15:07.499444 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 790034:792782, ack 803, win 65535, length 2748
+19:15:07.499445 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 792782:794156, ack 803, win 65535, length 1374
+19:15:07.499596 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 787286, win 65535, length 0
+19:15:07.499749 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 790034, win 65535, length 0
+19:15:07.499768 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 792782, win 65535, length 0
+19:15:07.499776 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 794156, win 65535, length 0
+19:15:07.500765 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 794156:796904, ack 803, win 65535, length 2748
+19:15:07.500767 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 796904:799652, ack 803, win 65535, length 2748
+19:15:07.500768 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 799652:802400, ack 803, win 65535, length 2748
+19:15:07.500769 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 802400:806522, ack 803, win 65535, length 4122
+19:15:07.500874 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 796904, win 65535, length 0
+19:15:07.500897 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 799652, win 65535, length 0
+19:15:07.500910 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 802400, win 65535, length 0
+19:15:07.500921 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 806522, win 65535, length 0
+19:15:07.500941 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 806522:807896, ack 803, win 65535, length 1374
+19:15:07.500942 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 807896:809270, ack 803, win 65535, length 1374
+19:15:07.500943 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 809270:814766, ack 803, win 65535, length 5496
+19:15:07.500944 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 814766:818888, ack 803, win 65535, length 4122
+19:15:07.500952 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 807896, win 65535, length 0
+19:15:07.501067 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 809270, win 65535, length 0
+19:15:07.501120 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 814766, win 65535, length 0
+19:15:07.501135 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 818888, win 65535, length 0
+19:15:07.501172 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 818888:834002, ack 803, win 65535, length 15114
+19:15:07.501175 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 834002, win 65535, length 0
+19:15:07.501192 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 834002:843620, ack 803, win 65535, length 9618
+19:15:07.501194 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 843620, win 65535, length 0
+19:15:07.502145 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 843620:851864, ack 803, win 65535, length 8244
+19:15:07.502150 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 851864:854612, ack 803, win 65535, length 2748
+19:15:07.502171 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 851864, win 65535, length 0
+19:15:07.502214 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 854612, win 65535, length 0
+19:15:07.502244 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 854612:858734, ack 803, win 65535, length 4122
+19:15:07.502245 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 858734:861482, ack 803, win 65535, length 2748
+19:15:07.502253 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 858734, win 65535, length 0
+19:15:07.502263 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 861482, win 65535, length 0
+19:15:07.504167 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 861482:864230, ack 803, win 65535, length 2748
+19:15:07.504169 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 864230:869726, ack 803, win 65535, length 5496
+19:15:07.504170 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 869726:872474, ack 803, win 65535, length 2748
+19:15:07.504195 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 864230, win 65535, length 0
+19:15:07.504236 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 869726, win 65535, length 0
+19:15:07.504244 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 872474, win 65535, length 0
+19:15:07.504270 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 872474:875222, ack 803, win 65535, length 2748
+19:15:07.504271 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 875222:879344, ack 803, win 65535, length 4122
+19:15:07.504272 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 879344:882092, ack 803, win 65535, length 2748
+19:15:07.504273 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 882092:884840, ack 803, win 65535, length 2748
+19:15:07.504277 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 875222, win 65535, length 0
+19:15:07.504285 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 879344, win 65535, length 0
+19:15:07.504291 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 882092, win 65535, length 0
+19:15:07.504296 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 884840, win 65535, length 0
+19:15:07.504307 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 884840:887588, ack 803, win 65535, length 2748
+19:15:07.504308 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 887588:890336, ack 803, win 65535, length 2748
+19:15:07.504309 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 890336:893084, ack 803, win 65535, length 2748
+19:15:07.504309 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 893084:895832, ack 803, win 65535, length 2748
+19:15:07.504312 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 887588, win 65535, length 0
+19:15:07.504321 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 890336, win 65535, length 0
+19:15:07.504327 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 893084, win 65535, length 0
+19:15:07.504332 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 895832, win 65535, length 0
+19:15:07.506838 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 895832:905450, ack 803, win 65535, length 9618
+19:15:07.506841 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 905450:910946, ack 803, win 65535, length 5496
+19:15:07.506922 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 905450, win 65535, length 0
+19:15:07.507060 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 910946, win 65535, length 0
+19:15:07.507146 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 910946:916442, ack 803, win 65535, length 5496
+19:15:07.507148 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 916442:919190, ack 803, win 65535, length 2748
+19:15:07.507149 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 919190:920564, ack 803, win 65535, length 1374
+19:15:07.507150 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 920564:923312, ack 803, win 65535, length 2748
+19:15:07.507163 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 916442, win 65535, length 0
+19:15:07.507183 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 919190, win 65535, length 0
+19:15:07.507194 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 920564, win 65535, length 0
+19:15:07.507203 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 923312, win 65535, length 0
+19:15:07.507234 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 923312:926060, ack 803, win 65535, length 2748
+19:15:07.507235 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 926060:928808, ack 803, win 65535, length 2748
+19:15:07.507238 IP server-99-84-114-51.https > middlinux.38960: Flags [P.], seq 928808:948186, ack 803, win 65535, length 19378
+19:15:07.507242 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 926060, win 65535, length 0
+19:15:07.507250 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 928808, win 65535, length 0
+19:15:07.507257 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 948186, win 65535, length 0
+19:15:07.507789 IP middlinux.38960 > server-99-84-114-51.https: Flags [P.], seq 803:827, ack 948186, win 65535, length 24
+19:15:07.508585 IP middlinux.38960 > server-99-84-114-51.https: Flags [F.], seq 827, ack 948186, win 65535, length 0
+19:15:07.512351 IP server-99-84-114-51.https > middlinux.38960: Flags [.], ack 827, win 65535, length 0
+19:15:07.512353 IP server-99-84-114-51.https > middlinux.38960: Flags [.], ack 828, win 65535, length 0
+19:15:07.522010 IP server-99-84-114-51.https > middlinux.38960: Flags [F.], seq 948186, ack 828, win 65535, length 0
+19:15:07.522041 IP middlinux.38960 > server-99-84-114-51.https: Flags [.], ack 948187, win 36548, length 0
+
