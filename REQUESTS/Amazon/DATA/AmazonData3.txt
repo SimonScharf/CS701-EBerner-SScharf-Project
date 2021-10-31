@@ -1,0 +1,45 @@
+20:12:12.883271 IP middlinux.36546 > hera-lan2.domain: 39169+ A? www.amazon.com. (32)
+20:12:12.883328 IP middlinux.36546 > hera-lan2.domain: 28170+ AAAA? www.amazon.com. (32)
+20:12:12.889732 IP hera-lan2.domain > middlinux.36546: 39169 4/0/0 CNAME tp.47cf2c8c9-frontier.amazon.com., CNAME www.amazon.com.edgekey.net., CNAME e15316.a.akamaiedge.net., A 23.33.222.187 (158)
+20:12:12.889734 IP hera-lan2.domain > middlinux.36546: 28170 3/1/0 CNAME tp.47cf2c8c9-frontier.amazon.com., CNAME www.amazon.com.edgekey.net., CNAME e15316.a.akamaiedge.net. (200)
+20:12:12.890065 IP middlinux.60430 > a23-33-222-187.https: Flags [S], seq 2886737789, win 64240, options [mss 1460,sackOK,TS val 1788424447 ecr 0,nop,wscale 6], length 0
+20:12:12.906022 IP a23-33-222-187.https > middlinux.60430: Flags [S.], seq 22720001, ack 2886737790, win 65535, options [mss 1460], length 0
+20:12:12.906070 IP middlinux.60430 > a23-33-222-187.https: Flags [.], ack 1, win 64240, length 0
+20:12:12.915362 IP middlinux.60430 > a23-33-222-187.https: Flags [P.], seq 1:518, ack 1, win 64240, length 517
+20:12:12.915757 IP a23-33-222-187.https > middlinux.60430: Flags [.], ack 518, win 65535, length 0
+20:12:12.935335 IP a23-33-222-187.https > middlinux.60430: Flags [.], seq 1:2921, ack 518, win 65535, length 2920
+20:12:12.935359 IP middlinux.60430 > a23-33-222-187.https: Flags [.], ack 2921, win 62780, length 0
+20:12:12.935595 IP a23-33-222-187.https > middlinux.60430: Flags [P.], seq 2921:4900, ack 518, win 65535, length 1979
+20:12:12.935610 IP middlinux.60430 > a23-33-222-187.https: Flags [.], ack 4900, win 61320, length 0
+20:12:12.936780 IP middlinux.60430 > a23-33-222-187.https: Flags [P.], seq 518:644, ack 4900, win 62780, length 126
+20:12:12.937066 IP a23-33-222-187.https > middlinux.60430: Flags [.], ack 644, win 65535, length 0
+20:12:12.951939 IP a23-33-222-187.https > middlinux.60430: Flags [P.], seq 4900:4951, ack 644, win 65535, length 51
+20:12:12.951964 IP middlinux.60430 > a23-33-222-187.https: Flags [.], ack 4951, win 62780, length 0
+20:12:12.952465 IP middlinux.60430 > a23-33-222-187.https: Flags [P.], seq 644:697, ack 4951, win 62780, length 53
+20:12:12.952516 IP middlinux.60430 > a23-33-222-187.https: Flags [P.], seq 697:753, ack 4951, win 62780, length 56
+20:12:12.952756 IP middlinux.60430 > a23-33-222-187.https: Flags [P.], seq 753:795, ack 4951, win 62780, length 42
+20:12:12.952939 IP a23-33-222-187.https > middlinux.60430: Flags [.], ack 697, win 65535, length 0
+20:12:12.952941 IP a23-33-222-187.https > middlinux.60430: Flags [.], ack 753, win 65535, length 0
+20:12:12.953077 IP middlinux.60430 > a23-33-222-187.https: Flags [P.], seq 795:864, ack 4951, win 62780, length 69
+20:12:12.953194 IP a23-33-222-187.https > middlinux.60430: Flags [.], ack 795, win 65535, length 0
+20:12:12.953334 IP a23-33-222-187.https > middlinux.60430: Flags [.], ack 864, win 65535, length 0
+20:12:12.968430 IP a23-33-222-187.https > middlinux.60430: Flags [P.], seq 4951:5057, ack 864, win 65535, length 106
+20:12:12.968447 IP middlinux.60430 > a23-33-222-187.https: Flags [.], ack 5057, win 62780, length 0
+20:12:12.968768 IP middlinux.60430 > a23-33-222-187.https: Flags [P.], seq 864:902, ack 5057, win 62780, length 38
+20:12:12.969097 IP a23-33-222-187.https > middlinux.60430: Flags [.], ack 902, win 65535, length 0
+20:12:12.993648 IP a23-33-222-187.https > middlinux.60430: Flags [P.], seq 5057:6537, ack 902, win 65535, length 1480
+20:12:12.993666 IP middlinux.60430 > a23-33-222-187.https: Flags [.], ack 6537, win 62780, length 0
+20:12:12.995763 IP middlinux.60430 > a23-33-222-187.https: Flags [P.], seq 902:933, ack 6537, win 62780, length 31
+20:12:12.996114 IP a23-33-222-187.https > middlinux.60430: Flags [.], ack 933, win 65535, length 0
+20:12:12.996696 IP middlinux.60430 > a23-33-222-187.https: Flags [F.], seq 933, ack 6537, win 62780, length 0
+20:12:12.997118 IP a23-33-222-187.https > middlinux.60430: Flags [.], ack 934, win 65535, length 0
+20:12:13.013158 IP a23-33-222-187.https > middlinux.60430: Flags [P.], seq 6537:6568, ack 934, win 65535, length 31
+20:12:13.013162 IP a23-33-222-187.https > middlinux.60430: Flags [F.], seq 6568, ack 934, win 65535, length 0
+20:12:13.013235 IP middlinux.60430 > a23-33-222-187.https: Flags [R], seq 2886738723, win 0, length 0
+20:12:13.013264 IP middlinux.60430 > a23-33-222-187.https: Flags [R], seq 2886738723, win 0, length 0
+20:12:13.013502 IP a23-33-222-187.https > middlinux.60430: Flags [R.], seq 4272247295, ack 934, win 0, length 0
+20:12:13.312198 IP middlinux.58450 > hera-lan2.domain: 15324+ PTR? 2.253.233.140.in-addr.arpa. (44)
+20:12:13.317611 IP hera-lan2.domain > middlinux.58450: 15324* 1/0/0 PTR hera-lan2.middlebury.edu. (82)
+20:12:13.318123 IP middlinux.51987 > hera-lan2.domain: 17393+ PTR? 187.222.33.23.in-addr.arpa. (44)
+20:12:13.323948 IP hera-lan2.domain > middlinux.51987: 17393 1/0/0 PTR a23-33-222-187.deploy.static.akamaitechnologies.com. (109)
+

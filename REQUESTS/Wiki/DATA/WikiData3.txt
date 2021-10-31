@@ -1,0 +1,42 @@
+20:07:44.584924 IP middlinux.45751 > hera-lan2.domain: 17310+ A? www.wikipedia.com. (35)
+20:07:44.584968 IP middlinux.45751 > hera-lan2.domain: 56472+ AAAA? www.wikipedia.com. (35)
+20:07:44.591134 IP hera-lan2.domain > middlinux.45751: 17310 2/0/0 CNAME ncredir-lb.wikimedia.org., A 208.80.154.232 (89)
+20:07:44.591137 IP hera-lan2.domain > middlinux.45751: 56472 2/0/0 CNAME ncredir-lb.wikimedia.org., AAAA 2620:0:861:ed1a::9 (101)
+20:07:44.591582 IP middlinux.45208 > ncredir-lb.https: Flags [S], seq 1995800361, win 64240, options [mss 1460,sackOK,TS val 683638902 ecr 0,nop,wscale 6], length 0
+20:07:44.653725 IP ncredir-lb.https > middlinux.45208: Flags [S.], seq 21440001, ack 1995800362, win 65535, options [mss 1460], length 0
+20:07:44.653762 IP middlinux.45208 > ncredir-lb.https: Flags [.], ack 1, win 64240, length 0
+20:07:44.661072 IP middlinux.45208 > ncredir-lb.https: Flags [P.], seq 1:518, ack 1, win 64240, length 517
+20:07:44.661456 IP ncredir-lb.https > middlinux.45208: Flags [.], ack 518, win 65535, length 0
+20:07:44.724969 IP ncredir-lb.https > middlinux.45208: Flags [.], seq 1:2921, ack 518, win 65535, length 2920
+20:07:44.724988 IP middlinux.45208 > ncredir-lb.https: Flags [.], ack 2921, win 62780, length 0
+20:07:44.725250 IP ncredir-lb.https > middlinux.45208: Flags [P.], seq 2921:4097, ack 518, win 65535, length 1176
+20:07:44.725264 IP middlinux.45208 > ncredir-lb.https: Flags [.], ack 4097, win 61604, length 0
+20:07:44.725826 IP ncredir-lb.https > middlinux.45208: Flags [P.], seq 4097:4661, ack 518, win 65535, length 564
+20:07:44.725842 IP middlinux.45208 > ncredir-lb.https: Flags [.], ack 4661, win 62780, length 0
+20:07:44.726892 IP middlinux.45208 > ncredir-lb.https: Flags [P.], seq 518:598, ack 4661, win 62780, length 80
+20:07:44.727300 IP ncredir-lb.https > middlinux.45208: Flags [.], ack 598, win 65535, length 0
+20:07:44.727608 IP middlinux.45208 > ncredir-lb.https: Flags [P.], seq 598:644, ack 4661, win 62780, length 46
+20:07:44.727646 IP middlinux.45208 > ncredir-lb.https: Flags [P.], seq 644:693, ack 4661, win 62780, length 49
+20:07:44.727863 IP ncredir-lb.https > middlinux.45208: Flags [.], ack 644, win 65535, length 0
+20:07:44.727864 IP ncredir-lb.https > middlinux.45208: Flags [.], ack 693, win 65535, length 0
+20:07:44.727880 IP middlinux.45208 > ncredir-lb.https: Flags [P.], seq 693:728, ack 4661, win 62780, length 35
+20:07:44.728139 IP ncredir-lb.https > middlinux.45208: Flags [.], ack 728, win 65535, length 0
+20:07:44.728171 IP middlinux.45208 > ncredir-lb.https: Flags [P.], seq 728:792, ack 4661, win 62780, length 64
+20:07:44.728465 IP ncredir-lb.https > middlinux.45208: Flags [.], ack 792, win 65535, length 0
+20:07:44.790211 IP ncredir-lb.https > middlinux.45208: Flags [P.], seq 4661:5445, ack 792, win 65535, length 784
+20:07:44.790240 IP middlinux.45208 > ncredir-lb.https: Flags [.], ack 5445, win 62780, length 0
+20:07:44.790812 IP middlinux.45208 > ncredir-lb.https: Flags [P.], seq 792:823, ack 5445, win 62780, length 31
+20:07:44.791361 IP ncredir-lb.https > middlinux.45208: Flags [.], ack 823, win 65535, length 0
+20:07:44.791363 IP ncredir-lb.https > middlinux.45208: Flags [P.], seq 5445:5661, ack 823, win 65535, length 216
+20:07:44.791383 IP middlinux.45208 > ncredir-lb.https: Flags [.], ack 5661, win 62780, length 0
+20:07:44.795882 IP middlinux.45208 > ncredir-lb.https: Flags [P.], seq 823:847, ack 5661, win 62780, length 24
+20:07:44.796213 IP ncredir-lb.https > middlinux.45208: Flags [.], ack 847, win 65535, length 0
+20:07:44.796852 IP middlinux.45208 > ncredir-lb.https: Flags [F.], seq 847, ack 5661, win 62780, length 0
+20:07:44.797078 IP ncredir-lb.https > middlinux.45208: Flags [.], ack 848, win 65535, length 0
+20:07:44.857168 IP ncredir-lb.https > middlinux.45208: Flags [F.], seq 5661, ack 848, win 65535, length 0
+20:07:44.857192 IP middlinux.45208 > ncredir-lb.https: Flags [.], ack 5662, win 62780, length 0
+20:07:44.966463 IP middlinux.50880 > hera-lan2.domain: 35992+ PTR? 2.253.233.140.in-addr.arpa. (44)
+20:07:44.970623 IP hera-lan2.domain > middlinux.50880: 35992* 1/0/0 PTR hera-lan2.middlebury.edu. (82)
+20:07:44.971227 IP middlinux.35774 > hera-lan2.domain: 35072+ PTR? 232.154.80.208.in-addr.arpa. (45)
+20:07:44.977572 IP hera-lan2.domain > middlinux.35774: 35072 1/0/0 PTR ncredir-lb.eqiad.wikimedia.org. (89)
+
