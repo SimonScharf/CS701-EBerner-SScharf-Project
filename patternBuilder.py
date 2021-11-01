@@ -8,7 +8,7 @@ import sympy
 import math
 import numpy as np
 
-websites = ["CNN", "Reddit"]
+websites = ["CNN", "Reddit", "YouTube"]
 firstTimeValue = 0
 
 for site in websites:
