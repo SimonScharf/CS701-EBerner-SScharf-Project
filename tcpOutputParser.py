@@ -1,10 +1,15 @@
-import fileinput 
-for line in fileinput.input(files ='AmazonData4.txt'):
+#!/usr/bin/python3
+
+import sys
+import fileinput
+
+if len(sys.argv) < 2:
+    print("invalid number of argument provided to tcpOutputParser.\n")
+    print(str(sys.argv))
+    quit()
+
+for line in fileinput.input():
     if "length" in line:
-        
-        #get direction, 1 is incoming, -1 is outgoing
-        sourceIP = ""
-        destIP = ""
         content = line.split()
         sourceIP = content[2]
         destIP = content[4][:-1]

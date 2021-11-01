@@ -13,12 +13,13 @@ fi
 sudo -v
 
 while read url count; do
-    output_filename="$(echo "$url" | awk -F "." '{ print $2 }')"
+    website_name="$(echo "$url" | awk -F "." '{ print $2 }')"
     echo "I'm going to fetch $url $count times"
+    pathname_prefix=REQUESTS/${website_name}/DATA/${website_name}
 
     for i in $(seq $count); do
-        echo -e "\n\ninteration $i will be saved in ${output_filename}${i}.txt\n"
-    	sudo tcpdump -n > ${output_filename}Data${i}.txt &
+        echo -e "\n\ninteration $i will be saved in ${pathname_prefix}Data${i}.txt\n"
+    	sudo tcpdump -n > ${pathname_prefix}Data${i}.txt &
     	tcpdump_pid="$!"
 
      	curl -o /dev/null $url 
@@ -27,6 +28,13 @@ while read url count; do
     	else
             echo "the curl command ran successfully"
 	    fi
-        kill $tcpdump_pid
+        
+        sudo kill $tcpdump_pid
+        python3 tcpOutputParser.py ${pathname_prefix}Data${i}.txt > ${pathname_prefix}CleanedData${i}.txt 
+        python3 plot.py ${pathname_prefix}CleanedData${i}.txt ${website_name} ${i}
+
+
+
     done
+
 done < $input_file
