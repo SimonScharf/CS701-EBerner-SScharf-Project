@@ -18,7 +18,7 @@ while read url count; do
     pathname_prefix=REQUESTS/${website_name}/DATA/${website_name}
 
     for i in $(seq $count); do
-        echo -e "\n\ninteration $i will be saved in ${pathname_prefix}Data${i}.txt\n"
+        echo -e "\n\niteration $i will be saved in ${pathname_prefix}Data${i}.txt\n"
     	sudo tcpdump -n > ${pathname_prefix}Data${i}.txt &
     	tcpdump_pid="$!"
 
@@ -31,10 +31,7 @@ while read url count; do
         
         sudo kill $tcpdump_pid
         python3 tcpOutputParser.py ${pathname_prefix}Data${i}.txt > ${pathname_prefix}CleanedData${i}.txt 
-        python3 plot.py ${pathname_prefix}CleanedData${i}.txt ${website_name} ${i}
-
-
-
+        python3 plot.py ${pathname_prefix}CleanedData${i}.txt ${website_name} ${i} > REQUESTS/${website_name}/PLOTS/${website_name}${i}_DataPoints.txt
     done
 
 done < $input_file
