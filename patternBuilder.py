@@ -52,6 +52,7 @@ for site in websites:
                #print(bucketFloat)
                #print(bucketIndex)
             print(count_raw)
+            #np.savetxt(dir + "/" + site + "IndivBucketData.txt", count_site, fmt='%s')
             
             #compute average values 
             for i in range(20):
