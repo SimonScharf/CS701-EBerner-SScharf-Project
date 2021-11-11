@@ -19,20 +19,20 @@ while read url count; do
 
     for i in $(seq $count); do
         echo -e "\n\niteration $i will be saved in ${pathname_prefix}Data${i}.txt\n"
-    	sudo tcpdump -n > ${pathname_prefix}Data${i}.txt &
-    	tcpdump_pid="$!"
+    	sudo tcpdump -n > ${pathname_prefix}Data${i}.txt 2> /dev/null &
+        tcpdump_pid="$!"
 
-     	curl -o /dev/null $url 
+     	curl &> /dev/null $url 
 	    if test "$?" != "0"; then
             echo "the curl command failed with: $res"
     	else
             echo "the curl command ran successfully"
 	    fi
         
-        sudo kill $tcpdump_pid
-        echo "I am going to check if there are processes being run"
+        sudo kill $tcpdump_pid &> /dev/null
+        #echo "I am going to check if there are processes being run"
         #this next line make sure that all tcpdump processes are killed
-        ps auxww | grep tcpdump | awk '{ print $2 }' | xargs sudo kill
+        ps auxww | grep tcpdump | awk '{ print $2 }' | xargs sudo kill &> /dev/null
 
 
         python3 tcpOutputParser.py ${pathname_prefix}Data${i}.txt > ${pathname_prefix}CleanedData${i}.txt 
