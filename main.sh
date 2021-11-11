@@ -30,6 +30,11 @@ while read url count; do
 	    fi
         
         sudo kill $tcpdump_pid
+        echo "I am going to check if there are processes being run"
+        #this next line make sure that all tcpdump processes are killed
+        ps auxww | grep tcpdump | awk '{ print $2 }' | xargs sudo kill
+
+
         python3 tcpOutputParser.py ${pathname_prefix}Data${i}.txt > ${pathname_prefix}CleanedData${i}.txt 
         python3 plot.py ${pathname_prefix}CleanedData${i}.txt ${website_name} ${i} > REQUESTS/${website_name}/PLOTS/${website_name}${i}_DataPoints.txt
     done
