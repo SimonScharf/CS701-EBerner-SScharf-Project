@@ -7,33 +7,81 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.linear_model import Perceptron, LogisticRegression
 from sklearn.neural_network import MLPClassifier
 
-# new helpers:
-from shared import dataset_local_path, bootstrap_accuracy, simple_boxplot, TODO
-
 # stdlib:
 from dataclasses import dataclass
 import json
 from typing import Dict, Any, List
+import random
+
+import os
+import fileinput
+import time
+import math
+import numpy as np
+
+websites = ["CNN", "Reddit", "YouTube"]
+firstTimeValue = 0
 
 
 #%% load up the data
-examples = []
+X = []
 ys = []
 
-with open(dataset_local_path("poetry_id.jsonl")) as fp:
-    for line in fp:
-        info = json.loads(line)
-        # Note: the data contains a whole bunch of extra stuff; we just want numeric features for now.
-        keep = info["features"]
-        # whether or not it's poetry is our label.
-        ys.append(info["poetry"])
-        # hold onto this single dictionary.
-        examples.append(keep)
+websites = ["CNN", "Reddit", "YouTube"]
+firstTimeValue = 0
 
-## CONVERT TO MATRIX:
+for site_index, site in enumerate(websites):
+    count_site = [0]*20
+    #get full directory paths
+    dir = os.getcwd() + "/REQUESTS/" + site + "/DATA"
+    
+    #use cleaned files only
+    for filename in os.listdir(dir):
+        count_raw = [0]*20
+        if "Cleaned" in filename:
+            
+            #pattern mechanism
+            with open (dir + "/" + filename, 'r') as file:
+               data = file.readlines()
+               startTime = data[0].split()[0]
+               # print(startTime)
+               endTime = data[-1].split()[0]
+               # print(endTime)
+                
+               hr1, min1, sec1 = startTime.split(":")
+               hr2, min2, sec2 = endTime.split(":")
+                
+               msStart = float(sec1) + int(min1)*60 + int(hr1)*60*60
+               msEnd = float(sec2) + int(min2)*60 + int(hr2)*60*60
+                
+               duration = abs(msEnd-msStart)
+               bucketSize = duration/19
+               print("Bucket size is " , bucketSize)
+               #totalTime = float(endTime)- float(startTime)
 
-feature_numbering = DictVectorizer(sort=True)
-X = feature_numbering.fit_transform(examples)
+            for line in fileinput.input(files = dir + "/" + filename):
+               time = line.split()[0]
+               hr3, min3, sec3 = time.split(":")
+               msTime = float(sec3) + int(min3)*60 + int(hr3)*60*60
+               #print(msTime, msStart)
+               bucketFloat = (msTime - msStart) / bucketSize
+               bucketIndex = math.floor(bucketFloat)
+               count_raw[bucketIndex] = count_raw[bucketIndex] + 1
+               #print(count_raw)
+               #print(bucketFloat)
+               #print(bucketIndex)
+            print(count_raw)
+            X.append(count_raw)
+            ys.append(site_index)
+            #np.savetxt(dir + "/" + site + "IndivBucketData.txt", count_site, fmt='%s')
+            
+#for _ in range(100):
+#  row = [random.randint(1,10) for x in range(20)]
+#  X.append(row)
+#  ys.append(random.randint(0,9))
+
+
+X = np.array(X)
 
 print("Features as {} matrix.".format(X.shape))
 
@@ -68,7 +116,7 @@ def consider_decision_trees():
     performances: List[ExperimentResult] = []
 
     for rnd in range(3):
-        for crit in ["entropy"]:
+        for crit in ["entropy", "gini"]:
             for d in range(1, 9):
                 params = {
                     "criterion": crit,
@@ -125,17 +173,18 @@ def consider_logistic_regression() -> ExperimentResult:
     print("Consider Logistic Regression.")
     performances: List[ExperimentResult] = []
     for rnd in range(3):
-        params = {
-            "random_state": rnd,
-            "penalty": "l2",
-            "max_iter": 100,
-            "C": 1.0,
-        }
-        f = LogisticRegression(**params)
-        f.fit(X_train, y_train)
-        vali_acc = f.score(X_vali, y_vali)
-        result = ExperimentResult(vali_acc, params, f)
-        performances.append(result)
+        for C in [1.0, 0.1, 0.01, 0.001]:
+            params = {
+                "random_state": rnd,
+                "penalty": "l2",
+                "max_iter": 100,
+                "C": C,
+            }
+            f = LogisticRegression(**params)
+            f.fit(X_train, y_train)
+            vali_acc = f.score(X_vali, y_vali)
+            result = ExperimentResult(vali_acc, params, f)
+            performances.append(result)
 
     return max(performances, key=lambda result: result.vali_acc)
 
@@ -175,22 +224,22 @@ print("Best MLP", mlp)
 #%% Plot Results
 
 # Helper method to make a series of box-plots from a dictionary:
-simple_boxplot(
-    {
-        "Logistic Regression": bootstrap_accuracy(logit.model, X_vali, y_vali),
-        "Perceptron": bootstrap_accuracy(perceptron.model, X_vali, y_vali),
-        "Decision Tree": bootstrap_accuracy(dtree.model, X_vali, y_vali),
-        "RandomForest": bootstrap_accuracy(rforest.model, X_vali, y_vali),
-        "MLP/NN": bootstrap_accuracy(mlp.model, X_vali, y_vali),
-    },
-    title="Validation Accuracy",
-    xlabel="Model",
-    ylabel="Accuracy",
-    save="model-cmp.png",
-)
-
-TODO("1. Understand consider_decision_trees; I have 'tuned' it.")
-TODO("2. Find appropriate max_iter settings to stop warning messages.")
-TODO(
-    "3. Pick a model: {perceptron, logistic regression, neural_network} and optimize it!"
-)
+#simple_boxplot(
+#    {
+#        "Logistic Regression": bootstrap_accuracy(logit.model, X_vali, y_vali),
+#        "Perceptron": bootstrap_accuracy(perceptron.model, X_vali, y_vali),
+#        "Decision Tree": bootstrap_accuracy(dtree.model, X_vali, y_vali),
+#        "RandomForest": bootstrap_accuracy(rforest.model, X_vali, y_vali),
+#        "MLP/NN": bootstrap_accuracy(mlp.model, X_vali, y_vali),
+#    },
+#    title="Validation Accuracy",
+#    xlabel="Model",
+#    ylabel="Accuracy",
+#    save="model-cmp.png",
+#)
+#
+#TODO("1. Understand consider_decision_trees; I have 'tuned' it.")
+#TODO("2. Find appropriate max_iter settings to stop warning messages.")
+#TODO(
+#    "3. Pick a model: {perceptron, logistic regression, neural_network} and optimize it!"
+#)
