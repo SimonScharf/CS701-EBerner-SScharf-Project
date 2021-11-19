@@ -1,603 +1,228 @@
-19:14:15.690548 IP middlinux.36997 > hera-lan2.domain: 56366+ A? www.espn.com. (30)
-19:14:15.690592 IP middlinux.36997 > hera-lan2.domain: 31531+ AAAA? www.espn.com. (30)
-19:14:15.696909 IP hera-lan2.domain > middlinux.36997: 56366 4/0/0 A 99.84.114.96, A 99.84.114.124, A 99.84.114.102, A 99.84.114.51 (94)
-19:14:15.718857 IP hera-lan2.domain > middlinux.36997: 31531 8/0/0 AAAA 2600:9000:2162:da00:e:fe33:5580:93a1, AAAA 2600:9000:2162:6600:e:fe33:5580:93a1, AAAA 2600:9000:2162:8000:e:fe33:5580:93a1, AAAA 2600:9000:2162:7600:e:fe33:5580:93a1, AAAA 2600:9000:2162:6200:e:fe33:5580:93a1, AAAA 2600:9000:2162:ce00:e:fe33:5580:93a1, AAAA 2600:9000:2162:c000:e:fe33:5580:93a1, AAAA 2600:9000:2162:3600:e:fe33:5580:93a1 (254)
-19:14:15.719251 IP middlinux.44442 > server-99-84-114-96.https: Flags [S], seq 4182013466, win 64240, options [mss 1460,sackOK,TS val 3450947874 ecr 0,nop,wscale 6], length 0
-19:14:15.734086 IP server-99-84-114-96.https > middlinux.44442: Flags [S.], seq 192001, ack 4182013467, win 65535, options [mss 1460], length 0
-19:14:15.734124 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 1, win 64240, length 0
-19:14:15.743413 IP middlinux.44442 > server-99-84-114-96.https: Flags [P.], seq 1:518, ack 1, win 64240, length 517
-19:14:15.743957 IP server-99-84-114-96.https > middlinux.44442: Flags [.], ack 518, win 65535, length 0
-19:14:15.764685 IP server-99-84-114-96.https > middlinux.44442: Flags [.], seq 1:2921, ack 518, win 65535, length 2920
-19:14:15.764766 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 2921, win 62780, length 0
-19:14:15.765025 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 2921:5497, ack 518, win 65535, length 2576
-19:14:15.765037 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 5497, win 61320, length 0
-19:14:15.765482 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 5497:5824, ack 518, win 65535, length 327
-19:14:15.765500 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 5824, win 60993, length 0
-19:14:15.766378 IP middlinux.44442 > server-99-84-114-96.https: Flags [P.], seq 518:582, ack 5824, win 62780, length 64
-19:14:15.766614 IP server-99-84-114-96.https > middlinux.44442: Flags [.], ack 582, win 65535, length 0
-19:14:15.766722 IP middlinux.44442 > server-99-84-114-96.https: Flags [P.], seq 582:628, ack 5824, win 62780, length 46
-19:14:15.766746 IP middlinux.44442 > server-99-84-114-96.https: Flags [P.], seq 628:677, ack 5824, win 62780, length 49
-19:14:15.766984 IP server-99-84-114-96.https > middlinux.44442: Flags [.], ack 628, win 65535, length 0
-19:14:15.766986 IP server-99-84-114-96.https > middlinux.44442: Flags [.], ack 677, win 65535, length 0
-19:14:15.767004 IP middlinux.44442 > server-99-84-114-96.https: Flags [P.], seq 677:712, ack 5824, win 62780, length 35
-19:14:15.767157 IP server-99-84-114-96.https > middlinux.44442: Flags [.], ack 712, win 65535, length 0
-19:14:15.767190 IP middlinux.44442 > server-99-84-114-96.https: Flags [P.], seq 712:772, ack 5824, win 62780, length 60
-19:14:15.767440 IP server-99-84-114-96.https > middlinux.44442: Flags [.], ack 772, win 65535, length 0
-19:14:15.779120 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 5824:5917, ack 772, win 65535, length 93
-19:14:15.779139 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 5917, win 62780, length 0
-19:14:15.779509 IP middlinux.44442 > server-99-84-114-96.https: Flags [P.], seq 772:803, ack 5917, win 62780, length 31
-19:14:15.779739 IP server-99-84-114-96.https > middlinux.44442: Flags [.], ack 803, win 65535, length 0
-19:14:15.799594 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 5917:11883, ack 803, win 65535, length 5966
-19:14:15.799613 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 11883, win 59860, length 0
-19:14:15.801053 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 11883:18753, ack 803, win 65535, length 6870
-19:14:15.801208 IP server-99-84-114-96.https > middlinux.44442: Flags [.], seq 18753:21673, ack 803, win 65535, length 2920
-19:14:15.801229 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 18753, win 59860, length 0
-19:14:15.801421 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 21673, win 58400, length 0
-19:14:15.801562 IP server-99-84-114-96.https > middlinux.44442: Flags [.], seq 21673:31893, ack 803, win 65535, length 10220
-19:14:15.801574 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 31893, win 51100, length 0
-19:14:15.801817 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 31893:39363, ack 803, win 65535, length 7470
-19:14:15.801819 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 39363:42111, ack 803, win 65535, length 2748
-19:14:15.801832 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 39363, win 45260, length 0
-19:14:15.801951 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 42111, win 43800, length 0
-19:14:15.802082 IP server-99-84-114-96.https > middlinux.44442: Flags [.], seq 42111:45031, ack 803, win 65535, length 2920
-19:14:15.802144 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 45031, win 42340, length 0
-19:14:15.802498 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 45031:47607, ack 803, win 65535, length 2576
-19:14:15.802500 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 47607:48981, ack 803, win 65535, length 1374
-19:14:15.802609 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 48981, win 39420, length 0
-19:14:15.818371 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 48981:53103, ack 803, win 65535, length 4122
-19:14:15.818465 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 53103:65469, ack 803, win 65535, length 12366
-19:14:15.818542 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 53103, win 61320, length 0
-19:14:15.819385 IP server-99-84-114-96.https > middlinux.44442: Flags [.], seq 65469:74229, ack 803, win 65535, length 8760
-19:14:15.819460 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 74229, win 62780, length 0
-19:14:15.819699 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 74229:86079, ack 803, win 65535, length 11850
-19:14:15.819711 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 86079, win 65535, length 0
-19:14:15.820386 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 86079:92949, ack 803, win 65535, length 6870
-19:14:15.820390 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 92949:95697, ack 803, win 65535, length 2748
-19:14:15.820412 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 92949, win 65535, length 0
-19:14:15.820462 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 95697, win 65535, length 0
-19:14:15.820594 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 95697:97071, ack 803, win 65535, length 1374
-19:14:15.820602 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 97071, win 65535, length 0
-19:14:15.821266 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 97071:101193, ack 803, win 65535, length 4122
-19:14:15.821280 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 101193, win 65535, length 0
-19:14:15.822586 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 101193:106689, ack 803, win 65535, length 5496
-19:14:15.822606 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 106689, win 65535, length 0
-19:14:15.823772 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 106689:114933, ack 803, win 65535, length 8244
-19:14:15.823774 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 114933:117681, ack 803, win 65535, length 2748
-19:14:15.823794 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 114933, win 65535, length 0
-19:14:15.823831 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 117681, win 65535, length 0
-19:14:15.824403 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 117681:120429, ack 803, win 65535, length 2748
-19:14:15.824463 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 120429, win 65535, length 0
-19:14:15.826165 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 120429:123177, ack 803, win 65535, length 2748
-19:14:15.826184 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 123177, win 65535, length 0
-19:14:15.828451 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 123177:128673, ack 803, win 65535, length 5496
-19:14:15.828476 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 128673, win 65535, length 0
-19:14:15.832626 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 128673:146535, ack 803, win 65535, length 17862
-19:14:15.832650 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 146535, win 65535, length 0
-19:14:15.832707 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 146535:152031, ack 803, win 65535, length 5496
-19:14:15.832714 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 152031, win 65535, length 0
-19:14:15.833530 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 152031:156153, ack 803, win 65535, length 4122
-19:14:15.833532 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 156153:158901, ack 803, win 65535, length 2748
-19:14:15.833533 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 158901:160275, ack 803, win 65535, length 1374
-19:14:15.833561 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 156153, win 65535, length 0
-19:14:15.833602 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 158901, win 65535, length 0
-19:14:15.833610 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 160275, win 65535, length 0
-19:14:15.833774 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 160275:163023, ack 803, win 65535, length 2748
-19:14:15.833780 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 163023, win 65535, length 0
-19:14:15.834384 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 163023:167145, ack 803, win 65535, length 4122
-19:14:15.834386 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 167145:168519, ack 803, win 65535, length 1374
-19:14:15.834401 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 167145, win 65535, length 0
-19:14:15.834445 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 168519, win 65535, length 0
-19:14:15.834639 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 168519:169893, ack 803, win 65535, length 1374
-19:14:15.834641 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 169893:171267, ack 803, win 65535, length 1374
-19:14:15.834659 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 169893, win 65535, length 0
-19:14:15.834720 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 171267, win 65535, length 0
-19:14:15.835499 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 171267:175389, ack 803, win 65535, length 4122
-19:14:15.835501 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 175389:178137, ack 803, win 65535, length 2748
-19:14:15.835517 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 175389, win 65535, length 0
-19:14:15.835550 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 178137, win 65535, length 0
-19:14:15.836979 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 178137:183633, ack 803, win 65535, length 5496
-19:14:15.836982 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 183633:186381, ack 803, win 65535, length 2748
-19:14:15.836982 IP server-99-84-114-96.https > middlinux.44442: Flags [.], seq 186381:187841, ack 803, win 65535, length 1460
-19:14:15.837004 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 183633, win 65535, length 0
-19:14:15.837051 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 186381, win 65535, length 0
-19:14:15.837059 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 187841, win 65535, length 0
-19:14:15.837169 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 187841:189129, ack 803, win 65535, length 1288
-19:14:15.837174 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 189129, win 65535, length 0
-19:14:15.839635 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 189129:193251, ack 803, win 65535, length 4122
-19:14:15.839638 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 193251:195999, ack 803, win 65535, length 2748
-19:14:15.839639 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 195999:200121, ack 803, win 65535, length 4122
-19:14:15.839659 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 193251, win 65535, length 0
-19:14:15.839755 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 195999, win 65535, length 0
-19:14:15.839779 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 200121, win 65535, length 0
-19:14:15.839801 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 200121:202869, ack 803, win 65535, length 2748
-19:14:15.839802 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 202869:205617, ack 803, win 65535, length 2748
-19:14:15.839803 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 205617:206991, ack 803, win 65535, length 1374
-19:14:15.839803 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 206991:209739, ack 803, win 65535, length 2748
-19:14:15.839804 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 209739:211113, ack 803, win 65535, length 1374
-19:14:15.839830 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 202869, win 65535, length 0
-19:14:15.839838 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 205617, win 65535, length 0
-19:14:15.839843 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 206991, win 65535, length 0
-19:14:15.839849 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 209739, win 65535, length 0
-19:14:15.839911 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 211113, win 65535, length 0
-19:14:15.841984 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 211113:217983, ack 803, win 65535, length 6870
-19:14:15.841987 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 217983:220731, ack 803, win 65535, length 2748
-19:14:15.841988 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 220731:222105, ack 803, win 65535, length 1374
-19:14:15.842016 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 217983, win 65535, length 0
-19:14:15.842057 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 220731, win 65535, length 0
-19:14:15.842075 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 222105, win 65535, length 0
-19:14:15.842098 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 222105:224853, ack 803, win 65535, length 2748
-19:14:15.842104 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 224853, win 65535, length 0
-19:14:15.842495 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 224853:226227, ack 803, win 65535, length 1374
-19:14:15.842497 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 226227:228975, ack 803, win 65535, length 2748
-19:14:15.842511 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 226227, win 65535, length 0
-19:14:15.842528 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 228975, win 65535, length 0
-19:14:15.844446 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 228975:235845, ack 803, win 65535, length 6870
-19:14:15.844487 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 235845:238593, ack 803, win 65535, length 2748
-19:14:15.844488 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 238593:239967, ack 803, win 65535, length 1374
-19:14:15.844562 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 235845, win 65535, length 0
-19:14:15.844743 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 238593, win 65535, length 0
-19:14:15.844821 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 239967, win 65535, length 0
-19:14:15.844857 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 239967:242715, ack 803, win 65535, length 2748
-19:14:15.844860 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 242715:245463, ack 803, win 65535, length 2748
-19:14:15.844861 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 245463:246837, ack 803, win 65535, length 1374
-19:14:15.844861 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 246837:248211, ack 803, win 65535, length 1374
-19:14:15.844862 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 248211:250959, ack 803, win 65535, length 2748
-19:14:15.844875 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 242715, win 65535, length 0
-19:14:15.844892 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 245463, win 65535, length 0
-19:14:15.844907 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 246837, win 65535, length 0
-19:14:15.844922 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 248211, win 65535, length 0
-19:14:15.844936 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 250959, win 65535, length 0
-19:14:15.844970 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 250959:252333, ack 803, win 65535, length 1374
-19:14:15.844977 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 252333, win 65535, length 0
-19:14:15.845330 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 252333:255081, ack 803, win 65535, length 2748
-19:14:15.845332 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 255081:257829, ack 803, win 65535, length 2748
-19:14:15.845342 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 255081, win 65535, length 0
-19:14:15.845366 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 257829, win 65535, length 0
-19:14:15.846752 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 257829:263325, ack 803, win 65535, length 5496
-19:14:15.846755 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 263325:266073, ack 803, win 65535, length 2748
-19:14:15.846755 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 266073:267447, ack 803, win 65535, length 1374
-19:14:15.846868 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 263325, win 65535, length 0
-19:14:15.846899 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 266073, win 65535, length 0
-19:14:15.846914 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 267447, win 65535, length 0
-19:14:15.849704 IP middlinux.54235 > hera-lan2.domain: 63626+ PTR? 2.253.233.140.in-addr.arpa. (44)
-19:14:15.849873 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 267447:268821, ack 803, win 65535, length 1374
-19:14:15.849875 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 268821:271569, ack 803, win 65535, length 2748
-19:14:15.849876 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 271569:272943, ack 803, win 65535, length 1374
-19:14:15.849876 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 272943:275691, ack 803, win 65535, length 2748
-19:14:15.849877 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 275691:278439, ack 803, win 65535, length 2748
-19:14:15.849897 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 268821, win 65535, length 0
-19:14:15.849923 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 271569, win 65535, length 0
-19:14:15.849936 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 272943, win 65535, length 0
-19:14:15.849947 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 275691, win 65535, length 0
-19:14:15.849956 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 278439, win 65535, length 0
-19:14:15.850031 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 278439:279813, ack 803, win 65535, length 1374
-19:14:15.850033 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 279813:281187, ack 803, win 65535, length 1374
-19:14:15.850033 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 281187:283935, ack 803, win 65535, length 2748
-19:14:15.850034 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 283935:286683, ack 803, win 65535, length 2748
-19:14:15.850035 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 286683:288057, ack 803, win 65535, length 1374
-19:14:15.850036 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 288057:293553, ack 803, win 65535, length 5496
-19:14:15.850043 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 279813, win 65535, length 0
-19:14:15.850059 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 281187, win 65535, length 0
-19:14:15.850069 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 283935, win 65535, length 0
-19:14:15.850081 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 286683, win 65535, length 0
-19:14:15.850093 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 288057, win 65535, length 0
-19:14:15.850103 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 293553, win 65535, length 0
-19:14:15.850118 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 293553:294927, ack 803, win 65535, length 1374
-19:14:15.850119 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 294927:297675, ack 803, win 65535, length 2748
-19:14:15.850120 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 297675:299049, ack 803, win 65535, length 1374
-19:14:15.850121 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 299049:305919, ack 803, win 65535, length 6870
-19:14:15.850127 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 294927, win 65535, length 0
-19:14:15.850140 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 297675, win 65535, length 0
-19:14:15.850151 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 299049, win 65535, length 0
-19:14:15.850163 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 305919, win 65535, length 0
-19:14:15.850184 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 305919:311415, ack 803, win 65535, length 5496
-19:14:15.850193 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 311415, win 65535, length 0
-19:14:15.850885 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 311415:315537, ack 803, win 65535, length 4122
-19:14:15.850887 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 315537:318285, ack 803, win 65535, length 2748
-19:14:15.850888 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 318285:321033, ack 803, win 65535, length 2748
-19:14:15.850889 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 321033:322407, ack 803, win 65535, length 1374
-19:14:15.850909 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 315537, win 65535, length 0
-19:14:15.850938 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 318285, win 65535, length 0
-19:14:15.850950 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 321033, win 65535, length 0
-19:14:15.850962 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 322407, win 65535, length 0
-19:14:15.850983 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 322407:325155, ack 803, win 65535, length 2748
-19:14:15.850986 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 325155, win 65535, length 0
-19:14:15.851157 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 325155:326529, ack 803, win 65535, length 1374
-19:14:15.851166 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 326529, win 65535, length 0
-19:14:15.851262 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 326529:329277, ack 803, win 65535, length 2748
-19:14:15.851263 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 329277:330651, ack 803, win 65535, length 1374
-19:14:15.851271 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 329277, win 65535, length 0
-19:14:15.851281 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 330651, win 65535, length 0
-19:14:15.851558 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 330651:333399, ack 803, win 65535, length 2748
-19:14:15.851569 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 333399, win 65535, length 0
-19:14:15.851763 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 333399:336147, ack 803, win 65535, length 2748
-19:14:15.851776 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 336147, win 65535, length 0
-19:14:15.852137 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 336147:338895, ack 803, win 65535, length 2748
-19:14:15.852139 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 338895:340269, ack 803, win 65535, length 1374
-19:14:15.852140 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 340269:341643, ack 803, win 65535, length 1374
-19:14:15.852160 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 338895, win 65535, length 0
-19:14:15.852349 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 340269, win 65535, length 0
-19:14:15.852483 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 341643, win 65535, length 0
-19:14:15.853146 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 341643:347139, ack 803, win 65535, length 5496
-19:14:15.853340 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 347139, win 65535, length 0
-19:14:15.853696 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 347139:351261, ack 803, win 65535, length 4122
-19:14:15.853698 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 351261:354009, ack 803, win 65535, length 2748
-19:14:15.853699 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 354009:355383, ack 803, win 65535, length 1374
-19:14:15.853725 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 351261, win 65535, length 0
-19:14:15.853748 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 354009, win 65535, length 0
-19:14:15.853758 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 355383, win 65535, length 0
-19:14:15.855518 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 355383:358131, ack 803, win 65535, length 2748
-19:14:15.855521 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 358131:360879, ack 803, win 65535, length 2748
-19:14:15.855522 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 360879:363627, ack 803, win 65535, length 2748
-19:14:15.855523 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 363627:366375, ack 803, win 65535, length 2748
-19:14:15.855552 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 358131, win 65535, length 0
-19:14:15.855587 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 360879, win 65535, length 0
-19:14:15.855604 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 363627, win 65535, length 0
-19:14:15.855614 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 366375, win 65535, length 0
-19:14:15.855646 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 366375:370497, ack 803, win 65535, length 4122
-19:14:15.855648 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 370497:371871, ack 803, win 65535, length 1374
-19:14:15.855649 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 371871:375993, ack 803, win 65535, length 4122
-19:14:15.855650 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 375993:378741, ack 803, win 65535, length 2748
-19:14:15.855658 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 370497, win 65535, length 0
-19:14:15.855668 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 371871, win 65535, length 0
-19:14:15.855677 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 375993, win 65535, length 0
-19:14:15.855685 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 378741, win 65535, length 0
-19:14:15.855792 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 378741:381489, ack 803, win 65535, length 2748
-19:14:15.855794 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 381489:385611, ack 803, win 65535, length 4122
-19:14:15.855805 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 381489, win 65535, length 0
-19:14:15.855820 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 385611, win 65535, length 0
-19:14:15.857215 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 385611:391107, ack 803, win 65535, length 5496
-19:14:15.857268 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 391107:393855, ack 803, win 65535, length 2748
-19:14:15.857269 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 393855:395229, ack 803, win 65535, length 1374
-19:14:15.857270 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 395229:397977, ack 803, win 65535, length 2748
-19:14:15.857492 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 391107, win 65535, length 0
-19:14:15.857792 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 393855, win 65535, length 0
-19:14:15.858033 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 395229, win 65535, length 0
-19:14:15.858332 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 397977, win 65535, length 0
-19:14:15.858449 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 397977:402099, ack 803, win 65535, length 4122
-19:14:15.858452 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 402099:407595, ack 803, win 65535, length 5496
-19:14:15.858453 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 407595:411717, ack 803, win 65535, length 4122
-19:14:15.858637 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 402099, win 65535, length 0
-19:14:15.858669 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 407595, win 65535, length 0
-19:14:15.858680 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 411717, win 65535, length 0
-19:14:15.858698 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 411717:413091, ack 803, win 65535, length 1374
-19:14:15.858699 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 413091:415839, ack 803, win 65535, length 2748
-19:14:15.858700 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 415839:418587, ack 803, win 65535, length 2748
-19:14:15.858701 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 418587:422709, ack 803, win 65535, length 4122
-19:14:15.858712 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 413091, win 65535, length 0
-19:14:15.858726 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 415839, win 65535, length 0
-19:14:15.858736 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 418587, win 65535, length 0
-19:14:15.858748 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 422709, win 65535, length 0
-19:14:15.858782 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 422709:425457, ack 803, win 65535, length 2748
-19:14:15.858783 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 425457:428205, ack 803, win 65535, length 2748
-19:14:15.858784 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 428205:429579, ack 803, win 65535, length 1374
-19:14:15.858785 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 429579:432327, ack 803, win 65535, length 2748
-19:14:15.858791 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 425457, win 65535, length 0
-19:14:15.858805 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 428205, win 65535, length 0
-19:14:15.858853 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 429579, win 65535, length 0
-19:14:15.858872 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 432327, win 65535, length 0
-19:14:15.861165 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 432327:436449, ack 803, win 65535, length 4122
-19:14:15.861167 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 436449:437823, ack 803, win 65535, length 1374
-19:14:15.861168 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 437823:440571, ack 803, win 65535, length 2748
-19:14:15.861168 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 440571:441945, ack 803, win 65535, length 1374
-19:14:15.861191 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 436449, win 65535, length 0
-19:14:15.861218 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 437823, win 65535, length 0
-19:14:15.861322 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 440571, win 65535, length 0
-19:14:15.861338 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 441945, win 65535, length 0
-19:14:15.861997 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 441945:448815, ack 803, win 65535, length 6870
-19:14:15.862018 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 448815, win 65535, length 0
-19:14:15.862271 IP server-99-84-114-96.https > middlinux.44442: Flags [.], seq 448815:454655, ack 803, win 65535, length 5840
-19:14:15.862283 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 454655, win 65535, length 0
-19:14:15.862448 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 454655:455685, ack 803, win 65535, length 1030
-19:14:15.862450 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 455685:459807, ack 803, win 65535, length 4122
-19:14:15.862462 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 455685, win 65535, length 0
-19:14:15.862477 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 459807, win 65535, length 0
-19:14:15.862880 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 459807:465303, ack 803, win 65535, length 5496
-19:14:15.862883 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 465303:466677, ack 803, win 65535, length 1374
-19:14:15.862905 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 465303, win 65535, length 0
-19:14:15.862973 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 466677, win 65535, length 0
-19:14:15.863552 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 466677:469425, ack 803, win 65535, length 2748
-19:14:15.863555 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 469425:472173, ack 803, win 65535, length 2748
-19:14:15.863582 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 469425, win 65535, length 0
-19:14:15.863612 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 472173, win 65535, length 0
-19:14:15.867871 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 472173:477669, ack 803, win 65535, length 5496
-19:14:15.867875 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 477669:480417, ack 803, win 65535, length 2748
-19:14:15.867876 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 480417:484539, ack 803, win 65535, length 4122
-19:14:15.867946 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 484539:513393, ack 803, win 65535, length 28854
-19:14:15.868010 IP hera-lan2.domain > middlinux.54235: 63626* 1/0/0 PTR hera-lan2.middlebury.edu. (82)
-19:14:15.868704 IP middlinux.35312 > hera-lan2.domain: 36044+ PTR? 96.114.84.99.in-addr.arpa. (43)
-19:14:15.868945 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 484539, win 65535, length 0
-19:14:15.869069 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 513393, win 65535, length 0
-19:14:15.869331 IP server-99-84-114-96.https > middlinux.44442: Flags [.], seq 513393:529453, ack 803, win 65535, length 16060
-19:14:15.869350 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 529453, win 65535, length 0
-19:14:15.869943 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 529453:549893, ack 803, win 65535, length 20440
-19:14:15.869954 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 549893, win 65535, length 0
-19:14:15.869998 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 549893:558735, ack 803, win 65535, length 8842
-19:14:15.870052 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 558735, win 65535, length 0
-19:14:15.871905 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 558735:565605, ack 803, win 65535, length 6870
-19:14:15.871907 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 565605:566979, ack 803, win 65535, length 1374
-19:14:15.871908 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 566979:569727, ack 803, win 65535, length 2748
-19:14:15.871929 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 565605, win 65535, length 0
-19:14:15.871969 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 566979, win 65535, length 0
-19:14:15.871981 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 569727, win 65535, length 0
-19:14:15.871997 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 569727:572475, ack 803, win 65535, length 2748
-19:14:15.872002 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 572475, win 65535, length 0
-19:14:15.872117 IP server-99-84-114-96.https > middlinux.44442: Flags [.], seq 572475:573935, ack 803, win 65535, length 1460
-19:14:15.872123 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 573935, win 65535, length 0
-19:14:15.872316 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 573935:575223, ack 803, win 65535, length 1288
-19:14:15.872318 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 575223:577971, ack 803, win 65535, length 2748
-19:14:15.872433 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 575223, win 65535, length 0
-19:14:15.872458 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 577971, win 65535, length 0
-19:14:15.872746 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 577971:580719, ack 803, win 65535, length 2748
-19:14:15.872747 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 580719:582093, ack 803, win 65535, length 1374
-19:14:15.872748 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 582093:584841, ack 803, win 65535, length 2748
-19:14:15.872758 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 580719, win 65535, length 0
-19:14:15.872774 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 582093, win 65535, length 0
-19:14:15.872817 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 584841, win 65535, length 0
-19:14:15.873104 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 584841:587589, ack 803, win 65535, length 2748
-19:14:15.873105 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 587589:590337, ack 803, win 65535, length 2748
-19:14:15.873116 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 587589, win 65535, length 0
-19:14:15.873131 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 590337, win 65535, length 0
-19:14:15.873266 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 590337:591711, ack 803, win 65535, length 1374
-19:14:15.873273 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 591711, win 65535, length 0
-19:14:15.873492 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 591711:594459, ack 803, win 65535, length 2748
-19:14:15.873493 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 594459:597207, ack 803, win 65535, length 2748
-19:14:15.873503 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 594459, win 65535, length 0
-19:14:15.873518 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 597207, win 65535, length 0
-19:14:15.873641 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 597207:598581, ack 803, win 65535, length 1374
-19:14:15.873646 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 598581, win 65535, length 0
-19:14:15.873845 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 598581:602703, ack 803, win 65535, length 4122
-19:14:15.873851 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 602703, win 65535, length 0
-19:14:15.874033 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 602703:604077, ack 803, win 65535, length 1374
-19:14:15.874039 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 604077, win 65535, length 0
-19:14:15.874707 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 604077:605451, ack 803, win 65535, length 1374
-19:14:15.874721 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 605451, win 65535, length 0
-19:14:15.875457 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 605451:609573, ack 803, win 65535, length 4122
-19:14:15.875460 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 609573:612321, ack 803, win 65535, length 2748
-19:14:15.875476 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 609573, win 65535, length 0
-19:14:15.875508 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 612321, win 65535, length 0
-19:14:15.875605 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 612321:613695, ack 803, win 65535, length 1374
-19:14:15.875611 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 613695, win 65535, length 0
-19:14:15.875818 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 613695:616443, ack 803, win 65535, length 2748
-19:14:15.875828 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 616443, win 65535, length 0
-19:14:15.875916 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 616443:619191, ack 803, win 65535, length 2748
-19:14:15.875951 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 619191, win 65535, length 0
-19:14:15.876438 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 619191:623313, ack 803, win 65535, length 4122
-19:14:15.876489 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 623313:626061, ack 803, win 65535, length 2748
-19:14:15.876542 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 623313, win 65535, length 0
-19:14:15.876724 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 626061:628809, ack 803, win 65535, length 2748
-19:14:15.876726 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 628809:631557, ack 803, win 65535, length 2748
-19:14:15.877055 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 631557, win 65535, length 0
-19:14:15.877205 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 631557:632931, ack 803, win 65535, length 1374
-19:14:15.877207 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 632931:635679, ack 803, win 65535, length 2748
-19:14:15.877459 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 635679, win 65535, length 0
-19:14:15.878240 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 635679:639801, ack 803, win 65535, length 4122
-19:14:15.878296 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 639801, win 65535, length 0
-19:14:15.878506 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 639801:643923, ack 803, win 65535, length 4122
-19:14:15.878508 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 643923:646671, ack 803, win 65535, length 2748
-19:14:15.878509 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 646671:649419, ack 803, win 65535, length 2748
-19:14:15.878510 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 649419:652167, ack 803, win 65535, length 2748
-19:14:15.878674 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 652167:653541, ack 803, win 65535, length 1374
-19:14:15.878675 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 653541:654915, ack 803, win 65535, length 1374
-19:14:15.878987 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 654915:657663, ack 803, win 65535, length 2748
-19:14:15.878989 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 657663:659037, ack 803, win 65535, length 1374
-19:14:15.878989 IP server-99-84-114-96.https > middlinux.44442: Flags [.], seq 659037:660497, ack 803, win 65535, length 1460
-19:14:15.879357 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 660497:661785, ack 803, win 65535, length 1288
-19:14:15.879359 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 661785:664533, ack 803, win 65535, length 2748
-19:14:15.879485 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 664533:665907, ack 803, win 65535, length 1374
-19:14:15.879602 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 665907, win 65535, length 0
-19:14:15.880273 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 665907:670029, ack 803, win 65535, length 4122
-19:14:15.880275 IP server-99-84-114-96.https > middlinux.44442: Flags [.], seq 670029:671489, ack 803, win 65535, length 1460
-19:14:15.880302 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 670029, win 65535, length 0
-19:14:15.880766 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 671489:674151, ack 803, win 65535, length 2662
-19:14:15.880769 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 674151:676899, ack 803, win 65535, length 2748
-19:14:15.880770 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 676899:679647, ack 803, win 65535, length 2748
-19:14:15.880771 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 679647:681021, ack 803, win 65535, length 1374
-19:14:15.880772 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 681021:683769, ack 803, win 65535, length 2748
-19:14:15.881175 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 683769, win 65535, length 0
-19:14:15.881432 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 683769:686517, ack 803, win 65535, length 2748
-19:14:15.881763 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 686517:694761, ack 803, win 65535, length 8244
-19:14:15.881764 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 694761:696135, ack 803, win 65535, length 1374
-19:14:15.881863 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 696135, win 65535, length 0
-19:14:15.882322 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 696135:700257, ack 803, win 65535, length 4122
-19:14:15.882385 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 700257, win 65535, length 0
-19:14:15.882572 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 700257:703005, ack 803, win 65535, length 2748
-19:14:15.882574 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 703005:705753, ack 803, win 65535, length 2748
-19:14:15.882575 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 705753:707127, ack 803, win 65535, length 1374
-19:14:15.882639 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 703005, win 65535, length 0
-19:14:15.882755 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 705753, win 65535, length 0
-19:14:15.882768 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 707127, win 65535, length 0
-19:14:15.883318 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 707127:709875, ack 803, win 65535, length 2748
-19:14:15.883320 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 709875:712623, ack 803, win 65535, length 2748
-19:14:15.883320 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 712623:713997, ack 803, win 65535, length 1374
-19:14:15.883321 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 713997:719493, ack 803, win 65535, length 5496
-19:14:15.883336 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 709875, win 65535, length 0
-19:14:15.883613 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 712623, win 65535, length 0
-19:14:15.883740 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 713997, win 65535, length 0
-19:14:15.883909 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 719493, win 65535, length 0
-19:14:15.883949 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 719493:723615, ack 803, win 65535, length 4122
-19:14:15.883951 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 723615:724989, ack 803, win 65535, length 1374
-19:14:15.883961 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 723615, win 65535, length 0
-19:14:15.883976 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 724989, win 65535, length 0
-19:14:15.884603 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 724989:726363, ack 803, win 65535, length 1374
-19:14:15.884622 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 726363, win 65535, length 0
-19:14:15.884940 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 726363:731859, ack 803, win 65535, length 5496
-19:14:15.884956 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 731859, win 65535, length 0
-19:14:15.885159 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 731859:735981, ack 803, win 65535, length 4122
-19:14:15.885161 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 735981:738729, ack 803, win 65535, length 2748
-19:14:15.885176 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 735981, win 65535, length 0
-19:14:15.885195 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 738729, win 65535, length 0
-19:14:15.885535 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 738729:740103, ack 803, win 65535, length 1374
-19:14:15.885538 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 740103:741477, ack 803, win 65535, length 1374
-19:14:15.885539 IP server-99-84-114-96.https > middlinux.44442: Flags [.], seq 741477:744397, ack 803, win 65535, length 2920
-19:14:15.885638 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 740103, win 65535, length 0
-19:14:15.885666 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 741477, win 65535, length 0
-19:14:15.885761 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 744397, win 65535, length 0
-19:14:15.886022 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 744397:745599, ack 803, win 65535, length 1202
-19:14:15.886025 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 745599:751095, ack 803, win 65535, length 5496
-19:14:15.886026 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 751095:752469, ack 803, win 65535, length 1374
-19:14:15.886039 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 745599, win 65535, length 0
-19:14:15.886057 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 751095, win 65535, length 0
-19:14:15.886069 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 752469, win 65535, length 0
-19:14:15.886570 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 752469:755217, ack 803, win 65535, length 2748
-19:14:15.886572 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 755217:756591, ack 803, win 65535, length 1374
-19:14:15.886573 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 756591:759339, ack 803, win 65535, length 2748
-19:14:15.886574 IP server-99-84-114-96.https > middlinux.44442: Flags [.], seq 759339:760799, ack 803, win 65535, length 1460
-19:14:15.886591 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 755217, win 65535, length 0
-19:14:15.886609 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 756591, win 65535, length 0
-19:14:15.886673 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 759339, win 65535, length 0
-19:14:15.886733 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 760799, win 65535, length 0
-19:14:15.886905 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 760799:762087, ack 803, win 65535, length 1288
-19:14:15.886906 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 762087:763461, ack 803, win 65535, length 1374
-19:14:15.886907 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 763461:767583, ack 803, win 65535, length 4122
-19:14:15.886915 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 762087, win 65535, length 0
-19:14:15.886927 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 763461, win 65535, length 0
-19:14:15.887036 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 767583, win 65535, length 0
-19:14:15.887473 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 767583:770331, ack 803, win 65535, length 2748
-19:14:15.887475 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 770331:773079, ack 803, win 65535, length 2748
-19:14:15.887475 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 773079:775827, ack 803, win 65535, length 2748
-19:14:15.887476 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 775827:777201, ack 803, win 65535, length 1374
-19:14:15.887490 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 770331, win 65535, length 0
-19:14:15.887671 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 773079, win 65535, length 0
-19:14:15.887772 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 775827, win 65535, length 0
-19:14:15.887792 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 777201, win 65535, length 0
-19:14:15.888217 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 777201:778575, ack 803, win 65535, length 1374
-19:14:15.888220 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 778575:782697, ack 803, win 65535, length 4122
-19:14:15.888221 IP server-99-84-114-96.https > middlinux.44442: Flags [.], seq 782697:784157, ack 803, win 65535, length 1460
-19:14:15.888242 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 778575, win 65535, length 0
-19:14:15.888382 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 782697, win 65535, length 0
-19:14:15.888443 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 784157, win 65535, length 0
-19:14:15.888664 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 784157:785445, ack 803, win 65535, length 1288
-19:14:15.888665 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 785445:786819, ack 803, win 65535, length 1374
-19:14:15.888685 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 786819, win 65535, length 0
-19:14:15.889587 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 786819:790941, ack 803, win 65535, length 4122
-19:14:15.889589 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 790941:793689, ack 803, win 65535, length 2748
-19:14:15.889590 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 793689:796437, ack 803, win 65535, length 2748
-19:14:15.889608 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 790941, win 65535, length 0
-19:14:15.889642 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 793689, win 65535, length 0
-19:14:15.889757 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 796437, win 65535, length 0
-19:14:15.889988 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 796437:797811, ack 803, win 65535, length 1374
-19:14:15.889989 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 797811:799185, ack 803, win 65535, length 1374
-19:14:15.889990 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 799185:801933, ack 803, win 65535, length 2748
-19:14:15.889991 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 801933:803307, ack 803, win 65535, length 1374
-19:14:15.890004 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 797811, win 65535, length 0
-19:14:15.890020 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 799185, win 65535, length 0
-19:14:15.890030 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 801933, win 65535, length 0
-19:14:15.890094 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 803307, win 65535, length 0
-19:14:15.890306 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 803307:806055, ack 803, win 65535, length 2748
-19:14:15.890317 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 806055, win 65535, length 0
-19:14:15.890439 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 806055:808803, ack 803, win 65535, length 2748
-19:14:15.890447 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 808803, win 65535, length 0
-19:14:15.891170 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 808803:812925, ack 803, win 65535, length 4122
-19:14:15.891172 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 812925:814299, ack 803, win 65535, length 1374
-19:14:15.891207 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 814299:819795, ack 803, win 65535, length 5496
-19:14:15.891230 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 812925, win 65535, length 0
-19:14:15.891358 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 814299, win 65535, length 0
-19:14:15.891371 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 819795, win 65535, length 0
-19:14:15.891447 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 819795:822543, ack 803, win 65535, length 2748
-19:14:15.891448 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 822543:823917, ack 803, win 65535, length 1374
-19:14:15.891454 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 822543, win 65535, length 0
-19:14:15.891467 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 823917, win 65535, length 0
-19:14:15.891929 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 823917:828039, ack 803, win 65535, length 4122
-19:14:15.891930 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 828039:830787, ack 803, win 65535, length 2748
-19:14:15.891931 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 830787:833535, ack 803, win 65535, length 2748
-19:14:15.891931 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 833535:834909, ack 803, win 65535, length 1374
-19:14:15.891947 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 828039, win 65535, length 0
-19:14:15.891964 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 830787, win 65535, length 0
-19:14:15.891973 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 833535, win 65535, length 0
-19:14:15.892124 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 834909, win 65535, length 0
-19:14:15.893047 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 834909:837657, ack 803, win 65535, length 2748
-19:14:15.893049 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 837657:840405, ack 803, win 65535, length 2748
-19:14:15.893050 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 840405:841779, ack 803, win 65535, length 1374
-19:14:15.893051 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 841779:844527, ack 803, win 65535, length 2748
-19:14:15.893051 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 844527:848649, ack 803, win 65535, length 4122
-19:14:15.893072 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 837657, win 65535, length 0
-19:14:15.893089 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 840405, win 65535, length 0
-19:14:15.893100 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 841779, win 65535, length 0
-19:14:15.893105 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 844527, win 65535, length 0
-19:14:15.893112 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 848649, win 65535, length 0
-19:14:15.893122 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 848649:850023, ack 803, win 65535, length 1374
-19:14:15.893125 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 850023, win 65535, length 0
-19:14:15.894162 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 850023:854145, ack 803, win 65535, length 4122
-19:14:15.894297 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 854145:856893, ack 803, win 65535, length 2748
-19:14:15.894299 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 856893:859641, ack 803, win 65535, length 2748
-19:14:15.894318 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 854145, win 65535, length 0
-19:14:15.894373 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 856893, win 65535, length 0
-19:14:15.894382 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 859641, win 65535, length 0
-19:14:15.894906 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 859641:862389, ack 803, win 65535, length 2748
-19:14:15.894908 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 862389:863763, ack 803, win 65535, length 1374
-19:14:15.894909 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 863763:866511, ack 803, win 65535, length 2748
-19:14:15.894910 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 866511:869259, ack 803, win 65535, length 2748
-19:14:15.894910 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 869259:872007, ack 803, win 65535, length 2748
-19:14:15.894924 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 862389, win 65535, length 0
-19:14:15.894980 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 863763, win 65535, length 0
-19:14:15.894994 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 866511, win 65535, length 0
-19:14:15.895005 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 869259, win 65535, length 0
-19:14:15.895014 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 872007, win 65535, length 0
-19:14:15.895038 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 872007:874755, ack 803, win 65535, length 2748
-19:14:15.895042 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 874755, win 65535, length 0
-19:14:15.895276 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 874755:876129, ack 803, win 65535, length 1374
-19:14:15.895286 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 876129, win 65535, length 0
-19:14:15.895437 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 876129:878877, ack 803, win 65535, length 2748
-19:14:15.895438 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 878877:880251, ack 803, win 65535, length 1374
-19:14:15.895493 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 880251, win 65535, length 0
-19:14:15.895641 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 880251:882999, ack 803, win 65535, length 2748
-19:14:15.895642 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 882999:884373, ack 803, win 65535, length 1374
-19:14:15.895649 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 882999, win 65535, length 0
-19:14:15.895660 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 884373, win 65535, length 0
-19:14:15.895848 IP server-99-84-114-96.https > middlinux.44442: Flags [.], seq 884373:885833, ack 803, win 65535, length 1460
-19:14:15.895857 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 885833, win 65535, length 0
-19:14:15.896081 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 885833:887121, ack 803, win 65535, length 1288
-19:14:15.896082 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 887121:889869, ack 803, win 65535, length 2748
-19:14:15.896083 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 889869:891243, ack 803, win 65535, length 1374
-19:14:15.896110 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 891243, win 65535, length 0
-19:14:15.896974 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 891243:893991, ack 803, win 65535, length 2748
-19:14:15.896978 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 893991:898113, ack 803, win 65535, length 4122
-19:14:15.896981 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 898113:903609, ack 803, win 65535, length 5496
-19:14:15.897008 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 893991, win 65535, length 0
-19:14:15.897038 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 898113, win 65535, length 0
-19:14:15.897114 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 903609, win 65535, length 0
-19:14:15.897141 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 903609:904983, ack 803, win 65535, length 1374
-19:14:15.897147 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 904983, win 65535, length 0
-19:14:15.897399 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 904983:907731, ack 803, win 65535, length 2748
-19:14:15.897426 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 907731, win 65535, length 0
-19:14:15.899327 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 907731:910479, ack 803, win 65535, length 2748
-19:14:15.899330 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 910479:914601, ack 803, win 65535, length 4122
-19:14:15.899331 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 914601:918723, ack 803, win 65535, length 4122
-19:14:15.899450 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 910479, win 65535, length 0
-19:14:15.899701 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 914601, win 65535, length 0
-19:14:15.899723 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 918723, win 65535, length 0
-19:14:15.899750 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 918723:922845, ack 803, win 65535, length 4122
-19:14:15.899751 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 922845:924219, ack 803, win 65535, length 1374
-19:14:15.899752 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 924219:926967, ack 803, win 65535, length 2748
-19:14:15.899753 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 926967:928341, ack 803, win 65535, length 1374
-19:14:15.899759 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 922845, win 65535, length 0
-19:14:15.899766 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 924219, win 65535, length 0
-19:14:15.899771 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 926967, win 65535, length 0
-19:14:15.899825 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 928341, win 65535, length 0
-19:14:15.900179 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 928341:931089, ack 803, win 65535, length 2748
-19:14:15.900182 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 931089:933837, ack 803, win 65535, length 2748
-19:14:15.900279 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 931089, win 65535, length 0
-19:14:15.900399 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 933837, win 65535, length 0
-19:14:15.900743 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 933837:936585, ack 803, win 65535, length 2748
-19:14:15.900745 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 936585:939333, ack 803, win 65535, length 2748
-19:14:15.900745 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 939333:940707, ack 803, win 65535, length 1374
-19:14:15.900746 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 940707:943455, ack 803, win 65535, length 2748
-19:14:15.900807 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 936585, win 65535, length 0
-19:14:15.900868 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 939333, win 65535, length 0
-19:14:15.900877 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 940707, win 65535, length 0
-19:14:15.901770 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 943455, win 65535, length 0
-19:14:15.901985 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 943455:944829, ack 803, win 65535, length 1374
-19:14:15.901986 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 944829:947577, ack 803, win 65535, length 2748
-19:14:15.901987 IP server-99-84-114-96.https > middlinux.44442: Flags [P.], seq 947577:948657, ack 803, win 65535, length 1080
-19:14:15.901987 IP hera-lan2.domain > middlinux.35312: 36044 1/0/0 PTR server-99-84-114-96.ewr52.r.cloudfront.net. (99)
-19:14:15.902005 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 944829, win 65535, length 0
-19:14:15.902025 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 947577, win 65535, length 0
-19:14:15.903279 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 948657, win 65535, length 0
-19:14:15.911514 IP middlinux.44442 > server-99-84-114-96.https: Flags [P.], seq 803:827, ack 948657, win 65535, length 24
-19:14:15.912051 IP server-99-84-114-96.https > middlinux.44442: Flags [.], ack 827, win 65535, length 0
-19:14:15.912845 IP middlinux.44442 > server-99-84-114-96.https: Flags [F.], seq 827, ack 948657, win 65535, length 0
-19:14:15.913124 IP server-99-84-114-96.https > middlinux.44442: Flags [.], ack 828, win 65535, length 0
-19:14:15.924311 IP server-99-84-114-96.https > middlinux.44442: Flags [F.], seq 948657, ack 828, win 65535, length 0
-19:14:15.924339 IP middlinux.44442 > server-99-84-114-96.https: Flags [.], ack 948658, win 24376, length 0
+13:04:09.185821 IP 140.233.253.2.53 > 10.0.2.15.48126: 55737 4/0/0 A 99.84.126.35, A 99.84.126.121, A 99.84.126.86, A 99.84.126.23 (94)
+13:04:09.185824 IP 140.233.253.2.53 > 10.0.2.15.48126: 60852 8/0/0 AAAA 2600:9000:2162:f000:e:fe33:5580:93a1, AAAA 2600:9000:2162:d400:e:fe33:5580:93a1, AAAA 2600:9000:2162:fa00:e:fe33:5580:93a1, AAAA 2600:9000:2162:c000:e:fe33:5580:93a1, AAAA 2600:9000:2162:7c00:e:fe33:5580:93a1, AAAA 2600:9000:2162:5a00:e:fe33:5580:93a1, AAAA 2600:9000:2162:7800:e:fe33:5580:93a1, AAAA 2600:9000:2162:4000:e:fe33:5580:93a1 (254)
+13:04:09.186183 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [S], seq 1334044002, win 64240, options [mss 1460,sackOK,TS val 367245307 ecr 0,nop,wscale 6], length 0
+13:04:09.201440 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [S.], seq 3264001, ack 1334044003, win 65535, options [mss 1460], length 0
+13:04:09.201470 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 1, win 64240, length 0
+13:04:09.212108 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [P.], seq 1:518, ack 1, win 64240, length 517
+13:04:09.212987 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [.], ack 518, win 65535, length 0
+13:04:09.228207 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [.], seq 1:2921, ack 518, win 65535, length 2920
+13:04:09.228318 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 2921, win 62780, length 0
+13:04:09.228655 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 2921:4123, ack 518, win 65535, length 1202
+13:04:09.228669 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 4123, win 61578, length 0
+13:04:09.231431 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 4123:5497, ack 518, win 65535, length 1374
+13:04:09.231450 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 5497, win 62780, length 0
+13:04:09.232046 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 5497:5824, ack 518, win 65535, length 327
+13:04:09.232067 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 5824, win 62780, length 0
+13:04:09.232755 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [P.], seq 518:582, ack 5824, win 62780, length 64
+13:04:09.233026 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [.], ack 582, win 65535, length 0
+13:04:09.233116 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [P.], seq 582:628, ack 5824, win 62780, length 46
+13:04:09.233147 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [P.], seq 628:677, ack 5824, win 62780, length 49
+13:04:09.233388 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [.], ack 628, win 65535, length 0
+13:04:09.233389 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [.], ack 677, win 65535, length 0
+13:04:09.233403 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [P.], seq 677:772, ack 5824, win 62780, length 95
+13:04:09.233527 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [.], ack 772, win 65535, length 0
+13:04:09.247141 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 5824:5886, ack 772, win 65535, length 62
+13:04:09.247144 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 5886:5917, ack 772, win 65535, length 31
+13:04:09.247172 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 5886, win 62780, length 0
+13:04:09.247218 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 5917, win 62780, length 0
+13:04:09.247519 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [P.], seq 772:803, ack 5917, win 62780, length 31
+13:04:09.247948 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [.], ack 803, win 65535, length 0
+13:04:09.265348 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 5917:12436, ack 803, win 65535, length 6519
+13:04:09.265351 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 12436:16307, ack 803, win 65535, length 3871
+13:04:09.265395 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 12436, win 59860, length 0
+13:04:09.265444 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 16307, win 56940, length 0
+13:04:09.266235 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [.], seq 16307:30907, ack 803, win 65535, length 14600
+13:04:09.266257 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 30907, win 46720, length 0
+13:04:09.266729 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 30907:45170, ack 803, win 65535, length 14263
+13:04:09.266746 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 45170, win 37960, length 0
+13:04:09.266785 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [.], seq 45170:46630, ack 803, win 65535, length 1460
+13:04:09.266791 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 46630, win 36500, length 0
+13:04:09.267146 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 46630:47918, ack 803, win 65535, length 1288
+13:04:09.267392 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 47918, win 62780, length 0
+13:04:09.279283 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 47918:53414, ack 803, win 65535, length 5496
+13:04:09.279391 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 53414, win 61320, length 0
+13:04:09.280062 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 53414:57536, ack 803, win 65535, length 4122
+13:04:09.280075 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 57536, win 61320, length 0
+13:04:09.281483 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 57536:64406, ack 803, win 65535, length 6870
+13:04:09.281486 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 64406:68528, ack 803, win 65535, length 4122
+13:04:09.281585 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 68528, win 62780, length 0
+13:04:09.282976 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 68528:74024, ack 803, win 65535, length 5496
+13:04:09.282993 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 74024, win 65535, length 0
+13:04:09.283964 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 74024:82268, ack 803, win 65535, length 8244
+13:04:09.283966 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [.], seq 82268:83728, ack 803, win 65535, length 1460
+13:04:09.283981 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 82268, win 65535, length 0
+13:04:09.284008 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 83728, win 65535, length 0
+13:04:09.284202 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 83728:85016, ack 803, win 65535, length 1288
+13:04:09.284207 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 85016, win 65535, length 0
+13:04:09.286224 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 85016:96008, ack 803, win 65535, length 10992
+13:04:09.286244 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 96008, win 65535, length 0
+13:04:09.287009 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 96008:100130, ack 803, win 65535, length 4122
+13:04:09.287011 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 100130:104252, ack 803, win 65535, length 4122
+13:04:09.287028 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 100130, win 65535, length 0
+13:04:09.287120 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 104252, win 65535, length 0
+13:04:09.287293 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 104252:105626, ack 803, win 65535, length 1374
+13:04:09.287295 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 105626:108374, ack 803, win 65535, length 2748
+13:04:09.287307 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 105626, win 65535, length 0
+13:04:09.287407 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 108374, win 65535, length 0
+13:04:09.289226 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 108374:113870, ack 803, win 65535, length 5496
+13:04:09.289229 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 113870:119366, ack 803, win 65535, length 5496
+13:04:09.289252 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 113870, win 65535, length 0
+13:04:09.289286 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 119366, win 65535, length 0
+13:04:09.289337 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 119366:122114, ack 803, win 65535, length 2748
+13:04:09.289343 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 122114, win 65535, length 0
+13:04:09.292405 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 122114:135854, ack 803, win 65535, length 13740
+13:04:09.292429 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 135854, win 65535, length 0
+13:04:09.292531 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 135854:137228, ack 803, win 65535, length 1374
+13:04:09.292537 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 137228, win 65535, length 0
+13:04:09.293513 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 137228:146846, ack 803, win 65535, length 9618
+13:04:09.293531 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 146846, win 65535, length 0
+13:04:09.294391 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 146846:150968, ack 803, win 65535, length 4122
+13:04:09.294394 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 150968:153716, ack 803, win 65535, length 2748
+13:04:09.294394 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 153716:155090, ack 803, win 65535, length 1374
+13:04:09.294418 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 150968, win 65535, length 0
+13:04:09.294453 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 153716, win 65535, length 0
+13:04:09.294471 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 155090, win 65535, length 0
+13:04:09.296424 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 155090:160586, ack 803, win 65535, length 5496
+13:04:09.296427 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 160586:163334, ack 803, win 65535, length 2748
+13:04:09.296450 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 160586, win 65535, length 0
+13:04:09.296488 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 163334, win 65535, length 0
+13:04:09.296726 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 163334:171578, ack 803, win 65535, length 8244
+13:04:09.296737 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 171578, win 65535, length 0
+13:04:09.297554 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 171578:179822, ack 803, win 65535, length 8244
+13:04:09.297569 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 179822, win 65535, length 0
+13:04:09.298867 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 179822:189440, ack 803, win 65535, length 9618
+13:04:09.298869 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 189440:192188, ack 803, win 65535, length 2748
+13:04:09.298887 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 189440, win 65535, length 0
+13:04:09.298917 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 192188, win 65535, length 0
+13:04:09.299465 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [.], seq 192188:195108, ack 803, win 65535, length 2920
+13:04:09.299480 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 195108, win 65535, length 0
+13:04:09.299798 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 195108:197684, ack 803, win 65535, length 2576
+13:04:09.299799 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 197684:200432, ack 803, win 65535, length 2748
+13:04:09.299809 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 197684, win 65535, length 0
+13:04:09.299836 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 200432, win 65535, length 0
+13:04:09.301266 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 200432:211424, ack 803, win 65535, length 10992
+13:04:09.301284 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 211424, win 65535, length 0
+13:04:09.301327 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 211424:215546, ack 803, win 65535, length 4122
+13:04:09.301328 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 215546:216920, ack 803, win 65535, length 1374
+13:04:09.301338 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 215546, win 65535, length 0
+13:04:09.301351 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 216920, win 65535, length 0
+13:04:09.303049 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 216920:225164, ack 803, win 65535, length 8244
+13:04:09.303052 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 225164:230660, ack 803, win 65535, length 5496
+13:04:09.303071 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 225164, win 65535, length 0
+13:04:09.303099 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 230660, win 65535, length 0
+13:04:09.303113 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 230660:234782, ack 803, win 65535, length 4122
+13:04:09.303116 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 234782, win 65535, length 0
+13:04:09.304016 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 234782:243026, ack 803, win 65535, length 8244
+13:04:09.304029 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 243026, win 65535, length 0
+13:04:09.304122 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 243026:244400, ack 803, win 65535, length 1374
+13:04:09.304128 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 244400, win 65535, length 0
+13:04:09.305078 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 244400:251270, ack 803, win 65535, length 6870
+13:04:09.305099 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 251270, win 65535, length 0
+13:04:09.305222 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 251270:256766, ack 803, win 65535, length 5496
+13:04:09.305229 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 256766, win 65535, length 0
+13:04:09.306616 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 256766:265010, ack 803, win 65535, length 8244
+13:04:09.306670 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 265010, win 65535, length 0
+13:04:09.306988 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 265010:269132, ack 803, win 65535, length 4122
+13:04:09.306999 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 269132, win 65535, length 0
+13:04:09.307310 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 269132:271880, ack 803, win 65535, length 2748
+13:04:09.307313 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 271880:276002, ack 803, win 65535, length 4122
+13:04:09.307313 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 276002:277376, ack 803, win 65535, length 1374
+13:04:09.307328 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 271880, win 65535, length 0
+13:04:09.307438 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 276002, win 65535, length 0
+13:04:09.307463 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 277376, win 65535, length 0
+13:04:09.307589 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 277376:281498, ack 803, win 65535, length 4122
+13:04:09.307596 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 281498, win 65535, length 0
+13:04:09.308291 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 281498:285620, ack 803, win 65535, length 4122
+13:04:09.308817 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 285620:289742, ack 803, win 65535, length 4122
+13:04:09.308819 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 289742:292490, ack 803, win 65535, length 2748
+13:04:09.308820 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 292490:295238, ack 803, win 65535, length 2748
+13:04:09.308820 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 295238:297986, ack 803, win 65535, length 2748
+13:04:09.308914 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 297986:300734, ack 803, win 65535, length 2748
+13:04:09.309125 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 300734:303482, ack 803, win 65535, length 2748
+13:04:09.309508 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 303482:306230, ack 803, win 65535, length 2748
+13:04:09.309907 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 306230:310352, ack 803, win 65535, length 4122
+13:04:09.310340 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 310352:315848, ack 803, win 65535, length 5496
+13:04:09.310669 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 306230, win 65535, length 0
+13:04:09.310694 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 315848, win 65535, length 0
+13:04:09.311245 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 315848:328214, ack 803, win 65535, length 12366
+13:04:09.311386 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 328214:332336, ack 803, win 65535, length 4122
+13:04:09.311389 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 332336:337832, ack 803, win 65535, length 5496
+13:04:09.311390 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 337832:341954, ack 803, win 65535, length 4122
+13:04:09.311561 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 341954:344702, ack 803, win 65535, length 2748
+13:04:09.311675 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 344702:347450, ack 803, win 65535, length 2748
+13:04:09.311849 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 347450:350198, ack 803, win 65535, length 2748
+13:04:09.311866 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 337832, win 65535, length 0
+13:04:09.311884 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 347450, win 65535, length 0
+13:04:09.311900 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 350198, win 65535, length 0
+13:04:09.312057 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 350198:352946, ack 803, win 65535, length 2748
+13:04:09.312075 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 352946, win 65535, length 0
+13:04:09.312878 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 352946:359816, ack 803, win 65535, length 6870
+13:04:09.312881 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 359816:362564, ack 803, win 65535, length 2748
+13:04:09.312899 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 359816, win 65535, length 0
+13:04:09.312930 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 362564, win 65535, length 0
+13:04:09.313176 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 362564:363938, ack 803, win 65535, length 1374
+13:04:09.313178 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 363938:368060, ack 803, win 65535, length 4122
+13:04:09.313191 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 363938, win 65535, length 0
+13:04:09.313210 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 368060, win 65535, length 0
+13:04:09.313475 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 368060:370808, ack 803, win 65535, length 2748
+13:04:09.313477 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 370808:374930, ack 803, win 65535, length 4122
+13:04:09.313486 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 370808, win 65535, length 0
+13:04:09.313514 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 374930, win 65535, length 0
+13:04:09.314801 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 374930:381800, ack 803, win 65535, length 6870
+13:04:09.314804 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 381800:385922, ack 803, win 65535, length 4122
+13:04:09.314866 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 381800, win 65535, length 0
+13:04:09.314901 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 385922, win 65535, length 0
+13:04:09.315016 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 385922:388670, ack 803, win 65535, length 2748
+13:04:09.315017 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 388670:392792, ack 803, win 65535, length 4122
+13:04:09.315017 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 392792:395540, ack 803, win 65535, length 2748
+13:04:09.315025 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 388670, win 65535, length 0
+13:04:09.315071 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 392792, win 65535, length 0
+13:04:09.315085 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 395540, win 65535, length 0
+13:04:09.315287 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 395540:399662, ack 803, win 65535, length 4122
+13:04:09.315288 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 399662:401036, ack 803, win 65535, length 1374
+13:04:09.315289 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 401036:403784, ack 803, win 65535, length 2748
+13:04:09.315298 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 399662, win 65535, length 0
+13:04:09.315357 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 401036, win 65535, length 0
+13:04:09.315370 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 403784, win 65535, length 0
+13:04:09.315511 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 403784:407906, ack 803, win 65535, length 4122
+13:04:09.315516 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 407906, win 65535, length 0
+13:04:09.316119 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 407906:412028, ack 803, win 65535, length 4122
+13:04:09.316122 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 412028:416150, ack 803, win 65535, length 4122
+13:04:09.316186 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 412028, win 65535, length 0
+13:04:09.316260 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 416150, win 65535, length 0
+13:04:09.316507 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 416150:418898, ack 803, win 65535, length 2748
+13:04:09.316509 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 418898:421646, ack 803, win 65535, length 2748
+13:04:09.316509 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 421646:424394, ack 803, win 65535, length 2748
+13:04:09.316519 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 418898, win 65535, length 0
+13:04:09.316534 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 421646, win 65535, length 0
+13:04:09.316793 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 424394, win 65535, length 0
+13:04:09.316930 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 424394:427142, ack 803, win 65535, length 2748
+13:04:09.316931 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 427142:429890, ack 803, win 65535, length 2748
+13:04:09.316962 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 427142, win 65535, length 0
+13:04:09.316977 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 429890, win 65535, length 0
+13:04:09.317724 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 429890:435386, ack 803, win 65535, length 5496
+13:04:09.317726 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 435386:440882, ack 803, win 65535, length 5496
+13:04:09.317739 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 435386, win 65535, length 0
+13:04:09.317847 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 440882, win 65535, length 0
+13:04:09.317874 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 440882:443630, ack 803, win 65535, length 2748
+13:04:09.317879 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 443630, win 65535, length 0
+13:04:09.318049 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 443630:446378, ack 803, win 65535, length 2748
+13:04:09.318057 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 446378, win 65535, length 0
+13:04:09.318204 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 446378:449126, ack 803, win 65535, length 2748
+13:04:09.318206 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 449126:453248, ack 803, win 65535, length 4122
+13:04:09.318216 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 449126, win 65535, length 0
+13:04:09.318233 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 453248, win 65535, length 0
+13:04:09.318415 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 453248:455996, ack 803, win 65535, length 2748
+13:04:09.318672 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 455996:461492, ack 803, win 65535, length 5496
+13:04:09.318704 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 461492, win 65535, length 0
+13:04:09.318920 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 461492:464240, ack 803, win 65535, length 2748
+13:04:09.318921 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 464240:466988, ack 803, win 65535, length 2748
+13:04:09.318935 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 464240, win 65535, length 0
+13:04:09.318952 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 466988, win 65535, length 0
+13:04:09.319065 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 466988:469736, ack 803, win 65535, length 2748
+13:04:09.319072 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 469736, win 65535, length 0
+13:04:09.320337 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 469736:476606, ack 803, win 65535, length 6870
+13:04:09.320341 IP 99.84.126.35.443 > 10.0.2.15.51156: Flags [P.], seq 476606:484850, ack 803, win 65535, length 8244
+13:04:09.320362 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 476606, win 65535, length 0
+13:04:09.320398 IP 10.0.2.15.51156 > 99.84.126.35.443: Flags [.], ack 484850, win 65535, length 0
 

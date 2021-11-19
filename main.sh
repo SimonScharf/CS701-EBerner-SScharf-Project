@@ -36,7 +36,7 @@ while read url count; do
 
 
         python3 tcpOutputParser.py ${pathname_prefix}Data${i}.txt > ${pathname_prefix}CleanedData${i}.txt 
-        python3 plot.py ${pathname_prefix}CleanedData${i}.txt ${website_name} ${i} > REQUESTS/${website_name}/PLOTS/${website_name}${i}_DataPoints.txt
+        #python3 plot.py ${pathname_prefix}CleanedData${i}.txt ${website_name} ${i} > REQUESTS/${website_name}/PLOTS/${website_name}${i}_DataPoints.txt
     done
 
 done < $input_file
