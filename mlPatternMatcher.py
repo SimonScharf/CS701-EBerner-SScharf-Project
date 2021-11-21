@@ -19,7 +19,6 @@ import time
 import math
 import numpy as np
 
-websites = ["CNN", "Reddit", "YouTube"]
 firstTimeValue = 0
 
 
@@ -27,7 +26,10 @@ firstTimeValue = 0
 X = []
 ys = []
 
-websites = ["CNN", "Reddit", "YouTube"]
+
+websites = [name for name in os.listdir("./REQUESTS/") if name != '.DS_Store' and name != 'unknown']
+#websites = ["cnn", "reddit", "youtube"]
+
 firstTimeValue = 0
 
 for site_index, site in enumerate(websites):
@@ -37,7 +39,7 @@ for site_index, site in enumerate(websites):
     
     #use cleaned files only
     for filename in os.listdir(dir):
-        count_raw = [0]*20
+        bucketArr = [0]*20
         if "Cleaned" in filename:
             
             #pattern mechanism
@@ -48,11 +50,11 @@ for site_index, site in enumerate(websites):
                endTime = data[-1].split()[0]
                # print(endTime)
                 
-               hr1, min1, sec1 = startTime.split(":")
-               hr2, min2, sec2 = endTime.split(":")
+               startHr, startMin, startSec = startTime.split(":")
+               endHour, endMin, endSec = endTime.split(":")
                 
-               msStart = float(sec1) + int(min1)*60 + int(hr1)*60*60
-               msEnd = float(sec2) + int(min2)*60 + int(hr2)*60*60
+               msStart = float(startSec) + int(startMin)*60 + int(startHr)*60*60
+               msEnd = float(endSec) + int(endMin)*60 + int(endHour)*60*60
                 
                duration = abs(msEnd-msStart)
                bucketSize = duration/19
@@ -61,17 +63,15 @@ for site_index, site in enumerate(websites):
 
             for line in fileinput.input(files = dir + "/" + filename):
                time = line.split()[0]
-               hr3, min3, sec3 = time.split(":")
-               msTime = float(sec3) + int(min3)*60 + int(hr3)*60*60
-               #print(msTime, msStart)
-               bucketFloat = (msTime - msStart) / bucketSize
-               bucketIndex = math.floor(bucketFloat)
-               count_raw[bucketIndex] = count_raw[bucketIndex] + 1
-               #print(count_raw)
+               currentHr, currentMin, currentSec = time.split(":")
+               currPacketTime = float(currentSec) + int(currentMin)*60 + int(currentHr)*60*60
+               bucketIndex = math.floor((currPacketTime - msStart) / bucketSize)
+               bucketArr[bucketIndex] = bucketArr[bucketIndex] + 1
+               #print(bucketArr)
                #print(bucketFloat)
                #print(bucketIndex)
-            print(count_raw)
-            X.append(count_raw)
+            print(bucketArr)
+            X.append(bucketArr)
             ys.append(site_index)
             #np.savetxt(dir + "/" + site + "IndivBucketData.txt", count_site, fmt='%s')
             

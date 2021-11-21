@@ -21,7 +21,9 @@ while read url count; do
         echo "iteration $i will be saved in ${pathname_prefix}Data${i}.txt"
     	sudo tcpdump -n > ${pathname_prefix}Data${i}.txt 2> /dev/null &
         tcpdump_pid="$!"
-
+        
+        if website_name == 'amazon' or website_name == 'chase':
+                sleep(1)
      	curl &> /dev/null $url 
 	    if test "$?" != "0"; then
             echo "the curl command failed with: $res"
