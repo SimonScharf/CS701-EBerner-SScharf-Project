@@ -27,7 +27,7 @@ X = []
 ys = []
 
 
-websites = [name for name in os.listdir("./REQUESTS/") if name != '.DS_Store' and name != 'unknown']
+websites = [name for name in os.listdir("./REQUESTS/") if name != '.DS_Store' and name != 'unknown' and name != 'amazon' and name != 'chase' and name != 'wikipedia' and name != 'google']
 #websites = ["cnn", "reddit", "youtube"]
 
 firstTimeValue = 0
