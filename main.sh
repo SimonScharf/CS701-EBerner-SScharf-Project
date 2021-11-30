@@ -22,8 +22,10 @@ while read url count; do
     	sudo tcpdump -n > ${pathname_prefix}Data${i}.txt 2> /dev/null &
         tcpdump_pid="$!"
         
-        if website_name == 'amazon' or website_name == 'chase':
-                sleep(1)
+        if [ "$website_name" == "amazon" ] || [  "$website_name" == "chase" ] || [ "$website_name" == "google" ] || [ "$website_name" == "wikipedia" ] ; then
+                sleep 5
+	fi
+
      	curl &> /dev/null $url 
 	    if test "$?" != "0"; then
             echo "the curl command failed with: $res"

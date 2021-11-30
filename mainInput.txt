@@ -1,2 +1,10 @@
-https://www.amazon.com/ 30
+https://www.cnn.com/ 30
+https://www.espn.com/ 30
+https://www.amazom.com/ 30
 https://www.chase.com/ 30
+https://www.cnn.com/ 30
+https://www.google.com/ 30
+https://www.nytimes.com/ 30
+https://www.reddit.com/ 30
+https://www.wikipedia.com/ 30
+https://www.youtube.com/ 30
