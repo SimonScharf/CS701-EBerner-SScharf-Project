@@ -13,11 +13,14 @@ import json
 from typing import Dict, Any, List
 import random
 
+import joblib
+
 import os
 import fileinput
 import time
 import math
 import numpy as np
+from collections import Counter
 
 firstTimeValue = 0
 
@@ -81,9 +84,11 @@ for site_index, site in enumerate(websites):
 #  ys.append(random.randint(0,9))
 
 
-X = np.array(X)
+X = np.array(X) > 0
 
 print("Features as {} matrix.".format(X.shape))
+print(websites)
+print(Counter(ys))
 
 
 ## SPLIT DATA:
@@ -109,6 +114,7 @@ class ExperimentResult:
     vali_acc: float
     params: Dict[str, Any]
     model: ClassifierMixin
+    train_acc: float = 0.0
 
 
 def consider_decision_trees():
@@ -126,7 +132,8 @@ def consider_decision_trees():
                 f = DecisionTreeClassifier(**params)
                 f.fit(X_train, y_train)
                 vali_acc = f.score(X_vali, y_vali)
-                result = ExperimentResult(vali_acc, params, f)
+                train_acc = f.score(X_train, y_train)
+                result = ExperimentResult(vali_acc, params, f, train_acc)
                 performances.append(result)
     return max(performances, key=lambda result: result.vali_acc)
 
@@ -146,7 +153,8 @@ def consider_random_forest():
                 f = RandomForestClassifier(**params)
                 f.fit(X_train, y_train)
                 vali_acc = f.score(X_vali, y_vali)
-                result = ExperimentResult(vali_acc, params, f)
+                train_acc = f.score(X_train, y_train)
+                result = ExperimentResult(vali_acc, params, f, train_acc)
                 performances.append(result)
     return max(performances, key=lambda result: result.vali_acc)
 
@@ -177,13 +185,14 @@ def consider_logistic_regression() -> ExperimentResult:
             params = {
                 "random_state": rnd,
                 "penalty": "l2",
-                "max_iter": 100,
+                "max_iter": 1000,
                 "C": C,
             }
             f = LogisticRegression(**params)
             f.fit(X_train, y_train)
             vali_acc = f.score(X_vali, y_vali)
-            result = ExperimentResult(vali_acc, params, f)
+            train_acc = f.score(X_train, y_train)
+            result = ExperimentResult(vali_acc, params, f, train_acc)
             performances.append(result)
 
     return max(performances, key=lambda result: result.vali_acc)
@@ -203,7 +212,8 @@ def consider_neural_net() -> ExperimentResult:
         f = MLPClassifier(**params)
         f.fit(X_train, y_train)
         vali_acc = f.score(X_vali, y_vali)
-        result = ExperimentResult(vali_acc, params, f)
+        train_acc = f.score(X_train, y_train)
+        result = ExperimentResult(vali_acc, params, f, train_acc)
         performances.append(result)
 
     return max(performances, key=lambda result: result.vali_acc)
@@ -220,6 +230,8 @@ print("Best Perceptron", perceptron)
 print("Best DTree", dtree)
 print("Best RForest", rforest)
 print("Best MLP", mlp)
+
+joblib.dump(mlp.model, 'MLP-binary-model.model')
 
 #%% Plot Results
 
