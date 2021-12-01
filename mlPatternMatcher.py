@@ -30,7 +30,8 @@ X = []
 ys = []
 
 
-#websites = [name for name in os.listdir("./REQUESTS/") if name != '.DS_Store' and name != 'unknown' and name != 'amazon' and name != 'chase' and name != 'wikipedia' and name != 'google']
+websites = [name for name in os.listdir("./REQUESTS/") if name != '.DS_Store' and name != 'unknown' and name != 'amazon' and name != 'chase' and name != 'wikipedia' and name != 'google']
+print(websites)
 #websites = ["cnn", "reddit", "youtube"]
 
 firstTimeValue = 0
@@ -42,16 +43,26 @@ for site_index, site in enumerate(websites):
     
     #use cleaned files only
     for filename in os.listdir(dir):
+
+        #we create 20 buckets to allocate packets into
+        #20 is relatively arbitrary we could use more to potentially increase accuracy
         bucketArr = [0]*20
+
+        #we only considered the clean data with "Cleaned" in their name
+        #we do file parsing in earlier step to create clean files
         if "Cleaned" in filename:
-            
-            #pattern mechanism
+
             with open (dir + "/" + filename, 'r') as file:
                data = file.readlines()
+
+               #if file is empty, we log the error and try next file
+               if len(data) < 1:
+                   print("Error: Unable to bucketize. " + filename + " is empty.")
+                   break
+
+               #we get start time from first data point, end time from last data point
                startTime = data[0].split()[0]
-               # print(startTime)
                endTime = data[-1].split()[0]
-               # print(endTime)
                 
                startHr, startMin, startSec = startTime.split(":")
                endHour, endMin, endSec = endTime.split(":")
@@ -59,7 +70,11 @@ for site_index, site in enumerate(websites):
                msStart = float(startSec) + int(startMin)*60 + int(startHr)*60*60
                msEnd = float(endSec) + int(endMin)*60 + int(endHour)*60*60
                 
+               #thinking about it now, i still think we should delete this abs, in the case of 12:59 - 1:00,
+               #we still get solution wrong because the difference is 11, and we would miss this error because of abs
                duration = abs(msEnd-msStart)
+
+               #we divide by 19 here because while there are 20 buckets, there are only 19 delimiting points
                bucketSize = duration/19
                print("Bucket size is " , bucketSize)
                #totalTime = float(endTime)- float(startTime)
@@ -77,12 +92,6 @@ for site_index, site in enumerate(websites):
             X.append(bucketArr)
             ys.append(site_index)
             #np.savetxt(dir + "/" + site + "IndivBucketData.txt", count_site, fmt='%s')
-            
-#for _ in range(100):
-#  row = [random.randint(1,10) for x in range(20)]
-#  X.append(row)
-#  ys.append(random.randint(0,9))
-
 
 X = np.array(X) > 0
 
@@ -231,7 +240,7 @@ print("Best DTree", dtree)
 print("Best RForest", rforest)
 print("Best MLP", mlp)
 
-joblib.dump(mlp.model, 'MLP-binary-model.model')
+joblib.dump(mlp.model, 'MLP.model')
 
 #%% Plot Results
 
