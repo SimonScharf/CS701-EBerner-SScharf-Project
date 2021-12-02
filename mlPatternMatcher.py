@@ -30,7 +30,7 @@ X = []
 ys = []
 
 
-websites = [name for name in os.listdir("./REQUESTS/") if name != '.DS_Store' and name != 'unknown' ]
+websites = [name for name in os.listdir("./REQUESTS/") if name == 'cnn' or name == 'reddit' or name == 'wikipedia' or name == 'amazon' or name == 'ebay']
 #and name != 'amazon' and name != 'chase' and name != 'wikipedia' and name != 'google' and name != 'espn' ]
 print(websites)
 #websites = ["cnn", "reddit", "youtube"]
