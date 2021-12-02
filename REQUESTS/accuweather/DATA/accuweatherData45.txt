@@ -1,0 +1,10 @@
+22:31:58.895040 IP 10.0.2.15.35735 > 140.233.253.2.53: 37382+ A? www.accuweather.com. (37)
+22:31:58.895070 IP 10.0.2.15.35735 > 140.233.253.2.53: 38921+ AAAA? www.accuweather.com. (37)
+22:31:58.899595 IP 140.233.253.2.53 > 10.0.2.15.35735: 38921 2/1/0 CNAME www.accuweather.com.edgekey.net., CNAME e1524.e12.akamaiedge.net. (177)
+22:31:58.913978 IP 140.233.253.2.53 > 10.0.2.15.35735: 37382 3/0/0 CNAME www.accuweather.com.edgekey.net., CNAME e1524.e12.akamaiedge.net., A 23.36.36.84 (133)
+22:31:58.914381 IP 10.0.2.15.60888 > 23.36.36.84.443: Flags [S], seq 2017238867, win 64240, options [mss 1460,sackOK,TS val 3794521455 ecr 0,nop,wscale 6], length 0
+22:31:58.930243 IP 23.36.36.84.443 > 10.0.2.15.60888: Flags [S.], seq 325824001, ack 2017238868, win 65535, options [mss 1460], length 0
+22:31:58.930440 IP 10.0.2.15.60888 > 23.36.36.84.443: Flags [.], ack 1, win 64240, length 0
+22:31:58.942983 IP 10.0.2.15.60888 > 23.36.36.84.443: Flags [P.], seq 1:518, ack 1, win 64240, length 517
+22:31:58.943328 IP 23.36.36.84.443 > 10.0.2.15.60888: Flags [.], ack 518, win 65535, length 0
+

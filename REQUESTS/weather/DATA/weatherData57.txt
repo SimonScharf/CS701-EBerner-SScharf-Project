@@ -1,0 +1,8 @@
+22:27:41.731759 IP 10.0.2.15.43380 > 140.233.253.2.53: 37+ A? www.weather.com. (33)
+22:27:41.732089 IP 10.0.2.15.43380 > 140.233.253.2.53: 22808+ AAAA? www.weather.com. (33)
+22:27:41.738863 IP 140.233.253.2.53 > 10.0.2.15.43380: 37 3/0/0 CNAME pmd-www.weather.com.edgekey.net., CNAME e11779.ksd.akamaiedge.net., A 104.77.227.231 (130)
+22:27:41.738865 IP 140.233.253.2.53 > 10.0.2.15.43380: 22808 2/1/0 CNAME pmd-www.weather.com.edgekey.net., CNAME e11779.ksd.akamaiedge.net. (174)
+22:27:41.739210 IP 10.0.2.15.58514 > 104.77.227.231.443: Flags [S], seq 1237316358, win 64240, options [mss 1460,sackOK,TS val 7940823 ecr 0,nop,wscale 6], length 0
+22:27:41.755290 IP 104.77.227.231.443 > 10.0.2.15.58514: Flags [S.], seq 319680001, ack 1237316359, win 65535, options [mss 1460], length 0
+22:27:41.755327 IP 10.0.2.15.58514 > 104.77.227.231.443: Flags [.], ack 1, win 64240, length 0
+

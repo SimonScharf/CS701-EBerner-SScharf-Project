@@ -1,0 +1,10 @@
+23:01:20.588343 IP 10.0.2.15.58581 > 140.233.253.2.53: 62311+ A? www.office.com. (32)
+23:01:20.588391 IP 10.0.2.15.58581 > 140.233.253.2.53: 53349+ AAAA? www.office.com. (32)
+23:01:20.595026 IP 140.233.253.2.53 > 10.0.2.15.58581: 62311 4/0/0 CNAME home-portal.office.com., CNAME home-office365-com.b-0004.b-msedge.net., CNAME b-0004.b-msedge.net., A 13.107.6.156 (140)
+23:01:20.595028 IP 140.233.253.2.53 > 10.0.2.15.58581: 53349 4/0/0 CNAME home-portal.office.com., CNAME home-office365-com.b-0004.b-msedge.net., CNAME b-0004.b-msedge.net., AAAA 2620:1ec:a92::156 (152)
+23:01:20.595404 IP 10.0.2.15.55164 > 13.107.6.156.443: Flags [S], seq 2392044426, win 64240, options [mss 1460,sackOK,TS val 2602265413 ecr 0,nop,wscale 6], length 0
+23:01:20.609586 IP 13.107.6.156.443 > 10.0.2.15.55164: Flags [S.], seq 396160001, ack 2392044427, win 65535, options [mss 1460], length 0
+23:01:20.609670 IP 10.0.2.15.55164 > 13.107.6.156.443: Flags [.], ack 1, win 64240, length 0
+23:01:20.619354 IP 10.0.2.15.55164 > 13.107.6.156.443: Flags [P.], seq 1:518, ack 1, win 64240, length 517
+23:01:20.619909 IP 13.107.6.156.443 > 10.0.2.15.55164: Flags [.], ack 518, win 65535, length 0
+

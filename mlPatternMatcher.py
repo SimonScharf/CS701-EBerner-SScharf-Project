@@ -30,7 +30,8 @@ X = []
 ys = []
 
 
-websites = [name for name in os.listdir("./REQUESTS/") if name != '.DS_Store' and name != 'unknown' and name != 'amazon' and name != 'chase' and name != 'wikipedia' and name != 'google']
+websites = [name for name in os.listdir("./REQUESTS/") if name != '.DS_Store' and name != 'unknown' ]
+#and name != 'amazon' and name != 'chase' and name != 'wikipedia' and name != 'google' and name != 'espn' ]
 print(websites)
 #websites = ["cnn", "reddit", "youtube"]
 
@@ -56,7 +57,7 @@ for site_index, site in enumerate(websites):
                data = file.readlines()
 
                #if file is empty, we log the error and try next file
-               if len(data) < 1:
+               if len(data) < 2:
                    print("Error: Unable to bucketize. " + filename + " is empty.")
                    break
 
