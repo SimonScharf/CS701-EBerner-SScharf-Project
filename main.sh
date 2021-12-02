@@ -23,10 +23,10 @@ while read url count; do
         tcpdump_pid="$!"
         
         #if [ "$website_name" == "amazon" ] || [  "$website_name" == "chase" ] || [ "$website_name" == "google" ] || [ "$website_name" == "wikipedia" ] ; then
-                #sleep 5
+                sleep 5
 	#fi
 
-     	curl -H @headers 1> /dev/null $url 
+     	curl &> /dev/null $url 
 	    if test "$?" != "0"; then
             echo "the curl command failed with: $res"
     	else
