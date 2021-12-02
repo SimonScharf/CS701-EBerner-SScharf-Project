@@ -84,6 +84,8 @@ for site_index, site in enumerate(websites):
                currentHr, currentMin, currentSec = time.split(":")
                currPacketTime = float(currentSec) + int(currentMin)*60 + int(currentHr)*60*60
                bucketIndex = math.floor((currPacketTime - msStart) / bucketSize)
+
+               #we increment bucket by one because we have now found one more packet for this bucket
                bucketArr[bucketIndex] = bucketArr[bucketIndex] + 1
                #print(bucketArr)
                #print(bucketFloat)
