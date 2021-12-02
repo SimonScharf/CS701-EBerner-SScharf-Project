@@ -1,345 +1,480 @@
-18:30:40.466986 IP middlinux.47925 > hera-lan2.middlebury.edu.domain: 4219+ A? www.cnn.com. (29)
-18:30:40.467025 IP middlinux.47925 > hera-lan2.middlebury.edu.domain: 27781+ AAAA? www.cnn.com. (29)
-18:30:40.472360 IP hera-lan2.middlebury.edu.domain > middlinux.47925: 27781 2/0/0 CNAME turner-tls.map.fastly.net., AAAA 2a04:4e42:1c::323 (96)
-18:30:40.472666 IP hera-lan2.middlebury.edu.domain > middlinux.47925: 4219 2/0/0 CNAME turner-tls.map.fastly.net., A 151.101.117.67 (84)
-18:30:40.472900 IP middlinux.37898 > 151.101.117.67.https: Flags [S], seq 4001052423, win 64240, options [mss 1460,sackOK,TS val 277101895 ecr 0,nop,wscale 6], length 0
-18:30:40.485832 IP 151.101.117.67.https > middlinux.37898: Flags [S.], seq 1088001, ack 4001052424, win 65535, options [mss 1460], length 0
-18:30:40.485869 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 1, win 64240, length 0
-18:30:40.494287 IP middlinux.37898 > 151.101.117.67.https: Flags [P.], seq 1:518, ack 1, win 64240, length 517
-18:30:40.496215 IP 151.101.117.67.https > middlinux.37898: Flags [.], ack 518, win 65535, length 0
-18:30:40.514002 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 1:1375, ack 518, win 65535, length 1374
-18:30:40.514004 IP 151.101.117.67.https > middlinux.37898: Flags [.], seq 1375:2835, ack 518, win 65535, length 1460
-18:30:40.514059 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 1375, win 63204, length 0
-18:30:40.514090 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 2835, win 63204, length 0
-18:30:40.514221 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 2835:5064, ack 518, win 65535, length 2229
-18:30:40.514227 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 5064, win 61320, length 0
-18:30:40.515050 IP middlinux.37898 > 151.101.117.67.https: Flags [P.], seq 518:611, ack 5064, win 62780, length 93
-18:30:40.515311 IP 151.101.117.67.https > middlinux.37898: Flags [.], ack 611, win 65535, length 0
-18:30:40.528075 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 5064:5115, ack 611, win 65535, length 51
-18:30:40.528093 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 5115, win 62780, length 0
-18:30:40.528584 IP middlinux.37898 > 151.101.117.67.https: Flags [P.], seq 611:664, ack 5115, win 62780, length 53
-18:30:40.528620 IP middlinux.37898 > 151.101.117.67.https: Flags [P.], seq 664:720, ack 5115, win 62780, length 56
-18:30:40.529000 IP 151.101.117.67.https > middlinux.37898: Flags [.], ack 664, win 65535, length 0
-18:30:40.529002 IP 151.101.117.67.https > middlinux.37898: Flags [.], ack 720, win 65535, length 0
-18:30:40.529021 IP middlinux.37898 > 151.101.117.67.https: Flags [P.], seq 720:829, ack 5115, win 62780, length 109
-18:30:40.529334 IP 151.101.117.67.https > middlinux.37898: Flags [.], ack 829, win 65535, length 0
-18:30:40.542260 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 5115:5210, ack 829, win 65535, length 95
-18:30:40.542299 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 5210, win 62780, length 0
-18:30:40.543132 IP middlinux.37898 > 151.101.117.67.https: Flags [P.], seq 829:867, ack 5210, win 62780, length 38
-18:30:40.543592 IP 151.101.117.67.https > middlinux.37898: Flags [.], ack 867, win 65535, length 0
-18:30:40.546072 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 5210:6584, ack 867, win 65535, length 1374
-18:30:40.546075 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 6584:9332, ack 867, win 65535, length 2748
-18:30:40.546076 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 9332:12080, ack 867, win 65535, length 2748
-18:30:40.546076 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 12080:13454, ack 867, win 65535, length 1374
-18:30:40.546168 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 13454, win 58400, length 0
-18:30:40.547522 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 13454:17576, ack 867, win 65535, length 4122
-18:30:40.547542 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 17576, win 61320, length 0
-18:30:40.548145 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 17576:21698, ack 867, win 65535, length 4122
-18:30:40.548156 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 21698, win 61320, length 0
-18:30:40.548738 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 21698:23072, ack 867, win 65535, length 1374
-18:30:40.549745 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 23072:25820, ack 867, win 65535, length 2748
-18:30:40.549766 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 25820, win 62780, length 0
-18:30:40.552677 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 25820:29942, ack 867, win 65535, length 4122
-18:30:40.552754 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 29942, win 61320, length 0
-18:30:40.556569 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 29942:42308, ack 867, win 65535, length 12366
-18:30:40.556606 IP 151.101.117.67.https > middlinux.37898: Flags [.], seq 42308:46688, ack 867, win 65535, length 4380
-18:30:40.556664 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 46688, win 52560, length 0
-18:30:40.556825 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 46688:49178, ack 867, win 65535, length 2490
-18:30:40.556856 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 49178, win 51100, length 0
-18:30:40.559564 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 49178:50552, ack 867, win 65535, length 1374
-18:30:40.561394 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 50552:62918, ack 867, win 65535, length 12366
-18:30:40.561585 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 62918, win 55480, length 0
-18:30:40.561634 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 62918:65666, ack 867, win 65535, length 2748
-18:30:40.561635 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 65666:68414, ack 867, win 65535, length 2748
-18:30:40.561876 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 68414:69788, ack 867, win 65535, length 1374
-18:30:40.561878 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 69788:72536, ack 867, win 65535, length 2748
-18:30:40.561932 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 72536, win 62780, length 0
-18:30:40.562014 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 72536:73910, ack 867, win 65535, length 1374
-18:30:40.563023 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 73910:76658, ack 867, win 65535, length 2748
-18:30:40.563056 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 76658, win 65535, length 0
-18:30:40.564534 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 76658:83528, ack 867, win 65535, length 6870
-18:30:40.564537 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 83528:86276, ack 867, win 65535, length 2748
-18:30:40.564560 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 83528, win 65535, length 0
-18:30:40.564593 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 86276, win 65535, length 0
-18:30:40.568352 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 86276:87650, ack 867, win 65535, length 1374
-18:30:40.569520 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 87650:94520, ack 867, win 65535, length 6870
-18:30:40.569543 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 94520, win 65535, length 0
-18:30:40.570091 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 94520:100016, ack 867, win 65535, length 5496
-18:30:40.570093 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 100016:101390, ack 867, win 65535, length 1374
-18:30:40.570118 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 100016, win 65535, length 0
-18:30:40.572367 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 101390:113756, ack 867, win 65535, length 12366
-18:30:40.572391 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 113756, win 65535, length 0
-18:30:40.575787 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 113756:132992, ack 867, win 65535, length 19236
-18:30:40.575816 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 132992, win 65535, length 0
-18:30:40.578065 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 132992:139862, ack 867, win 65535, length 6870
-18:30:40.578068 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 139862:141236, ack 867, win 65535, length 1374
-18:30:40.578069 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 141236:143984, ack 867, win 65535, length 2748
-18:30:40.578091 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 139862, win 65535, length 0
-18:30:40.578128 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 143984, win 65535, length 0
-18:30:40.579571 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 143984:150854, ack 867, win 65535, length 6870
-18:30:40.579593 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 150854, win 65535, length 0
-18:30:40.580476 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 150854:154976, ack 867, win 65535, length 4122
-18:30:40.580479 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 154976:157724, ack 867, win 65535, length 2748
-18:30:40.580480 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 157724:159098, ack 867, win 65535, length 1374
-18:30:40.580500 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 154976, win 65535, length 0
-18:30:40.580531 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 157724, win 65535, length 0
-18:30:40.587039 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 159098:185204, ack 867, win 65535, length 26106
-18:30:40.587062 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 185204, win 65535, length 0
-18:30:40.588168 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 185204:193448, ack 867, win 65535, length 8244
-18:30:40.588172 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 193448:204440, ack 867, win 65535, length 10992
-18:30:40.588192 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 193448, win 65535, length 0
-18:30:40.588227 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 204440, win 65535, length 0
-18:30:40.589880 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 204440:208562, ack 867, win 65535, length 4122
-18:30:40.589882 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 208562:212684, ack 867, win 65535, length 4122
-18:30:40.589901 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 208562, win 65535, length 0
-18:30:40.589954 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 212684, win 65535, length 0
-18:30:40.594505 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 212684:219554, ack 867, win 65535, length 6870
-18:30:40.594525 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 219554, win 65535, length 0
-18:30:40.598491 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 219554:269018, ack 867, win 65535, length 49464
-18:30:40.598518 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 269018, win 65535, length 0
-18:30:40.600345 IP middlinux.50980 > hera-lan2.middlebury.edu.domain: 51104+ PTR? 2.253.233.140.in-addr.arpa. (44)
-18:30:40.602355 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 269018:274514, ack 867, win 65535, length 5496
-18:30:40.602357 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 274514:275888, ack 867, win 65535, length 1374
-18:30:40.602380 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 274514, win 65535, length 0
-18:30:40.608401 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 275888:314848, ack 867, win 65535, length 38960
-18:30:40.608425 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 314848, win 65535, length 0
-18:30:40.619303 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 314848:342376, ack 867, win 65535, length 27528
-18:30:40.619335 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 342376, win 65535, length 0
-18:30:40.619397 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 342376:344588, ack 867, win 65535, length 2212
-18:30:40.619408 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 344588, win 65535, length 0
-18:30:40.622909 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 344588:352832, ack 867, win 65535, length 8244
-18:30:40.622917 IP 151.101.117.67.https > middlinux.37898: Flags [.], seq 352832:389332, ack 867, win 65535, length 36500
-18:30:40.622941 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 352832, win 65535, length 0
-18:30:40.623041 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 389332, win 65535, length 0
-18:30:40.623157 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 389332:392678, ack 867, win 65535, length 3346
-18:30:40.623158 IP hera-lan2.middlebury.edu.domain > middlinux.50980: 51104* 1/0/0 PTR hera-lan2.middlebury.edu. (82)
-18:30:40.623163 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 392678, win 65535, length 0
-18:30:40.623550 IP middlinux.39699 > hera-lan2.middlebury.edu.domain: 39678+ PTR? 67.117.101.151.in-addr.arpa. (45)
-18:30:40.629769 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 392678:403670, ack 867, win 65535, length 10992
-18:30:40.629799 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 403670, win 65535, length 0
-18:30:40.637264 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 403670:429776, ack 867, win 65535, length 26106
-18:30:40.637295 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 429776, win 65535, length 0
-18:30:40.637441 IP 151.101.117.67.https > middlinux.37898: Flags [.], seq 429776:466276, ack 867, win 65535, length 36500
-18:30:40.637553 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 466276, win 65535, length 0
-18:30:40.637847 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 466276:469196, ack 867, win 65535, length 2920
-18:30:40.637849 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 469196:469622, ack 867, win 65535, length 426
-18:30:40.637898 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 469622, win 65535, length 0
-18:30:40.654652 IP 151.101.117.67.https > middlinux.37898: Flags [.], seq 469622:533862, ack 867, win 65535, length 64240
-18:30:40.654817 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 533862, win 65535, length 0
-18:30:40.655317 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 533862:535322, ack 867, win 65535, length 1460
-18:30:40.655326 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 535322:569924, ack 867, win 65535, length 34602
-18:30:40.655417 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 569924, win 65535, length 0
-18:30:40.657748 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 569924:575420, ack 867, win 65535, length 5496
-18:30:40.657772 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 575420, win 65535, length 0
-18:30:40.660310 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 575420:582290, ack 867, win 65535, length 6870
-18:30:40.660399 IP hera-lan2.middlebury.edu.domain > middlinux.39699: 39678 NXDomain 0/1/0 (105)
-18:30:40.660401 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 582290:586412, ack 867, win 65535, length 4122
-18:30:40.660670 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 582290, win 65535, length 0
-18:30:40.661028 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 586412:587786, ack 867, win 65535, length 1374
-18:30:40.661030 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 587786:589160, ack 867, win 65535, length 1374
-18:30:40.661032 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 589160:591908, ack 867, win 65535, length 2748
-18:30:40.661033 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 591908:594656, ack 867, win 65535, length 2748
-18:30:40.661034 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 594656:597404, ack 867, win 65535, length 2748
-18:30:40.661064 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 597404:598778, ack 867, win 65535, length 1374
-18:30:40.661496 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 598778:601526, ack 867, win 65535, length 2748
-18:30:40.661579 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 601526:604274, ack 867, win 65535, length 2748
-18:30:40.662463 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 604274:607022, ack 867, win 65535, length 2748
-18:30:40.662464 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 607022:609770, ack 867, win 65535, length 2748
-18:30:40.662464 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 609770:612518, ack 867, win 65535, length 2748
-18:30:40.662465 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 612518:616640, ack 867, win 65535, length 4122
-18:30:40.663093 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 616640, win 65535, length 0
-18:30:40.663591 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 616640:631754, ack 867, win 65535, length 15114
-18:30:40.663612 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 631754:633128, ack 867, win 65535, length 1374
-18:30:40.664553 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 633128, win 65535, length 0
-18:30:40.667451 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 633128:653738, ack 867, win 65535, length 20610
-18:30:40.667467 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 653738, win 65535, length 0
-18:30:40.668034 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 653738:659234, ack 867, win 65535, length 5496
-18:30:40.668036 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 659234:660608, ack 867, win 65535, length 1374
-18:30:40.668425 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 660608:663356, ack 867, win 65535, length 2748
-18:30:40.668531 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 663356:667478, ack 867, win 65535, length 4122
-18:30:40.668925 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 667478:671600, ack 867, win 65535, length 4122
-18:30:40.669131 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 671600:672974, ack 867, win 65535, length 1374
-18:30:40.669479 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 672974, win 65535, length 0
-18:30:40.672916 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 672974:708698, ack 867, win 65535, length 35724
-18:30:40.672933 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 708698, win 65535, length 0
-18:30:40.673686 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 708698:712820, ack 867, win 65535, length 4122
-18:30:40.673706 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 712820, win 65535, length 0
-18:30:40.673943 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 712820:715568, ack 867, win 65535, length 2748
-18:30:40.673945 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 715568:716942, ack 867, win 65535, length 1374
-18:30:40.674284 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 715568, win 65535, length 0
-18:30:40.674466 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 716942:719690, ack 867, win 65535, length 2748
-18:30:40.674468 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 719690:722438, ack 867, win 65535, length 2748
-18:30:40.674476 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 719690, win 65535, length 0
-18:30:40.674518 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 722438, win 65535, length 0
-18:30:40.678530 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 722438:752666, ack 867, win 65535, length 30228
-18:30:40.678983 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 752666:756788, ack 867, win 65535, length 4122
-18:30:40.679278 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 756788, win 65535, length 0
-18:30:40.679797 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 756788:760910, ack 867, win 65535, length 4122
-18:30:40.679799 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 760910:766406, ack 867, win 65535, length 5496
-18:30:40.679800 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 766406:769154, ack 867, win 65535, length 2748
-18:30:40.680111 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 769154:773276, ack 867, win 65535, length 4122
-18:30:40.680453 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 773276:777398, ack 867, win 65535, length 4122
-18:30:40.680713 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 777398:780146, ack 867, win 65535, length 2748
-18:30:40.680859 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 780146, win 65535, length 0
-18:30:40.681012 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 780146:782894, ack 867, win 65535, length 2748
-18:30:40.681039 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 782894, win 65535, length 0
-18:30:40.683876 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 782894:793886, ack 867, win 65535, length 10992
-18:30:40.683982 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 793886, win 65535, length 0
-18:30:40.684904 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 793886:798008, ack 867, win 65535, length 4122
-18:30:40.684907 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 798008:800756, ack 867, win 65535, length 2748
-18:30:40.685054 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 798008, win 65535, length 0
-18:30:40.685333 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 800756:803504, ack 867, win 65535, length 2748
-18:30:40.685335 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 803504:806252, ack 867, win 65535, length 2748
-18:30:40.685753 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 806252:810374, ack 867, win 65535, length 4122
-18:30:40.685867 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 810374, win 65535, length 0
-18:30:40.686045 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 810374:813122, ack 867, win 65535, length 2748
-18:30:40.686047 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 813122:815870, ack 867, win 65535, length 2748
-18:30:40.686174 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 815870, win 65535, length 0
-18:30:40.686291 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 815870:817244, ack 867, win 65535, length 1374
-18:30:40.686293 IP 151.101.117.67.https > middlinux.37898: Flags [.], seq 817244:818704, ack 867, win 65535, length 1460
-18:30:40.686408 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 818704:819992, ack 867, win 65535, length 1288
-18:30:40.686423 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 818704, win 65535, length 0
-18:30:40.686709 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 819992:822740, ack 867, win 65535, length 2748
-18:30:40.686711 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 822740:826862, ack 867, win 65535, length 4122
-18:30:40.686774 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 826862, win 65535, length 0
-18:30:40.686984 IP 151.101.117.67.https > middlinux.37898: Flags [.], seq 826862:828322, ack 867, win 65535, length 1460
-18:30:40.687288 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 828322:829610, ack 867, win 65535, length 1288
-18:30:40.687290 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 829610:832358, ack 867, win 65535, length 2748
-18:30:40.687290 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 832358:833732, ack 867, win 65535, length 1374
-18:30:40.687304 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 829610, win 65535, length 0
-18:30:40.687706 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 833732:836480, ack 867, win 65535, length 2748
-18:30:40.687708 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 836480:839228, ack 867, win 65535, length 2748
-18:30:40.687708 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 839228:840602, ack 867, win 65535, length 1374
-18:30:40.688033 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 840602:843350, ack 867, win 65535, length 2748
-18:30:40.688087 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 843350, win 65535, length 0
-18:30:40.688495 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 843350:844724, ack 867, win 65535, length 1374
-18:30:40.693407 IP 151.101.117.67.https > middlinux.37898: Flags [.], seq 844724:866624, ack 867, win 65535, length 21900
-18:30:40.693497 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 866624:870830, ack 867, win 65535, length 4206
-18:30:40.693498 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 870830:872204, ack 867, win 65535, length 1374
-18:30:40.693499 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 872204:879074, ack 867, win 65535, length 6870
-18:30:40.693565 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 879074, win 65535, length 0
-18:30:40.693787 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 879074:885944, ack 867, win 65535, length 6870
-18:30:40.693794 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 885944, win 65535, length 0
-18:30:40.694018 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 885944:890066, ack 867, win 65535, length 4122
-18:30:40.694080 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 890066, win 65535, length 0
-18:30:40.694430 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 890066:895562, ack 867, win 65535, length 5496
-18:30:40.694481 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 895562, win 65535, length 0
-18:30:40.694616 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 895562:896936, ack 867, win 65535, length 1374
-18:30:40.694617 IP 151.101.117.67.https > middlinux.37898: Flags [.], seq 896936:898396, ack 867, win 65535, length 1460
-18:30:40.694715 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 898396:899684, ack 867, win 65535, length 1288
-18:30:40.694716 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 899684:901058, ack 867, win 65535, length 1374
-18:30:40.694744 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 901058, win 65535, length 0
-18:30:40.695048 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 901058:902432, ack 867, win 65535, length 1374
-18:30:40.695049 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 902432:903806, ack 867, win 65535, length 1374
-18:30:40.695066 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 903806, win 65535, length 0
-18:30:40.695247 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 903806:906554, ack 867, win 65535, length 2748
-18:30:40.695248 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 906554:907928, ack 867, win 65535, length 1374
-18:30:40.695280 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 907928, win 65535, length 0
-18:30:40.695614 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 907928:909302, ack 867, win 65535, length 1374
-18:30:40.695615 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 909302:910676, ack 867, win 65535, length 1374
-18:30:40.695811 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 910676, win 65535, length 0
-18:30:40.695958 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 910676:913424, ack 867, win 65535, length 2748
-18:30:40.696012 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 913424, win 65535, length 0
-18:30:40.698616 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 913424:935408, ack 867, win 65535, length 21984
-18:30:40.698725 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 935408, win 65535, length 0
-18:30:40.703996 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 935408:940904, ack 867, win 65535, length 5496
-18:30:40.704002 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 940904:943652, ack 867, win 65535, length 2748
-18:30:40.704004 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 943652:949148, ack 867, win 65535, length 5496
-18:30:40.704037 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 940904, win 65535, length 0
-18:30:40.704590 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 949148:951896, ack 867, win 65535, length 2748
-18:30:40.704592 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 951896:953270, ack 867, win 65535, length 1374
-18:30:40.704593 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 953270:954644, ack 867, win 65535, length 1374
-18:30:40.704594 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 954644:957392, ack 867, win 65535, length 2748
-18:30:40.704917 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 957392:960140, ack 867, win 65535, length 2748
-18:30:40.704971 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 960140, win 65535, length 0
-18:30:40.705209 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 960140:964262, ack 867, win 65535, length 4122
-18:30:40.705264 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 964262, win 65535, length 0
-18:30:40.705707 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 964262:968384, ack 867, win 65535, length 4122
-18:30:40.705710 IP 151.101.117.67.https > middlinux.37898: Flags [.], seq 968384:971304, ack 867, win 65535, length 2920
-18:30:40.706362 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 971304:972506, ack 867, win 65535, length 1202
-18:30:40.706365 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 972506:973880, ack 867, win 65535, length 1374
-18:30:40.706366 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 973880:975254, ack 867, win 65535, length 1374
-18:30:40.706367 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 975254:978002, ack 867, win 65535, length 2748
-18:30:40.706368 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 978002:980750, ack 867, win 65535, length 2748
-18:30:40.706620 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 980750:982124, ack 867, win 65535, length 1374
-18:30:40.707086 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 982124, win 65535, length 0
-18:30:40.707789 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 982124:986246, ack 867, win 65535, length 4122
-18:30:40.707905 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 986246:988994, ack 867, win 65535, length 2748
-18:30:40.707906 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 988994:990368, ack 867, win 65535, length 1374
-18:30:40.708054 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 990368:991742, ack 867, win 65535, length 1374
-18:30:40.708454 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 991742:994490, ack 867, win 65535, length 2748
-18:30:40.708456 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 994490:995864, ack 867, win 65535, length 1374
-18:30:40.708605 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 995864:998612, ack 867, win 65535, length 2748
-18:30:40.708726 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 998612:1001360, ack 867, win 65535, length 2748
-18:30:40.708997 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 1001360:1002734, ack 867, win 65535, length 1374
-18:30:40.708999 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 1002734:1005482, ack 867, win 65535, length 2748
-18:30:40.709257 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 1005482:1008230, ack 867, win 65535, length 2748
-18:30:40.709566 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 1008230:1012352, ack 867, win 65535, length 4122
-18:30:40.709619 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 1012352, win 65535, length 0
-18:30:40.710198 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 1012352:1016474, ack 867, win 65535, length 4122
-18:30:40.710200 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 1016474:1017848, ack 867, win 65535, length 1374
-18:30:40.710200 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 1017848:1020596, ack 867, win 65535, length 2748
-18:30:40.710215 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 1016474, win 65535, length 0
-18:30:40.710338 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 1020596:1021970, ack 867, win 65535, length 1374
-18:30:40.710352 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 1020596, win 65535, length 0
-18:30:40.710561 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 1021970:1026092, ack 867, win 65535, length 4122
-18:30:40.710607 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 1026092, win 65535, length 0
-18:30:40.710724 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 1026092:1027466, ack 867, win 65535, length 1374
-18:30:40.710939 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 1027466:1028840, ack 867, win 65535, length 1374
-18:30:40.710948 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 1028840, win 65535, length 0
-18:30:40.711304 IP 151.101.117.67.https > middlinux.37898: Flags [.], seq 1028840:1031760, ack 867, win 65535, length 2920
-18:30:40.711530 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 1031760:1032962, ack 867, win 65535, length 1202
-18:30:40.711532 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 1032962:1035710, ack 867, win 65535, length 2748
-18:30:40.711577 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 1035710, win 65535, length 0
-18:30:40.711628 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 1035710:1039832, ack 867, win 65535, length 4122
-18:30:40.711654 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 1039832, win 65535, length 0
-18:30:40.712082 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 1039832:1043954, ack 867, win 65535, length 4122
-18:30:40.712203 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 1043954, win 65535, length 0
-18:30:40.713109 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 1043954:1048076, ack 867, win 65535, length 4122
-18:30:40.713112 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 1048076:1052198, ack 867, win 65535, length 4122
-18:30:40.713113 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 1052198:1053572, ack 867, win 65535, length 1374
-18:30:40.713234 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 1048076, win 65535, length 0
-18:30:40.713341 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 1053572, win 65535, length 0
-18:30:40.713481 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 1053572:1056320, ack 867, win 65535, length 2748
-18:30:40.713488 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 1056320, win 65535, length 0
-18:30:40.715897 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 1056320:1074182, ack 867, win 65535, length 17862
-18:30:40.716210 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 1074182:1076930, ack 867, win 65535, length 2748
-18:30:40.716213 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 1076930:1079678, ack 867, win 65535, length 2748
-18:30:40.716214 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 1079678:1082426, ack 867, win 65535, length 2748
-18:30:40.716215 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 1082426:1083800, ack 867, win 65535, length 1374
-18:30:40.716464 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 1083800:1085174, ack 867, win 65535, length 1374
-18:30:40.716530 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 1085174:1087922, ack 867, win 65535, length 2748
-18:30:40.716619 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 1087922:1090670, ack 867, win 65535, length 2748
-18:30:40.716654 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 1090670, win 65535, length 0
-18:30:40.717069 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 1090670:1094792, ack 867, win 65535, length 4122
-18:30:40.717081 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 1094792, win 65535, length 0
-18:30:40.717270 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 1094792:1097540, ack 867, win 65535, length 2748
-18:30:40.717278 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 1097540, win 65535, length 0
-18:30:40.717493 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 1097540:1100288, ack 867, win 65535, length 2748
-18:30:40.717495 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 1100288:1101662, ack 867, win 65535, length 1374
-18:30:40.717590 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 1101662, win 65535, length 0
-18:30:40.717686 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 1101662:1104410, ack 867, win 65535, length 2748
-18:30:40.717706 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 1104410, win 65535, length 0
-18:30:40.717748 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 1104410:1105784, ack 867, win 65535, length 1374
-18:30:40.717956 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 1105784:1107158, ack 867, win 65535, length 1374
-18:30:40.717965 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 1107158, win 65535, length 0
-18:30:40.718162 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 1107158:1109906, ack 867, win 65535, length 2748
-18:30:40.718306 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 1109906, win 65535, length 0
-18:30:40.718491 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 1109906:1114028, ack 867, win 65535, length 4122
-18:30:40.718561 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 1114028, win 65535, length 0
-18:30:40.718745 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 1114028:1118150, ack 867, win 65535, length 4122
-18:30:40.718747 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 1118150:1119524, ack 867, win 65535, length 1374
-18:30:40.719013 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 1119524:1120898, ack 867, win 65535, length 1374
-18:30:40.719061 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 1120898, win 65535, length 0
-18:30:40.721256 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 1120898:1122512, ack 867, win 65535, length 1614
-18:30:40.721278 IP middlinux.37898 > 151.101.117.67.https: Flags [.], ack 1122512, win 65535, length 0
-18:30:40.723942 IP middlinux.37898 > 151.101.117.67.https: Flags [P.], seq 867:898, ack 1122512, win 65535, length 31
-18:30:40.724528 IP 151.101.117.67.https > middlinux.37898: Flags [.], ack 898, win 65535, length 0
-18:30:40.724769 IP middlinux.37898 > 151.101.117.67.https: Flags [F.], seq 898, ack 1122512, win 65535, length 0
-18:30:40.724982 IP 151.101.117.67.https > middlinux.37898: Flags [.], ack 899, win 65535, length 0
-18:30:40.737976 IP 151.101.117.67.https > middlinux.37898: Flags [P.], seq 1122512:1122543, ack 899, win 65535, length 31
-18:30:40.737979 IP 151.101.117.67.https > middlinux.37898: Flags [F.], seq 1122543, ack 899, win 65535, length 0
-18:30:40.738003 IP middlinux.37898 > 151.101.117.67.https: Flags [R], seq 4001053322, win 0, length 0
-18:30:40.738039 IP middlinux.37898 > 151.101.117.67.https: Flags [R], seq 4001053322, win 0, length 0
-18:30:40.738172 IP 151.101.117.67.https > middlinux.37898: Flags [R.], seq 4293879295, ack 899, win 0, length 0
+19:27:30.621373 IP 10.0.2.15.57180 > 140.233.253.2.53: 38688+ A? www.cnn.com. (29)
+19:27:30.621541 IP 10.0.2.15.57180 > 140.233.253.2.53: 54829+ AAAA? www.cnn.com. (29)
+19:27:30.627193 IP 140.233.253.2.53 > 10.0.2.15.57180: 38688 2/0/0 CNAME turner-tls.map.fastly.net., A 151.101.117.67 (84)
+19:27:30.627195 IP 140.233.253.2.53 > 10.0.2.15.57180: 54829 2/0/0 CNAME turner-tls.map.fastly.net., AAAA 2a04:4e42:1c::323 (96)
+19:27:30.627555 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [S], seq 487969166, win 64240, options [mss 1460,sackOK,TS val 1396569600 ecr 0,nop,wscale 6], length 0
+19:27:30.642643 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [S.], seq 165632001, ack 487969167, win 65535, options [mss 1460], length 0
+19:27:30.642713 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 1, win 64240, length 0
+19:27:30.651230 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [P.], seq 1:518, ack 1, win 64240, length 517
+19:27:30.651682 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [.], ack 518, win 65535, length 0
+19:27:30.670718 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [.], seq 1:2921, ack 518, win 65535, length 2920
+19:27:30.670744 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 2921, win 62780, length 0
+19:27:30.670974 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 2921:4123, ack 518, win 65535, length 1202
+19:27:30.670990 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 4123, win 61578, length 0
+19:27:30.672590 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 4123:5064, ack 518, win 65535, length 941
+19:27:30.672612 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 5064, win 62780, length 0
+19:27:30.673987 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [P.], seq 518:611, ack 5064, win 62780, length 93
+19:27:30.674233 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [.], ack 611, win 65535, length 0
+19:27:30.688430 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 5064:5115, ack 611, win 65535, length 51
+19:27:30.688452 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 5115, win 62780, length 0
+19:27:30.688961 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [P.], seq 611:664, ack 5115, win 62780, length 53
+19:27:30.689000 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [P.], seq 664:720, ack 5115, win 62780, length 56
+19:27:30.689212 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [P.], seq 720:829, ack 5115, win 62780, length 109
+19:27:30.689480 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [.], ack 664, win 65535, length 0
+19:27:30.689481 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [.], ack 720, win 65535, length 0
+19:27:30.689482 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [.], ack 829, win 65535, length 0
+19:27:30.703551 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 5115:5210, ack 829, win 65535, length 95
+19:27:30.703581 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 5210, win 62780, length 0
+19:27:30.703975 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [P.], seq 829:867, ack 5210, win 62780, length 38
+19:27:30.704260 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [.], ack 867, win 65535, length 0
+19:27:30.706672 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 5210:7958, ack 867, win 65535, length 2748
+19:27:30.706691 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 7958, win 62780, length 0
+19:27:30.707490 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 7958:12080, ack 867, win 65535, length 4122
+19:27:30.707550 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 12080, win 61320, length 0
+19:27:30.708614 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 12080:20324, ack 867, win 65535, length 8244
+19:27:30.708616 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 20324:21698, ack 867, win 65535, length 1374
+19:27:30.708841 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 21698, win 58400, length 0
+19:27:30.709737 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 21698:24446, ack 867, win 65535, length 2748
+19:27:30.709751 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 24446, win 62780, length 0
+19:27:30.710893 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 24446:29942, ack 867, win 65535, length 5496
+19:27:30.710978 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 29942, win 61320, length 0
+19:27:30.712470 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 29942:36812, ack 867, win 65535, length 6870
+19:27:30.712542 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 36812, win 59860, length 0
+19:27:30.713241 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 36812:40934, ack 867, win 65535, length 4122
+19:27:30.713260 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 40934, win 61320, length 0
+19:27:30.714374 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 40934:46430, ack 867, win 65535, length 5496
+19:27:30.714377 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 46430:47804, ack 867, win 65535, length 1374
+19:27:30.714393 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 46430, win 61320, length 0
+19:27:30.715680 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 47804:49178, ack 867, win 65535, length 1374
+19:27:30.715693 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 49178, win 63204, length 0
+19:27:30.716881 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 49178:54674, ack 867, win 65535, length 5496
+19:27:30.716954 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 54674, win 61320, length 0
+19:27:30.720552 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 54674:60170, ack 867, win 65535, length 5496
+19:27:30.720575 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 60170, win 61320, length 0
+19:27:30.721503 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 60170:65666, ack 867, win 65535, length 5496
+19:27:30.721593 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 65666, win 61320, length 0
+19:27:30.722565 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 65666:71162, ack 867, win 65535, length 5496
+19:27:30.722575 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 71162, win 61320, length 0
+19:27:30.723544 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 71162:73910, ack 867, win 65535, length 2748
+19:27:30.723557 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 73910, win 65535, length 0
+19:27:30.724484 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 73910:80780, ack 867, win 65535, length 6870
+19:27:30.724540 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 80780, win 65535, length 0
+19:27:30.725654 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 80780:82154, ack 867, win 65535, length 1374
+19:27:30.725656 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 82154:87650, ack 867, win 65535, length 5496
+19:27:30.725656 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 87650:89024, ack 867, win 65535, length 1374
+19:27:30.725675 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 87650, win 65535, length 0
+19:27:30.726574 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 89024:93146, ack 867, win 65535, length 4122
+19:27:30.726589 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 93146, win 65535, length 0
+19:27:30.727970 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 93146:98642, ack 867, win 65535, length 5496
+19:27:30.727987 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 98642, win 65535, length 0
+19:27:30.729033 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 98642:105512, ack 867, win 65535, length 6870
+19:27:30.729046 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 105512, win 65535, length 0
+19:27:30.730285 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 105512:111008, ack 867, win 65535, length 5496
+19:27:30.730362 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 111008, win 65535, length 0
+19:27:30.731345 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 111008:113756, ack 867, win 65535, length 2748
+19:27:30.731356 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 113756, win 65535, length 0
+19:27:30.732434 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 113756:119252, ack 867, win 65535, length 5496
+19:27:30.732437 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 119252:124748, ack 867, win 65535, length 5496
+19:27:30.732474 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 119252, win 65535, length 0
+19:27:30.732557 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 124748, win 65535, length 0
+19:27:30.732589 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 124748:127496, ack 867, win 65535, length 2748
+19:27:30.732595 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 127496, win 65535, length 0
+19:27:30.733573 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 127496:135740, ack 867, win 65535, length 8244
+19:27:30.733575 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 135740:137114, ack 867, win 65535, length 1374
+19:27:30.733588 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 135740, win 65535, length 0
+19:27:30.734824 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 137114:143984, ack 867, win 65535, length 6870
+19:27:30.734951 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 143984, win 65535, length 0
+19:27:30.735220 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 143984:146732, ack 867, win 65535, length 2748
+19:27:30.735222 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 146732:148106, ack 867, win 65535, length 1374
+19:27:30.735233 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 146732, win 65535, length 0
+19:27:30.737729 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 148106:156350, ack 867, win 65535, length 8244
+19:27:30.737735 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 156350:161846, ack 867, win 65535, length 5496
+19:27:30.737759 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 156350, win 65535, length 0
+19:27:30.738129 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 161846, win 65535, length 0
+19:27:30.738237 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 161846:167342, ack 867, win 65535, length 5496
+19:27:30.738239 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 167342:170090, ack 867, win 65535, length 2748
+19:27:30.738240 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 170090:171464, ack 867, win 65535, length 1374
+19:27:30.738253 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 167342, win 65535, length 0
+19:27:30.738274 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 170090, win 65535, length 0
+19:27:30.738953 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 171464:178334, ack 867, win 65535, length 6870
+19:27:30.739045 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 178334, win 65535, length 0
+19:27:30.739242 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 178334:183830, ack 867, win 65535, length 5496
+19:27:30.739243 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 183830:185204, ack 867, win 65535, length 1374
+19:27:30.739253 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 183830, win 65535, length 0
+19:27:30.739430 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 185204:190700, ack 867, win 65535, length 5496
+19:27:30.739447 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 190700, win 65535, length 0
+19:27:30.739852 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 190700:194822, ack 867, win 65535, length 4122
+19:27:30.739861 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 194822, win 65535, length 0
+19:27:30.741319 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 194822:203066, ack 867, win 65535, length 8244
+19:27:30.741321 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 203066:205814, ack 867, win 65535, length 2748
+19:27:30.741345 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 203066, win 65535, length 0
+19:27:30.741519 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 205814, win 65535, length 0
+19:27:30.741556 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 205814:209936, ack 867, win 65535, length 4122
+19:27:30.741557 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 209936:211310, ack 867, win 65535, length 1374
+19:27:30.741568 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 209936, win 65535, length 0
+19:27:30.741855 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 211310:214058, ack 867, win 65535, length 2748
+19:27:30.741856 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 214058:216806, ack 867, win 65535, length 2748
+19:27:30.741865 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 214058, win 65535, length 0
+19:27:30.741878 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 216806, win 65535, length 0
+19:27:30.741982 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 216806:218180, ack 867, win 65535, length 1374
+19:27:30.743392 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 218180:223676, ack 867, win 65535, length 5496
+19:27:30.743416 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 223676, win 65535, length 0
+19:27:30.743962 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 223676:233294, ack 867, win 65535, length 9618
+19:27:30.743965 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 233294:236042, ack 867, win 65535, length 2748
+19:27:30.743983 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 233294, win 65535, length 0
+19:27:30.744002 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 236042, win 65535, length 0
+19:27:30.744352 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 236042:238790, ack 867, win 65535, length 2748
+19:27:30.744366 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 238790, win 65535, length 0
+19:27:30.745265 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 238790:244286, ack 867, win 65535, length 5496
+19:27:30.745267 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 244286:247034, ack 867, win 65535, length 2748
+19:27:30.745285 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 244286, win 65535, length 0
+19:27:30.745308 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 247034, win 65535, length 0
+19:27:30.745880 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 247034:253904, ack 867, win 65535, length 6870
+19:27:30.745881 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 253904:256652, ack 867, win 65535, length 2748
+19:27:30.745882 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 256652:258026, ack 867, win 65535, length 1374
+19:27:30.745891 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 253904, win 65535, length 0
+19:27:30.745913 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 256652, win 65535, length 0
+19:27:30.746511 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 258026:263522, ack 867, win 65535, length 5496
+19:27:30.746513 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 263522:264896, ack 867, win 65535, length 1374
+19:27:30.746577 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 263522, win 65535, length 0
+19:27:30.746873 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 264896:269018, ack 867, win 65535, length 4122
+19:27:30.746938 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 269018:270392, ack 867, win 65535, length 1374
+19:27:30.746942 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 270392:273140, ack 867, win 65535, length 2748
+19:27:30.746942 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 273140:274514, ack 867, win 65535, length 1374
+19:27:30.746953 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 269018, win 65535, length 0
+19:27:30.747052 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 273140, win 65535, length 0
+19:27:30.747295 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 274514:277262, ack 867, win 65535, length 2748
+19:27:30.747303 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 277262, win 65535, length 0
+19:27:30.747894 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 277262:282758, ack 867, win 65535, length 5496
+19:27:30.747896 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 282758:284132, ack 867, win 65535, length 1374
+19:27:30.747908 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 282758, win 65535, length 0
+19:27:30.748089 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 284132:286880, ack 867, win 65535, length 2748
+19:27:30.748091 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 286880:288254, ack 867, win 65535, length 1374
+19:27:30.748098 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 286880, win 65535, length 0
+19:27:30.748527 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 288254:292376, ack 867, win 65535, length 4122
+19:27:30.748529 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 292376:295124, ack 867, win 65535, length 2748
+19:27:30.748530 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 295124:297872, ack 867, win 65535, length 2748
+19:27:30.748542 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 292376, win 65535, length 0
+19:27:30.748566 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 295124, win 65535, length 0
+19:27:30.748580 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 297872, win 65535, length 0
+19:27:30.748894 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 297872:300620, ack 867, win 65535, length 2748
+19:27:30.748901 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 300620, win 65535, length 0
+19:27:30.750093 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 300620:307490, ack 867, win 65535, length 6870
+19:27:30.750095 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 307490:312986, ack 867, win 65535, length 5496
+19:27:30.750262 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 307490, win 65535, length 0
+19:27:30.750487 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 312986, win 65535, length 0
+19:27:30.750529 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 312986:315734, ack 867, win 65535, length 2748
+19:27:30.750530 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 315734:318482, ack 867, win 65535, length 2748
+19:27:30.750537 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 318482:321230, ack 867, win 65535, length 2748
+19:27:30.750538 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 321230:322604, ack 867, win 65535, length 1374
+19:27:30.750580 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 315734, win 65535, length 0
+19:27:30.750596 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 318482, win 65535, length 0
+19:27:30.750608 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 321230, win 65535, length 0
+19:27:30.751875 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 322604:329474, ack 867, win 65535, length 6870
+19:27:30.751892 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 329474, win 65535, length 0
+19:27:30.752091 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 329474:333596, ack 867, win 65535, length 4122
+19:27:30.752093 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 333596:336344, ack 867, win 65535, length 2748
+19:27:30.752103 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 333596, win 65535, length 0
+19:27:30.752125 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 336344, win 65535, length 0
+19:27:30.753942 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 336344:344588, ack 867, win 65535, length 8244
+19:27:30.753967 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 344588, win 65535, length 0
+19:27:30.754293 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 344588:347336, ack 867, win 65535, length 2748
+19:27:30.754310 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 347336, win 65535, length 0
+19:27:30.754561 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 347336:354206, ack 867, win 65535, length 6870
+19:27:30.754563 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 354206:356954, ack 867, win 65535, length 2748
+19:27:30.754564 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 356954:359702, ack 867, win 65535, length 2748
+19:27:30.754581 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 354206, win 65535, length 0
+19:27:30.754603 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 356954, win 65535, length 0
+19:27:30.754672 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 359702, win 65535, length 0
+19:27:30.754836 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 359702:362450, ack 867, win 65535, length 2748
+19:27:30.754848 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 362450, win 65535, length 0
+19:27:30.754993 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 362450:365198, ack 867, win 65535, length 2748
+19:27:30.755006 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 365198, win 65535, length 0
+19:27:30.755261 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 365198:369320, ack 867, win 65535, length 4122
+19:27:30.755263 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 369320:370694, ack 867, win 65535, length 1374
+19:27:30.755264 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 370694:374816, ack 867, win 65535, length 4122
+19:27:30.755284 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 369320, win 65535, length 0
+19:27:30.755311 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 374816, win 65535, length 0
+19:27:30.756272 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 374816:376190, ack 867, win 65535, length 1374
+19:27:30.757151 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 376190:391304, ack 867, win 65535, length 15114
+19:27:30.757169 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 391304, win 65535, length 0
+19:27:30.757222 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 391304:394052, ack 867, win 65535, length 2748
+19:27:30.757226 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 394052, win 65535, length 0
+19:27:30.757535 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 394052:400922, ack 867, win 65535, length 6870
+19:27:30.757545 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 400922, win 65535, length 0
+19:27:30.757728 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 400922:405044, ack 867, win 65535, length 4122
+19:27:30.757729 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 405044:406418, ack 867, win 65535, length 1374
+19:27:30.757742 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 405044, win 65535, length 0
+19:27:30.757938 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 406418:409166, ack 867, win 65535, length 2748
+19:27:30.757946 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 409166, win 65535, length 0
+19:27:30.758147 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 409166:413288, ack 867, win 65535, length 4122
+19:27:30.758148 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 413288:414662, ack 867, win 65535, length 1374
+19:27:30.758175 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 414662, win 65535, length 0
+19:27:30.759330 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 414662:419286, ack 867, win 65535, length 4624
+19:27:30.759333 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 419286:422034, ack 867, win 65535, length 2748
+19:27:30.759352 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 419286, win 65535, length 0
+19:27:30.759589 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 422034, win 65535, length 0
+19:27:30.759855 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 422034:426156, ack 867, win 65535, length 4122
+19:27:30.759856 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 426156:428904, ack 867, win 65535, length 2748
+19:27:30.759857 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 428904:431652, ack 867, win 65535, length 2748
+19:27:30.759858 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 431652:434400, ack 867, win 65535, length 2748
+19:27:30.759868 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 426156, win 65535, length 0
+19:27:30.759886 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 428904, win 65535, length 0
+19:27:30.759902 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 431652, win 65535, length 0
+19:27:30.759913 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 434400, win 65535, length 0
+19:27:30.759936 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 434400:435774, ack 867, win 65535, length 1374
+19:27:30.760907 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 435774:444018, ack 867, win 65535, length 8244
+19:27:30.760909 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 444018:446766, ack 867, win 65535, length 2748
+19:27:30.760924 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 444018, win 65535, length 0
+19:27:30.760951 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 446766, win 65535, length 0
+19:27:30.760971 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 446766:449514, ack 867, win 65535, length 2748
+19:27:30.760976 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 449514, win 65535, length 0
+19:27:30.761242 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 449514:452262, ack 867, win 65535, length 2748
+19:27:30.761323 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 452262, win 65535, length 0
+19:27:30.761585 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 452262:455010, ack 867, win 65535, length 2748
+19:27:30.761586 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 455010:457758, ack 867, win 65535, length 2748
+19:27:30.761587 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 457758:460506, ack 867, win 65535, length 2748
+19:27:30.761596 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 455010, win 65535, length 0
+19:27:30.761617 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 457758, win 65535, length 0
+19:27:30.761633 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 460506, win 65535, length 0
+19:27:30.762629 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 460506:467376, ack 867, win 65535, length 6870
+19:27:30.762631 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 467376:470124, ack 867, win 65535, length 2748
+19:27:30.762631 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 470124:472872, ack 867, win 65535, length 2748
+19:27:30.762785 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 467376, win 65535, length 0
+19:27:30.762823 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 470124, win 65535, length 0
+19:27:30.762943 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 472872, win 65535, length 0
+19:27:30.762976 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 472872:475118, ack 867, win 65535, length 2246
+19:27:30.762977 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [.], seq 475118:476578, ack 867, win 65535, length 1460
+19:27:30.762986 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 475118, win 65535, length 0
+19:27:30.763105 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 476578:480614, ack 867, win 65535, length 4036
+19:27:30.763110 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 480614, win 65535, length 0
+19:27:30.763343 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 480614:486110, ack 867, win 65535, length 5496
+19:27:30.763498 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 486110, win 65535, length 0
+19:27:30.763690 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 486110:487484, ack 867, win 65535, length 1374
+19:27:30.763691 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 487484:491606, ack 867, win 65535, length 4122
+19:27:30.763692 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 491606:492980, ack 867, win 65535, length 1374
+19:27:30.763702 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 491606, win 65535, length 0
+19:27:30.764218 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 492980:495728, ack 867, win 65535, length 2748
+19:27:30.764227 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 495728, win 65535, length 0
+19:27:30.764682 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 495728:501224, ack 867, win 65535, length 5496
+19:27:30.764684 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 501224:502598, ack 867, win 65535, length 1374
+19:27:30.764685 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 502598:503972, ack 867, win 65535, length 1374
+19:27:30.764760 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 501224, win 65535, length 0
+19:27:30.764788 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 503972, win 65535, length 0
+19:27:30.764914 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 503972:506720, ack 867, win 65535, length 2748
+19:27:30.764922 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 506720, win 65535, length 0
+19:27:30.765054 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 506720:510842, ack 867, win 65535, length 4122
+19:27:30.765061 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 510842, win 65535, length 0
+19:27:30.765174 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 510842:512216, ack 867, win 65535, length 1374
+19:27:30.765384 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 512216:516338, ack 867, win 65535, length 4122
+19:27:30.765385 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 516338:517712, ack 867, win 65535, length 1374
+19:27:30.765398 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 516338, win 65535, length 0
+19:27:30.765597 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 517712:520460, ack 867, win 65535, length 2748
+19:27:30.765604 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 520460, win 65535, length 0
+19:27:30.766363 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 520460:528704, ack 867, win 65535, length 8244
+19:27:30.766366 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 528704:532826, ack 867, win 65535, length 4122
+19:27:30.766384 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 528704, win 65535, length 0
+19:27:30.766536 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 532826, win 65535, length 0
+19:27:30.766684 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 532826:536948, ack 867, win 65535, length 4122
+19:27:30.766686 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 536948:539696, ack 867, win 65535, length 2748
+19:27:30.766698 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 536948, win 65535, length 0
+19:27:30.766869 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 539696, win 65535, length 0
+19:27:30.767195 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 539696:542444, ack 867, win 65535, length 2748
+19:27:30.767197 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 542444:543818, ack 867, win 65535, length 1374
+19:27:30.767198 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 543818:546566, ack 867, win 65535, length 2748
+19:27:30.767198 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 546566:549314, ack 867, win 65535, length 2748
+19:27:30.767210 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 542444, win 65535, length 0
+19:27:30.767230 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 546566, win 65535, length 0
+19:27:30.767242 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 549314, win 65535, length 0
+19:27:30.767589 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 549314:553436, ack 867, win 65535, length 4122
+19:27:30.767591 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 553436:554810, ack 867, win 65535, length 1374
+19:27:30.767591 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 554810:556184, ack 867, win 65535, length 1374
+19:27:30.767609 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 553436, win 65535, length 0
+19:27:30.767634 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 556184, win 65535, length 0
+19:27:30.768361 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 556184:561680, ack 867, win 65535, length 5496
+19:27:30.768484 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 561680, win 65535, length 0
+19:27:30.768898 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 561680:565802, ack 867, win 65535, length 4122
+19:27:30.768900 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 565802:567176, ack 867, win 65535, length 1374
+19:27:30.768901 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 567176:569924, ack 867, win 65535, length 2748
+19:27:30.768902 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 569924:571298, ack 867, win 65535, length 1374
+19:27:30.768915 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 565802, win 65535, length 0
+19:27:30.768972 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 569924, win 65535, length 0
+19:27:30.769287 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 571298:574046, ack 867, win 65535, length 2748
+19:27:30.769289 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 574046:578168, ack 867, win 65535, length 4122
+19:27:30.769290 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 578168:580916, ack 867, win 65535, length 2748
+19:27:30.769290 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 580916:582290, ack 867, win 65535, length 1374
+19:27:30.769304 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 574046, win 65535, length 0
+19:27:30.769322 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 578168, win 65535, length 0
+19:27:30.769413 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 580916, win 65535, length 0
+19:27:30.769802 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [.], seq 582290:583750, ack 867, win 65535, length 1460
+19:27:30.769815 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 583750, win 65535, length 0
+19:27:30.769950 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 583750:586412, ack 867, win 65535, length 2662
+19:27:30.769951 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 586412:587786, ack 867, win 65535, length 1374
+19:27:30.769952 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 587786:591908, ack 867, win 65535, length 4122
+19:27:30.769960 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 586412, win 65535, length 0
+19:27:30.769982 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 591908, win 65535, length 0
+19:27:30.770937 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 591908:598778, ack 867, win 65535, length 6870
+19:27:30.770939 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 598778:601526, ack 867, win 65535, length 2748
+19:27:30.771039 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 598778, win 65535, length 0
+19:27:30.771104 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 601526, win 65535, length 0
+19:27:30.771258 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 601526:607022, ack 867, win 65535, length 5496
+19:27:30.771260 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 607022:609770, ack 867, win 65535, length 2748
+19:27:30.771269 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 607022, win 65535, length 0
+19:27:30.771305 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 609770, win 65535, length 0
+19:27:30.771560 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 609770:612518, ack 867, win 65535, length 2748
+19:27:30.771628 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 612518, win 65535, length 0
+19:27:30.771743 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 612518:615266, ack 867, win 65535, length 2748
+19:27:30.771744 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 615266:619388, ack 867, win 65535, length 4122
+19:27:30.771760 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 615266, win 65535, length 0
+19:27:30.771809 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 619388, win 65535, length 0
+19:27:30.772055 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 619388:623510, ack 867, win 65535, length 4122
+19:27:30.772056 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 623510:626258, ack 867, win 65535, length 2748
+19:27:30.772068 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 623510, win 65535, length 0
+19:27:30.772081 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 626258, win 65535, length 0
+19:27:30.772275 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 626258:627632, ack 867, win 65535, length 1374
+19:27:30.772982 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 627632:631754, ack 867, win 65535, length 4122
+19:27:30.772983 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 631754:633128, ack 867, win 65535, length 1374
+19:27:30.773206 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 633128:635876, ack 867, win 65535, length 2748
+19:27:30.773208 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 635876:638624, ack 867, win 65535, length 2748
+19:27:30.773323 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 638624:641372, ack 867, win 65535, length 2748
+19:27:30.773533 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 641372:644120, ack 867, win 65535, length 2748
+19:27:30.773714 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 644120:646868, ack 867, win 65535, length 2748
+19:27:30.773828 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 646868:649616, ack 867, win 65535, length 2748
+19:27:30.773969 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 649616:653738, ack 867, win 65535, length 4122
+19:27:30.773970 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 653738:655112, ack 867, win 65535, length 1374
+19:27:30.774274 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 655112:660608, ack 867, win 65535, length 5496
+19:27:30.774679 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 649616, win 65535, length 0
+19:27:30.774711 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 660608, win 65535, length 0
+19:27:30.774899 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 660608:670226, ack 867, win 65535, length 9618
+19:27:30.774913 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 670226, win 65535, length 0
+19:27:30.775098 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 670226:674348, ack 867, win 65535, length 4122
+19:27:30.775100 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 674348:675722, ack 867, win 65535, length 1374
+19:27:30.775522 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 675722:678470, ack 867, win 65535, length 2748
+19:27:30.775524 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 678470:681218, ack 867, win 65535, length 2748
+19:27:30.775525 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [.], seq 681218:682678, ack 867, win 65535, length 1460
+19:27:30.775609 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 682678:685340, ack 867, win 65535, length 2662
+19:27:30.775610 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 685340:686714, ack 867, win 65535, length 1374
+19:27:30.775778 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 686714:689462, ack 867, win 65535, length 2748
+19:27:30.775810 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 689462, win 65535, length 0
+19:27:30.775965 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 689462:693584, ack 867, win 65535, length 4122
+19:27:30.775966 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 693584:694958, ack 867, win 65535, length 1374
+19:27:30.776051 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 694958, win 65535, length 0
+19:27:30.776301 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 694958:697706, ack 867, win 65535, length 2748
+19:27:30.776302 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 697706:699080, ack 867, win 65535, length 1374
+19:27:30.776422 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 699080, win 65535, length 0
+19:27:30.777534 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 699080:704576, ack 867, win 65535, length 5496
+19:27:30.777538 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 704576:707324, ack 867, win 65535, length 2748
+19:27:30.777540 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 707324:711446, ack 867, win 65535, length 4122
+19:27:30.777560 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 704576, win 65535, length 0
+19:27:30.777653 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 707324, win 65535, length 0
+19:27:30.777993 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 711446, win 65535, length 0
+19:27:30.778074 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 711446:714194, ack 867, win 65535, length 2748
+19:27:30.778076 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 714194:715568, ack 867, win 65535, length 1374
+19:27:30.778077 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 715568:718316, ack 867, win 65535, length 2748
+19:27:30.778078 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 718316:721064, ack 867, win 65535, length 2748
+19:27:30.778079 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 721064:722438, ack 867, win 65535, length 1374
+19:27:30.778111 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 714194, win 65535, length 0
+19:27:30.778178 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 718316, win 65535, length 0
+19:27:30.778201 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 721064, win 65535, length 0
+19:27:30.778676 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 722438:726560, ack 867, win 65535, length 4122
+19:27:30.778678 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 726560:729308, ack 867, win 65535, length 2748
+19:27:30.778679 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 729308:730682, ack 867, win 65535, length 1374
+19:27:30.778680 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 730682:734804, ack 867, win 65535, length 4122
+19:27:30.779186 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 734804:740300, ack 867, win 65535, length 5496
+19:27:30.779188 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 740300:743048, ack 867, win 65535, length 2748
+19:27:30.779189 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 743048:744422, ack 867, win 65535, length 1374
+19:27:30.779473 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 744422:747170, ack 867, win 65535, length 2748
+19:27:30.779638 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 747170:749918, ack 867, win 65535, length 2748
+19:27:30.779640 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 749918:752666, ack 867, win 65535, length 2748
+19:27:30.779640 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 752666:754040, ack 867, win 65535, length 1374
+19:27:30.779783 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 754040, win 65535, length 0
+19:27:30.780170 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 754040:756788, ack 867, win 65535, length 2748
+19:27:30.780173 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 756788:760910, ack 867, win 65535, length 4122
+19:27:30.780174 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 760910:762284, ack 867, win 65535, length 1374
+19:27:30.780595 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 762284:765032, ack 867, win 65535, length 2748
+19:27:30.780597 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 765032:769154, ack 867, win 65535, length 4122
+19:27:30.781013 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 769154:770528, ack 867, win 65535, length 1374
+19:27:30.781016 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 770528:773276, ack 867, win 65535, length 2748
+19:27:30.781017 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 773276:776024, ack 867, win 65535, length 2748
+19:27:30.781495 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 776024:778772, ack 867, win 65535, length 2748
+19:27:30.781497 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 778772:784268, ack 867, win 65535, length 5496
+19:27:30.781498 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 784268:787016, ack 867, win 65535, length 2748
+19:27:30.781597 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 762284, win 65535, length 0
+19:27:30.782064 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 787016:796634, ack 867, win 65535, length 9618
+19:27:30.782332 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 796634, win 65535, length 0
+19:27:30.782629 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 796634:809000, ack 867, win 65535, length 12366
+19:27:30.782655 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 809000:813122, ack 867, win 65535, length 4122
+19:27:30.782860 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 813122, win 65535, length 0
+19:27:30.783798 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 813122:817244, ack 867, win 65535, length 4122
+19:27:30.783800 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 817244:818618, ack 867, win 65535, length 1374
+19:27:30.784760 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 818618:822740, ack 867, win 65535, length 4122
+19:27:30.784762 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 822740:825488, ack 867, win 65535, length 2748
+19:27:30.784763 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 825488:828236, ack 867, win 65535, length 2748
+19:27:30.785000 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 828236:830984, ack 867, win 65535, length 2748
+19:27:30.785001 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 830984:833732, ack 867, win 65535, length 2748
+19:27:30.785002 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 833732:835106, ack 867, win 65535, length 1374
+19:27:30.785584 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 835106:840602, ack 867, win 65535, length 5496
+19:27:30.785586 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 840602:841976, ack 867, win 65535, length 1374
+19:27:30.785587 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 841976:846098, ack 867, win 65535, length 4122
+19:27:30.785885 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 818618, win 65535, length 0
+19:27:30.786056 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 846098, win 65535, length 0
+19:27:30.786123 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [.], seq 846098:856318, ack 867, win 65535, length 10220
+19:27:30.786538 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 856318:857090, ack 867, win 65535, length 772
+19:27:30.786539 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 857090:861212, ack 867, win 65535, length 4122
+19:27:30.786540 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 861212:865334, ack 867, win 65535, length 4122
+19:27:30.786600 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 865334, win 65535, length 0
+19:27:30.786878 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 865334:866708, ack 867, win 65535, length 1374
+19:27:30.786881 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 866708:870830, ack 867, win 65535, length 4122
+19:27:30.786916 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 870830:872204, ack 867, win 65535, length 1374
+19:27:30.787375 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 872204:874952, ack 867, win 65535, length 2748
+19:27:30.787378 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 874952:880448, ack 867, win 65535, length 5496
+19:27:30.787503 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 880448, win 65535, length 0
+19:27:30.787527 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 880448:884570, ack 867, win 65535, length 4122
+19:27:30.787528 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 884570:885944, ack 867, win 65535, length 1374
+19:27:30.787865 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [.], seq 885944:887404, ack 867, win 65535, length 1460
+19:27:30.788091 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 887404:890066, ack 867, win 65535, length 2662
+19:27:30.788093 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 890066:892814, ack 867, win 65535, length 2748
+19:27:30.788093 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 892814:894188, ack 867, win 65535, length 1374
+19:27:30.788094 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 894188:896936, ack 867, win 65535, length 2748
+19:27:30.788150 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 896936, win 65535, length 0
+19:27:30.789149 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 896936:902432, ack 867, win 65535, length 5496
+19:27:30.789165 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 902432, win 65535, length 0
+19:27:30.789425 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 902432:906554, ack 867, win 65535, length 4122
+19:27:30.789427 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 906554:907928, ack 867, win 65535, length 1374
+19:27:30.789428 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 907928:910676, ack 867, win 65535, length 2748
+19:27:30.789641 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 910676:913424, ack 867, win 65535, length 2748
+19:27:30.789642 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [.], seq 913424:914884, ack 867, win 65535, length 1460
+19:27:30.789848 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 914884:916172, ack 867, win 65535, length 1288
+19:27:30.789849 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 916172:918920, ack 867, win 65535, length 2748
+19:27:30.790022 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 918920:923042, ack 867, win 65535, length 4122
+19:27:30.790074 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 923042:924416, ack 867, win 65535, length 1374
+19:27:30.790640 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 924416:927164, ack 867, win 65535, length 2748
+19:27:30.790642 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 927164:929912, ack 867, win 65535, length 2748
+19:27:30.790642 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 929912:931286, ack 867, win 65535, length 1374
+19:27:30.790867 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 931286:939530, ack 867, win 65535, length 8244
+19:27:30.790908 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 939530, win 65535, length 0
+19:27:30.791188 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 939530:940904, ack 867, win 65535, length 1374
+19:27:30.791191 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 940904:946400, ack 867, win 65535, length 5496
+19:27:30.791544 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 946400:947774, ack 867, win 65535, length 1374
+19:27:30.791546 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 947774:951896, ack 867, win 65535, length 4122
+19:27:30.791547 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 951896:954644, ack 867, win 65535, length 2748
+19:27:30.791671 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 954644, win 65535, length 0
+19:27:30.791764 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 954644:957392, ack 867, win 65535, length 2748
+19:27:30.791773 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 957392:958766, ack 867, win 65535, length 1374
+19:27:30.791805 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 958766, win 65535, length 0
+19:27:30.792316 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 958766:964262, ack 867, win 65535, length 5496
+19:27:30.792318 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 964262:965636, ack 867, win 65535, length 1374
+19:27:30.792333 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 964262, win 65535, length 0
+19:27:30.792709 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 965636:969758, ack 867, win 65535, length 4122
+19:27:30.792712 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 969758:972506, ack 867, win 65535, length 2748
+19:27:30.792712 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 972506:973880, ack 867, win 65535, length 1374
+19:27:30.792726 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 969758, win 65535, length 0
+19:27:30.792848 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 973880:975254, ack 867, win 65535, length 1374
+19:27:30.792883 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 975254, win 65535, length 0
+19:27:30.793735 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 975254:982124, ack 867, win 65535, length 6870
+19:27:30.793737 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 982124:983498, ack 867, win 65535, length 1374
+19:27:30.793749 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 982124, win 65535, length 0
+19:27:30.799233 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [.], seq 983498:1046278, ack 867, win 65535, length 62780
+19:27:30.799378 IP 10.0.2.15.37974 > 151.101.117.67.443: Flags [.], ack 1046278, win 65535, length 0
+19:27:30.799529 IP 151.101.117.67.443 > 10.0.2.15.37974: Flags [P.], seq 1046278:1047738, ack 867, win 65535, length 1460
 

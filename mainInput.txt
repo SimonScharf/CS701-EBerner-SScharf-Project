@@ -1,1 +1,10 @@
-https://www.cnn.com/ 3
+https://www.cnn.com/ 60
+https://www.espn.com/ 60
+https://www.amazon.com/ 60
+https://www.chase.com/ 60
+https://www.google.com/ 60
+https://www.nytimes.com/ 60
+https://www.reddit.com/ 60
+https://www.wikipedia.com/ 60
+https://www.youtube.com/ 60
+https://www.ebay.com/ 60

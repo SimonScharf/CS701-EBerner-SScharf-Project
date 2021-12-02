@@ -14,13 +14,17 @@ sudo -v
 
 while read url count; do
     website_name="$(echo "$url" | awk -F "." '{ print $2 }')"
-    echo "I'm going to fetch $url $count times"
+    echo -e "\nI'm going to fetch $url $count times"
     pathname_prefix=REQUESTS/${website_name}/DATA/${website_name}
 
     for i in $(seq $count); do
-        echo -e "\n\niteration $i will be saved in ${pathname_prefix}Data${i}.txt\n"
+        echo "iteration $i will be saved in ${pathname_prefix}Data${i}.txt"
     	sudo tcpdump -n > ${pathname_prefix}Data${i}.txt 2> /dev/null &
         tcpdump_pid="$!"
+        
+        #if [ "$website_name" == "amazon" ] || [  "$website_name" == "chase" ] || [ "$website_name" == "google" ] || [ "$website_name" == "wikipedia" ] ; then
+                sleep 5
+	#fi
 
      	curl &> /dev/null $url 
 	    if test "$?" != "0"; then
@@ -36,7 +40,8 @@ while read url count; do
 
 
         python3 tcpOutputParser.py ${pathname_prefix}Data${i}.txt > ${pathname_prefix}CleanedData${i}.txt 
-        python3 plot.py ${pathname_prefix}CleanedData${i}.txt ${website_name} ${i} > REQUESTS/${website_name}/PLOTS/${website_name}${i}_DataPoints.txt
+        echo "cleaned data will be saved in ${pathname_prefix}CleanedData${i}.txt" 
+        #python3 plot.py ${pathname_prefix}CleanedData${i}.txt ${website_name} ${i} > REQUESTS/${website_name}/PLOTS/${website_name}${i}_DataPoints.txt
     done
 
 done < $input_file

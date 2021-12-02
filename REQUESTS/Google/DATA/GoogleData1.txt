@@ -1,52 +1,26 @@
-19:34:37.365458 IP middlinux.54057 > hera-lan2.domain: 22679+ A? www.google.com. (32)
-19:34:37.365489 IP middlinux.54057 > hera-lan2.domain: 33429+ AAAA? www.google.com. (32)
-19:34:37.370920 IP hera-lan2.domain > middlinux.54057: 22679 1/0/0 A 142.251.35.164 (48)
-19:34:37.372646 IP hera-lan2.domain > middlinux.54057: 33429 1/0/0 AAAA 2607:f8b0:4006:81e::2004 (60)
-19:34:37.374261 IP middlinux.51404 > lga25s78-in-f4.https: Flags [S], seq 2803488930, win 64240, options [mss 1460,sackOK,TS val 2439451987 ecr 0,nop,wscale 6], length 0
-19:34:37.387683 IP lga25s78-in-f4.https > middlinux.51404: Flags [S.], seq 704001, ack 2803488931, win 65535, options [mss 1460], length 0
-19:34:37.387711 IP middlinux.51404 > lga25s78-in-f4.https: Flags [.], ack 1, win 64240, length 0
-19:34:37.406753 IP middlinux.51404 > lga25s78-in-f4.https: Flags [P.], seq 1:518, ack 1, win 64240, length 517
-19:34:37.407141 IP lga25s78-in-f4.https > middlinux.51404: Flags [.], ack 518, win 65535, length 0
-19:34:37.429375 IP lga25s78-in-f4.https > middlinux.51404: Flags [.], seq 1:2921, ack 518, win 65535, length 2920
-19:34:37.429394 IP middlinux.51404 > lga25s78-in-f4.https: Flags [.], ack 2921, win 62780, length 0
-19:34:37.429656 IP lga25s78-in-f4.https > middlinux.51404: Flags [P.], seq 2921:4123, ack 518, win 65535, length 1202
-19:34:37.429668 IP middlinux.51404 > lga25s78-in-f4.https: Flags [.], ack 4123, win 61578, length 0
-19:34:37.431202 IP lga25s78-in-f4.https > middlinux.51404: Flags [P.], seq 4123:4306, ack 518, win 65535, length 183
-19:34:37.431218 IP middlinux.51404 > lga25s78-in-f4.https: Flags [.], ack 4306, win 62780, length 0
-19:34:37.435683 IP middlinux.51404 > lga25s78-in-f4.https: Flags [P.], seq 518:598, ack 4306, win 62780, length 80
-19:34:37.435932 IP lga25s78-in-f4.https > middlinux.51404: Flags [.], ack 598, win 65535, length 0
-19:34:37.436013 IP middlinux.51404 > lga25s78-in-f4.https: Flags [P.], seq 598:644, ack 4306, win 62780, length 46
-19:34:37.436040 IP middlinux.51404 > lga25s78-in-f4.https: Flags [P.], seq 644:693, ack 4306, win 62780, length 49
-19:34:37.436193 IP middlinux.51404 > lga25s78-in-f4.https: Flags [P.], seq 693:728, ack 4306, win 62780, length 35
-19:34:37.436405 IP lga25s78-in-f4.https > middlinux.51404: Flags [.], ack 644, win 65535, length 0
-19:34:37.436406 IP lga25s78-in-f4.https > middlinux.51404: Flags [.], ack 693, win 65535, length 0
-19:34:37.436612 IP lga25s78-in-f4.https > middlinux.51404: Flags [.], ack 728, win 65535, length 0
-19:34:37.437728 IP middlinux.51404 > lga25s78-in-f4.https: Flags [P.], seq 728:790, ack 4306, win 62780, length 62
-19:34:37.438008 IP lga25s78-in-f4.https > middlinux.51404: Flags [.], ack 790, win 65535, length 0
-19:34:37.448736 IP lga25s78-in-f4.https > middlinux.51404: Flags [P.], seq 4306:4979, ack 790, win 65535, length 673
-19:34:37.448755 IP middlinux.51404 > lga25s78-in-f4.https: Flags [.], ack 4979, win 62780, length 0
-19:34:37.449184 IP middlinux.51404 > lga25s78-in-f4.https: Flags [P.], seq 790:821, ack 4979, win 62780, length 31
-19:34:37.449403 IP lga25s78-in-f4.https > middlinux.51404: Flags [.], ack 821, win 65535, length 0
-19:34:37.739963 IP lga25s78-in-f4.https > middlinux.51404: Flags [P.], seq 4979:9702, ack 821, win 65535, length 4723
-19:34:37.740004 IP middlinux.51404 > lga25s78-in-f4.https: Flags [.], ack 9702, win 61320, length 0
-19:34:37.740525 IP lga25s78-in-f4.https > middlinux.51404: Flags [P.], seq 9702:13824, ack 821, win 65535, length 4122
-19:34:37.740528 IP lga25s78-in-f4.https > middlinux.51404: Flags [P.], seq 13824:17946, ack 821, win 65535, length 4122
-19:34:37.740554 IP middlinux.51404 > lga25s78-in-f4.https: Flags [.], ack 13824, win 58400, length 0
-19:34:37.740761 IP middlinux.51404 > lga25s78-in-f4.https: Flags [.], ack 17946, win 55480, length 0
-19:34:37.740979 IP lga25s78-in-f4.https > middlinux.51404: Flags [P.], seq 17946:19022, ack 821, win 65535, length 1076
-19:34:37.740981 IP lga25s78-in-f4.https > middlinux.51404: Flags [P.], seq 19022:20709, ack 821, win 65535, length 1687
-19:34:37.740993 IP middlinux.51404 > lga25s78-in-f4.https: Flags [.], ack 19022, win 54404, length 0
-19:34:37.741015 IP middlinux.51404 > lga25s78-in-f4.https: Flags [.], ack 20709, win 52717, length 0
-19:34:37.741463 IP middlinux.51404 > lga25s78-in-f4.https: Flags [P.], seq 821:860, ack 20709, win 62780, length 39
-19:34:37.742762 IP lga25s78-in-f4.https > middlinux.51404: Flags [.], ack 860, win 65535, length 0
-19:34:37.745686 IP middlinux.51404 > lga25s78-in-f4.https: Flags [P.], seq 860:884, ack 20709, win 62780, length 24
-19:34:37.745970 IP lga25s78-in-f4.https > middlinux.51404: Flags [.], ack 884, win 65535, length 0
-19:34:37.746540 IP middlinux.51404 > lga25s78-in-f4.https: Flags [F.], seq 884, ack 20709, win 62780, length 0
-19:34:37.746721 IP lga25s78-in-f4.https > middlinux.51404: Flags [.], ack 885, win 65535, length 0
-19:34:37.759271 IP lga25s78-in-f4.https > middlinux.51404: Flags [F.], seq 20709, ack 885, win 65535, length 0
-19:34:37.759310 IP middlinux.51404 > lga25s78-in-f4.https: Flags [.], ack 20710, win 62780, length 0
-19:34:38.274852 IP middlinux.44938 > hera-lan2.domain: 1175+ PTR? 2.253.233.140.in-addr.arpa. (44)
-19:34:38.281496 IP hera-lan2.domain > middlinux.44938: 1175* 1/0/0 PTR hera-lan2.middlebury.edu. (82)
-19:34:38.284052 IP middlinux.36353 > hera-lan2.domain: 11910+ PTR? 164.35.251.142.in-addr.arpa. (45)
-19:34:38.288873 IP hera-lan2.domain > middlinux.36353: 11910 1/0/0 PTR lga25s78-in-f4.1e100.net. (83)
+19:48:54.097293 IP 10.0.2.15.33737 > 140.233.253.2.53: 3990+ A? www.google.com. (32)
+19:48:54.097325 IP 10.0.2.15.33737 > 140.233.253.2.53: 50077+ AAAA? www.google.com. (32)
+19:48:54.102814 IP 140.233.253.2.53 > 10.0.2.15.33737: 3990 1/0/0 A 142.250.80.36 (48)
+19:48:54.102818 IP 140.233.253.2.53 > 10.0.2.15.33737: 50077 1/0/0 AAAA 2607:f8b0:4006:80b::2004 (60)
+19:48:54.105703 IP 10.0.2.15.57264 > 142.250.80.36.443: Flags [S], seq 1206356279, win 64240, options [mss 1460,sackOK,TS val 3357180055 ecr 0,nop,wscale 6], length 0
+19:48:54.119762 IP 142.250.80.36.443 > 10.0.2.15.57264: Flags [S.], seq 196288001, ack 1206356280, win 65535, options [mss 1460], length 0
+19:48:54.119814 IP 10.0.2.15.57264 > 142.250.80.36.443: Flags [.], ack 1, win 64240, length 0
+19:48:54.128331 IP 10.0.2.15.57264 > 142.250.80.36.443: Flags [P.], seq 1:518, ack 1, win 64240, length 517
+19:48:54.128758 IP 142.250.80.36.443 > 10.0.2.15.57264: Flags [.], ack 518, win 65535, length 0
+19:48:54.149913 IP 142.250.80.36.443 > 10.0.2.15.57264: Flags [.], seq 1:2921, ack 518, win 65535, length 2920
+19:48:54.149939 IP 10.0.2.15.57264 > 142.250.80.36.443: Flags [.], ack 2921, win 62780, length 0
+19:48:54.150364 IP 142.250.80.36.443 > 10.0.2.15.57264: Flags [P.], seq 2921:4123, ack 518, win 65535, length 1202
+19:48:54.150381 IP 10.0.2.15.57264 > 142.250.80.36.443: Flags [.], ack 4123, win 61578, length 0
+19:48:54.151599 IP 142.250.80.36.443 > 10.0.2.15.57264: Flags [P.], seq 4123:4305, ack 518, win 65535, length 182
+19:48:54.151615 IP 10.0.2.15.57264 > 142.250.80.36.443: Flags [.], ack 4305, win 61578, length 0
+19:48:54.153186 IP 10.0.2.15.57264 > 142.250.80.36.443: Flags [P.], seq 518:598, ack 4305, win 62780, length 80
+19:48:54.153448 IP 10.0.2.15.57264 > 142.250.80.36.443: Flags [P.], seq 598:644, ack 4305, win 62780, length 46
+19:48:54.153618 IP 142.250.80.36.443 > 10.0.2.15.57264: Flags [.], ack 598, win 65535, length 0
+19:48:54.153682 IP 10.0.2.15.57264 > 142.250.80.36.443: Flags [P.], seq 644:693, ack 4305, win 62780, length 49
+19:48:54.153927 IP 142.250.80.36.443 > 10.0.2.15.57264: Flags [.], ack 644, win 65535, length 0
+19:48:54.153929 IP 142.250.80.36.443 > 10.0.2.15.57264: Flags [.], ack 693, win 65535, length 0
+19:48:54.154004 IP 10.0.2.15.57264 > 142.250.80.36.443: Flags [P.], seq 693:728, ack 4305, win 62780, length 35
+19:48:54.154282 IP 142.250.80.36.443 > 10.0.2.15.57264: Flags [.], ack 728, win 65535, length 0
+19:48:54.154297 IP 10.0.2.15.57264 > 142.250.80.36.443: Flags [P.], seq 728:790, ack 4305, win 62780, length 62
+19:48:54.154518 IP 142.250.80.36.443 > 10.0.2.15.57264: Flags [.], ack 790, win 65535, length 0
 

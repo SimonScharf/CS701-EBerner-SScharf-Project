@@ -1,44 +1,26 @@
-20:11:30.060578 IP middlinux.46276 > hera-lan2.domain: 19168+ A? www.amazon.com. (32)
-20:11:30.060622 IP middlinux.46276 > hera-lan2.domain: 56802+ AAAA? www.amazon.com. (32)
-20:11:30.066381 IP hera-lan2.domain > middlinux.46276: 19168 3/0/0 CNAME tp.47cf2c8c9-frontier.amazon.com., CNAME d3ag4hukkh62yn.cloudfront.net., A 13.33.83.9 (127)
-20:11:30.066383 IP hera-lan2.domain > middlinux.46276: 56802 2/1/0 CNAME tp.47cf2c8c9-frontier.amazon.com., CNAME d3ag4hukkh62yn.cloudfront.net. (182)
-20:11:30.070289 IP middlinux.50318 > server-13-33-83-9.https: Flags [S], seq 1589425882, win 64240, options [mss 1460,sackOK,TS val 4278353841 ecr 0,nop,wscale 6], length 0
-20:11:30.084732 IP server-13-33-83-9.https > middlinux.50318: Flags [S.], seq 22464001, ack 1589425883, win 65535, options [mss 1460], length 0
-20:11:30.084777 IP middlinux.50318 > server-13-33-83-9.https: Flags [.], ack 1, win 64240, length 0
-20:11:30.097315 IP middlinux.50318 > server-13-33-83-9.https: Flags [P.], seq 1:518, ack 1, win 64240, length 517
-20:11:30.097681 IP server-13-33-83-9.https > middlinux.50318: Flags [.], ack 518, win 65535, length 0
-20:11:30.115484 IP server-13-33-83-9.https > middlinux.50318: Flags [P.], seq 1:1375, ack 518, win 65535, length 1374
-20:11:30.115507 IP middlinux.50318 > server-13-33-83-9.https: Flags [.], ack 1375, win 63204, length 0
-20:11:30.119275 IP server-13-33-83-9.https > middlinux.50318: Flags [P.], seq 1375:4939, ack 518, win 65535, length 3564
-20:11:30.119308 IP middlinux.50318 > server-13-33-83-9.https: Flags [.], ack 4939, win 61320, length 0
-20:11:30.120232 IP middlinux.50318 > server-13-33-83-9.https: Flags [P.], seq 518:582, ack 4939, win 62780, length 64
-20:11:30.120640 IP server-13-33-83-9.https > middlinux.50318: Flags [.], ack 582, win 65535, length 0
-20:11:30.120841 IP middlinux.50318 > server-13-33-83-9.https: Flags [P.], seq 582:628, ack 4939, win 62780, length 46
-20:11:30.120872 IP middlinux.50318 > server-13-33-83-9.https: Flags [P.], seq 628:677, ack 4939, win 62780, length 49
-20:11:30.121093 IP middlinux.50318 > server-13-33-83-9.https: Flags [P.], seq 677:712, ack 4939, win 62780, length 35
-20:11:30.121138 IP middlinux.50318 > server-13-33-83-9.https: Flags [P.], seq 712:774, ack 4939, win 62780, length 62
-20:11:30.121822 IP server-13-33-83-9.https > middlinux.50318: Flags [.], ack 628, win 65535, length 0
-20:11:30.121824 IP server-13-33-83-9.https > middlinux.50318: Flags [.], ack 677, win 65535, length 0
-20:11:30.121825 IP server-13-33-83-9.https > middlinux.50318: Flags [.], ack 712, win 65535, length 0
-20:11:30.121825 IP server-13-33-83-9.https > middlinux.50318: Flags [.], ack 774, win 65535, length 0
-20:11:30.132581 IP server-13-33-83-9.https > middlinux.50318: Flags [P.], seq 4939:5001, ack 774, win 65535, length 62
-20:11:30.132668 IP middlinux.50318 > server-13-33-83-9.https: Flags [.], ack 5001, win 62780, length 0
-20:11:30.133054 IP middlinux.50318 > server-13-33-83-9.https: Flags [P.], seq 774:805, ack 5001, win 62780, length 31
-20:11:30.133332 IP server-13-33-83-9.https > middlinux.50318: Flags [.], ack 805, win 65535, length 0
-20:11:30.133829 IP server-13-33-83-9.https > middlinux.50318: Flags [P.], seq 5001:5032, ack 805, win 65535, length 31
-20:11:30.133844 IP middlinux.50318 > server-13-33-83-9.https: Flags [.], ack 5032, win 62780, length 0
-20:11:30.152590 IP server-13-33-83-9.https > middlinux.50318: Flags [P.], seq 5032:9154, ack 805, win 65535, length 4122
-20:11:30.152593 IP server-13-33-83-9.https > middlinux.50318: Flags [P.], seq 9154:12083, ack 805, win 65535, length 2929
-20:11:30.152615 IP middlinux.50318 > server-13-33-83-9.https: Flags [.], ack 9154, win 61320, length 0
-20:11:30.152769 IP middlinux.50318 > server-13-33-83-9.https: Flags [.], ack 12083, win 59860, length 0
-20:11:30.156849 IP middlinux.50318 > server-13-33-83-9.https: Flags [P.], seq 805:829, ack 12083, win 62780, length 24
-20:11:30.157189 IP server-13-33-83-9.https > middlinux.50318: Flags [.], ack 829, win 65535, length 0
-20:11:30.157861 IP middlinux.50318 > server-13-33-83-9.https: Flags [F.], seq 829, ack 12083, win 62780, length 0
-20:11:30.158156 IP server-13-33-83-9.https > middlinux.50318: Flags [.], ack 830, win 65535, length 0
-20:11:30.170035 IP server-13-33-83-9.https > middlinux.50318: Flags [F.], seq 12083, ack 830, win 65535, length 0
-20:11:30.170126 IP middlinux.50318 > server-13-33-83-9.https: Flags [.], ack 12084, win 62780, length 0
-20:11:31.021658 IP middlinux.39815 > hera-lan2.domain: 2789+ PTR? 2.253.233.140.in-addr.arpa. (44)
-20:11:31.027325 IP hera-lan2.domain > middlinux.39815: 2789* 1/0/0 PTR hera-lan2.middlebury.edu. (82)
-20:11:31.027789 IP middlinux.52735 > hera-lan2.domain: 37083+ PTR? 9.83.33.13.in-addr.arpa. (41)
-20:11:31.055719 IP hera-lan2.domain > middlinux.52735: 37083 1/0/0 PTR server-13-33-83-9.ewr52.r.cloudfront.net. (95)
+19:38:05.483536 IP 10.0.2.15.32873 > 140.233.253.2.53: 59880+ A? www.amazon.com. (32)
+19:38:05.483575 IP 10.0.2.15.32873 > 140.233.253.2.53: 36074+ AAAA? www.amazon.com. (32)
+19:38:05.489799 IP 140.233.253.2.53 > 10.0.2.15.32873: 59880 3/0/0 CNAME tp.47cf2c8c9-frontier.amazon.com., CNAME d3ag4hukkh62yn.cloudfront.net., A 13.224.213.79 (127)
+19:38:05.515255 IP 140.233.253.2.53 > 10.0.2.15.32873: 36074 2/1/0 CNAME tp.47cf2c8c9-frontier.amazon.com., CNAME d3ag4hukkh62yn.cloudfront.net. (182)
+19:38:05.515570 IP 10.0.2.15.41836 > 13.224.213.79.443: Flags [S], seq 1682959147, win 64240, options [mss 1460,sackOK,TS val 1206308735 ecr 0,nop,wscale 6], length 0
+19:38:05.530576 IP 13.224.213.79.443 > 10.0.2.15.41836: Flags [S.], seq 180736001, ack 1682959148, win 65535, options [mss 1460], length 0
+19:38:05.530622 IP 10.0.2.15.41836 > 13.224.213.79.443: Flags [.], ack 1, win 64240, length 0
+19:38:05.538401 IP 10.0.2.15.41836 > 13.224.213.79.443: Flags [P.], seq 1:518, ack 1, win 64240, length 517
+19:38:05.538658 IP 13.224.213.79.443 > 10.0.2.15.41836: Flags [.], ack 518, win 65535, length 0
+19:38:05.556343 IP 13.224.213.79.443 > 10.0.2.15.41836: Flags [P.], seq 1:2749, ack 518, win 65535, length 2748
+19:38:05.556365 IP 10.0.2.15.41836 > 13.224.213.79.443: Flags [.], ack 2749, win 62780, length 0
+19:38:05.557953 IP 13.224.213.79.443 > 10.0.2.15.41836: Flags [P.], seq 2749:4123, ack 518, win 65535, length 1374
+19:38:05.557971 IP 10.0.2.15.41836 > 13.224.213.79.443: Flags [.], ack 4123, win 62780, length 0
+19:38:05.560432 IP 13.224.213.79.443 > 10.0.2.15.41836: Flags [P.], seq 4123:4939, ack 518, win 65535, length 816
+19:38:05.560452 IP 10.0.2.15.41836 > 13.224.213.79.443: Flags [.], ack 4939, win 62780, length 0
+19:38:05.561693 IP 10.0.2.15.41836 > 13.224.213.79.443: Flags [P.], seq 518:582, ack 4939, win 62780, length 64
+19:38:05.562046 IP 13.224.213.79.443 > 10.0.2.15.41836: Flags [.], ack 582, win 65535, length 0
+19:38:05.562117 IP 10.0.2.15.41836 > 13.224.213.79.443: Flags [P.], seq 582:628, ack 4939, win 62780, length 46
+19:38:05.562152 IP 10.0.2.15.41836 > 13.224.213.79.443: Flags [P.], seq 628:677, ack 4939, win 62780, length 49
+19:38:05.562227 IP 10.0.2.15.41836 > 13.224.213.79.443: Flags [P.], seq 677:712, ack 4939, win 62780, length 35
+19:38:05.562318 IP 10.0.2.15.41836 > 13.224.213.79.443: Flags [P.], seq 712:774, ack 4939, win 62780, length 62
+19:38:05.562527 IP 13.224.213.79.443 > 10.0.2.15.41836: Flags [.], ack 628, win 65535, length 0
+19:38:05.562528 IP 13.224.213.79.443 > 10.0.2.15.41836: Flags [.], ack 677, win 65535, length 0
+19:38:05.562529 IP 13.224.213.79.443 > 10.0.2.15.41836: Flags [.], ack 712, win 65535, length 0
+19:38:05.562641 IP 13.224.213.79.443 > 10.0.2.15.41836: Flags [.], ack 774, win 65535, length 0
 

@@ -1,0 +1,4 @@
+19:39:57.697263 IP 10.0.2.15.35305 > 140.233.253.2.53: 12911+ A? www.amazon.com. (32)
+19:39:57.697299 IP 10.0.2.15.35305 > 140.233.253.2.53: 53098+ AAAA? www.amazon.com. (32)
+19:39:57.728661 IP 140.233.253.2.53 > 10.0.2.15.35305: 53098 3/1/0 CNAME tp.47cf2c8c9-frontier.amazon.com., CNAME www.amazon.com.edgekey.net., CNAME e15316.a.akamaiedge.net. (200)
+
