@@ -1,0 +1,4 @@
+22:32:41.294259 IP 10.0.2.15.56741 > 140.233.253.2.53: 2379+ A? www.accuweather.com. (37)
+22:32:41.294304 IP 10.0.2.15.56741 > 140.233.253.2.53: 28492+ AAAA? www.accuweather.com. (37)
+22:32:41.373515 IP 140.233.253.2.53 > 10.0.2.15.56741: 28492 2/1/0 CNAME www.accuweather.com.edgekey.net., CNAME e1524.e12.akamaiedge.net. (177)
+
