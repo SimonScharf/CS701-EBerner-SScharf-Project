@@ -243,7 +243,14 @@ print("Best DTree", dtree)
 print("Best RForest", rforest)
 print("Best MLP", mlp)
 
+
+
+joblib.dump(logit.model, 'logit.model')
+joblib.dump(perceptron.model, 'perceptron.model')
+joblib.dump(dtree.model, 'dtree.model')
+joblib.dump(rforest.model, 'rforest.model')
 joblib.dump(mlp.model, 'MLP.model')
+
 
 #%% Plot Results
 

@@ -2,7 +2,7 @@ import joblib
 import os
 import sys
 
-clf = joblib.load('MLP.model')
+clf = joblib.load('rforest.model')
 #labelArray = ['chase', 'usps', 'wikipedia', 'amazon', 'google', 'indeed', 'youtube', 'ebay', 'cnn', 'nytimes', 'espn', 'paypal', 'imdb', 'reddit', 'zillow']
 
 labelArray = ['wikipedia', 'amazon', 'ebay', 'cnn', 'reddit']

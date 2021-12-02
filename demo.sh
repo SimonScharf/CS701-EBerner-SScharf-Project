@@ -9,7 +9,7 @@ read unknownURL
 
 echo "curling ${unknownURL}...."
 curl -H @headers $unknownURL &>/dev/null
-sleep 10
+sleep 5
 sudo kill $tcpdump_pid &> /dev/null
 ps auxww | grep tcpdump | awk '{ print $2 }' | xargs sudo kill &> /dev/null
 
