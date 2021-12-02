@@ -3,7 +3,9 @@ import os
 import sys
 
 clf = joblib.load('MLP.model')
-labelArray = ['chase', 'usps', 'wikipedia', 'amazon', 'google', 'indeed', 'youtube', 'ebay', 'cnn', 'nytimes', 'espn', 'paypal', 'imdb', 'reddit', 'zillow']
+#labelArray = ['chase', 'usps', 'wikipedia', 'amazon', 'google', 'indeed', 'youtube', 'ebay', 'cnn', 'nytimes', 'espn', 'paypal', 'imdb', 'reddit', 'zillow']
+
+labelArray = ['wikipedia', 'amazon', 'ebay', 'cnn', 'reddit']
 if len(sys.argv) < 2:
     print("invalid number of arguments provided to websitePredictor.py")
     sys.exit()
