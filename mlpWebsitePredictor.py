@@ -22,4 +22,3 @@ resIndex = clf.predict([int_array])
 #translate it to website name
 print("This is the predicted website: ")
 print(labelArray[resIndex[0]])
-
